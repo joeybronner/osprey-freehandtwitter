@@ -2,8 +2,8 @@ package fr.joeybronner.freehandtwitter.api;
 
 import com.google.gson.annotations.SerializedName;
 
-public class TwitterTweet {
-	
+public class TwitterStatus {
+
 	@SerializedName("created_at")
 	private String createdAt;
 
@@ -88,5 +88,4 @@ public class TwitterTweet {
 	public String toString(){
 		return getText();
 	}
-	
 }

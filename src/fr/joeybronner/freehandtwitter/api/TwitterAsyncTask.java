@@ -8,15 +8,15 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import fr.joeybronner.freehandtwitter.R;
 
-public class TwitterAsyncTask extends AsyncTask<Object, Void, ArrayList<TwitterTweet>> {
+public class TwitterAsyncTask extends AsyncTask<Object, Void, ArrayList<TwitterStatuses>> {
     ListActivity callerActivity;
 
     final static String TWITTER_API_KEY = "zOzdMJLSH1uNEF37Gvzz1No3M";
     final static String TWITTER_API_SECRET = "lwSxPa55Z3spqaMr30aqbINV802eaY1mFzsdvv8Yqxst6Rrrk4";
 
     @Override
-    protected ArrayList<TwitterTweet> doInBackground(Object... params) {
-        ArrayList<TwitterTweet> twitterTweets = null;
+    protected ArrayList<TwitterStatuses> doInBackground(Object... params) {
+        ArrayList<TwitterStatuses> twitterTweets = null;
         callerActivity = (ListActivity) params[1];
         if (params.length > 0) {
             TwitterAPI twitterAPI = new TwitterAPI(TWITTER_API_KEY,TWITTER_API_SECRET);
@@ -26,9 +26,8 @@ public class TwitterAsyncTask extends AsyncTask<Object, Void, ArrayList<TwitterT
     }
 
     @Override
-    protected void onPostExecute(ArrayList<TwitterTweet> twitterTweets) {
-        ArrayAdapter<TwitterTweet> adapter =
-                new ArrayAdapter<TwitterTweet>(callerActivity, R.layout.activity_main, R.id.listTextView, twitterTweets);
+    protected void onPostExecute(ArrayList<TwitterStatuses> twitterTweets) {
+        ArrayAdapter<TwitterStatuses> adapter = new ArrayAdapter<TwitterStatuses>(callerActivity, R.layout.activity_main, R.id.listTextView, twitterTweets);
         callerActivity.setListAdapter(adapter);
         ListView lv = callerActivity.getListView();
         lv.setDividerHeight(0);
