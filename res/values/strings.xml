@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">FreeHandTwitter</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <color name="Twitter_blue">#c0deed</color>
+    <!-- Global -->
+    <string name="app_name">Free Hand Twitter</string>
+    <string name="slogan">Get a timeline as a video.</string>
+   
+    <!-- Colors -->
+    <color name="blue">#59ABE3</color>
+    <color name="darkblue">#4183D7</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- MainActivity -->
+    <string name="ab_about">About</string>
+    <string name="search">Search</string>
+    <string name="lookingfor">What are U looking for?</string>
+        <string-array name="reuslt_type">
+        <item>Popular</item>
+        <item>Recent</item>
+        <item>Mixed</item>
+    </string-array>
+
+    <!-- ResultActivity -->
+    <string name="title_activity_result">ResultActivity</string>
+    
+    <!-- Error messages -->
+    <string name="emptysearch">You must tell me what I have to look for</string>
 
 </resources>

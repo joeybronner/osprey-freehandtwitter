@@ -1,24 +1,45 @@
 package fr.joeybronner.freehandtwitter;
 
-import android.app.ListActivity;
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import fr.joeybronner.freehandtwitter.api.TwitterAsyncTask;
-import fr.joeybronner.freehandtwitter.util.AndroidNetworkUtility;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
-public class MainActivity extends ListActivity {
+public class MainActivity extends Activity {
 
-    final static String twitterScreenName = "BBCNews";
-    final static String TAG = "MainActivity";
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        AndroidNetworkUtility androidNetworkUtility = new AndroidNetworkUtility();
-        if (androidNetworkUtility.isConnected(this)) {
-            new TwitterAsyncTask().execute(twitterScreenName,this);
-        } else {
-            Log.v(TAG, "Network not Available!");
-        }
-    }
+		getActionBar().hide();
+
+		final EditText etSearch = (EditText) findViewById(R.id.etSearch);
+
+		Button btSearch= (Button) findViewById(R.id.btSearch);
+		btSearch.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				if (searchFieldIsValid(etSearch.getText().toString())) {
+					Intent intent = new Intent(MainActivity.this, ResultActivity.class);
+					intent.putExtra("search",etSearch.getText().toString());
+					startActivity(intent);
+				} else {
+					Toast.makeText(getApplicationContext(), getResources().getString(R.string.emptysearch), Toast.LENGTH_SHORT).show();
+				}
+			}
+		});
+	}
+
+	private boolean searchFieldIsValid(String search) {
+		if (!search.isEmpty() && !search.equals("")) {
+			return true;
+		} else {
+			return false;
+		}
+		
+	}
 }

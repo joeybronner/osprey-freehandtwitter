@@ -22,8 +22,8 @@ public class TwitterStatus {
 	@SerializedName("in_reply_to_screen_name")
 	private String inReplyToScreenName;
 
-	@SerializedName("user")
-	private TwitterUser twitterUser;
+	//@SerializedName("user")
+	//private TwitterUser twitterUser;
 
 	
 	// Getters & Setters -----------------------------------
@@ -76,13 +76,13 @@ public class TwitterStatus {
 		this.text = text;
 	}
 
-	public void setTwitterUser(TwitterUser twitterUser) {
+	/*public void setTwitterUser(TwitterUser twitterUser) {
 		this.twitterUser = twitterUser;
 	}
 
 	public TwitterUser getTwitterUser() {
 		return twitterUser;
-	}
+	}*/
 
 	@Override
 	public String toString(){

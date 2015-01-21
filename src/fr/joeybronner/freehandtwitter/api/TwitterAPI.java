@@ -9,28 +9,32 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 
 import android.util.Base64;
+import android.util.Log;
 
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
+import fr.joeybronner.freehandtwitter.util.Constants;
 import fr.joeybronner.freehandtwitter.util.HttpUtil;
 
 public class TwitterAPI {
 
 	private String twitterApiKey;
 	private String twitterAPISecret;
-	final static String TWITTER_TOKEN_URL = "https://api.twitter.com/oauth2/token";
-	final static String TWITTER_STREAM_URL = "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=";
-	//final static String TWITTER_STREAM_URL = "https://api.twitter.com/1.1/search/tweets.json?q=";
-	final static int TWITTER_SEARCH_COUNT = 30;
+	
+	/*
+	 * Here, all relevant documents
+	 * 
+	 * Documentation to search tweets : https://dev.twitter.com/rest/reference/get/search/tweets
+	 * 
+	 */
 
 	public TwitterAPI(String twitterAPIKey, String twitterApiSecret){
 		this.twitterApiKey = twitterAPIKey;
 		this.twitterAPISecret = twitterApiSecret;
 	}
 
-	public ArrayList<TwitterStatuses> getTwitterTweets(String screenName) {
-		ArrayList<TwitterStatuses> twitterTweetArrayList = null;
+	public ArrayList<TwitterStatus> getTwitterTweets(String screenName) {
+		ArrayList<TwitterStatus> twitterTweetArrayList = null;
 		try {
 			String twitterUrlApiKey = URLEncoder.encode(twitterApiKey, "UTF-8");
 			String twitterUrlApiSecret = URLEncoder.encode(twitterAPISecret, "UTF-8");
@@ -44,10 +48,10 @@ public class TwitterAPI {
 		return twitterTweetArrayList;
 	}
 
-	public ArrayList<TwitterStatuses> getTwitterTweets(String screenName, TwitterAuthToken twitterAuthToken) {
-		ArrayList<TwitterStatuses> twitterTweetArrayList = null;
+	public ArrayList<TwitterStatus> getTwitterTweets(String screenName, TwitterAuthToken twitterAuthToken) {
+		ArrayList<TwitterStatus> twitterTweetArrayList = null;
 		if (twitterAuthToken != null && twitterAuthToken.token_type.equals("bearer")) {
-			HttpGet httpGet = new HttpGet(TWITTER_STREAM_URL + screenName + "&count=" + TWITTER_SEARCH_COUNT);
+			HttpGet httpGet = new HttpGet(Constants.TWITTER_SEARCHTWEETS_URL + screenName + Constants.TWITTER_SEARCH_COUNT);
 			httpGet.setHeader("Authorization", "Bearer " + twitterAuthToken.access_token);
 			httpGet.setHeader("Content-Type", "application/json");
 			HttpUtil httpUtil = new HttpUtil();
@@ -58,7 +62,7 @@ public class TwitterAPI {
 	}
 
 	public TwitterAuthToken getTwitterAuthToken(String twitterKeyBase64) throws UnsupportedEncodingException {
-		HttpPost httpPost = new HttpPost(TWITTER_TOKEN_URL);
+		HttpPost httpPost = new HttpPost(Constants.TWITTER_TOKEN_URL);
 		httpPost.setHeader("Authorization", "Basic " + twitterKeyBase64);
 		httpPost.setHeader("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
 		httpPost.setEntity(new StringEntity("grant_type=client_credentials"));
@@ -78,12 +82,22 @@ public class TwitterAPI {
 		return twitterAuthToken;
 	}
 
-	private ArrayList<TwitterStatuses> convertJsonToTwitterTweet(String twitterTweets) {
-		ArrayList<TwitterStatuses> twitterTweetArrayList = null;
-		//Log.v("Joey", twitterTweets);
+	private ArrayList<TwitterStatus> convertJsonToTwitterTweet(String twitterTweets) {
+		ArrayList<TwitterStatus> twitterTweetArrayList = new ArrayList<TwitterStatus>();
+		Log.v("Joey", twitterTweets);
 		if (twitterTweets != null && twitterTweets.length() > 0) {
-			Gson gson = new Gson();
-			twitterTweetArrayList = gson.fromJson(twitterTweets, new TypeToken<ArrayList<TwitterStatuses>>(){}.getType());
+			Gson g = new Gson();
+			TwitterStatuses vc = g.fromJson(twitterTweets, TwitterStatuses.class);
+			for (int i = 0; i < vc.statuses.size(); i++) {
+				if (vc.statuses.get(i).getText()!=null) {
+					try {
+						TwitterStatus s = vc.statuses.get(i);
+						twitterTweetArrayList.add(s);
+					} catch (Exception e) {
+						System.out.println("null object");
+					}
+				}
+			}
 		}
 		return twitterTweetArrayList;
 	}
