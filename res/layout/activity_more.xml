@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fr.joeybronner.freehandtwitter.MoreActivity" >
+
+    <ImageView
+        android:id="@+id/ivDevelopedBy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/joeybronner" />
+
+    <TextView
+        android:id="@+id/tvDevelopedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivDevelopedBy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/developedby"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/ivSourcesGithub"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/tvDevelopedBy"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/github" />
+
+    <TextView
+        android:id="@+id/tvSourcesGithub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivSourcesGithub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/sourcesgithub"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
