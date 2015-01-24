@@ -5,7 +5,6 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
 import fr.joeybronner.freehandtwitter.api.TwitterAsyncTask;
 import fr.joeybronner.freehandtwitter.util.AndroidNetworkUtility;
 
@@ -32,7 +31,6 @@ public class ResultActivity extends ListActivity {
     		new TwitterAsyncTask(this).execute(search,this);
         } else {
             Log.v(TAG, "Network not Available!");
-            Toast.makeText(getApplicationContext(), "Chargement terminé.", Toast.LENGTH_SHORT).show();
         }
     }
 }

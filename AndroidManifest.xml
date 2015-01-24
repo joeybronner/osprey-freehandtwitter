@@ -5,11 +5,12 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="17"
         android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -28,10 +29,17 @@
         <activity
             android:name=".ResultActivity"
             android:label="@string/title_activity_result" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.joeybronner.freehandtwitter.MainActivity" />
         </activity>
         <activity
             android:name=".MoreActivity"
             android:label="@string/title_activity_more" >
+        </activity>
+        <activity
+            android:name=".TweetFlipperActivity"
+            android:label="@string/title_activity_tweet_flipper" >
         </activity>
     </application>
 

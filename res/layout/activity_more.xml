@@ -11,6 +11,7 @@
 
     <ImageView
         android:id="@+id/ivDevelopedBy"
+        android:contentDescription="@string/developedby"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
@@ -30,9 +31,9 @@
 
     <ImageView
         android:id="@+id/ivSourcesGithub"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_marginTop="15dp"
+        android:contentDescription="@string/sourcesgithub"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_below="@id/tvDevelopedBy"
         android:layout_centerHorizontal="true"
         android:src="@drawable/github" />
@@ -43,8 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/ivSourcesGithub"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:gravity="center"
+        android:textAlignment="center"
         android:text="@string/sourcesgithub"
         android:textAppearance="?android:attr/textAppearance"
         android:textColor="@color/white" />

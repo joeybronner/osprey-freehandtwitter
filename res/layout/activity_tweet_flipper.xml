@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context="fr.joeybronner.freehandtwitter.TweetFlipperActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ViewFlipper
+            android:id="@+id/viewflipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <fr.joeybronner.freehandtwitter.util.RoundedImageView
+                    android:id="@+id/ivUser"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nouserpicture"
+                    android:contentDescription="@string/nodescription" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivUser"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:textAlignment="center"
+                    android:text="@string/screen_name"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvTweetContent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView1"
+                    android:textAlignment="center"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/tweet_exemple"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" >
+                </TextView>
+            </RelativeLayout>
+        </ViewFlipper>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="3"
+            android:layout_alignParentBottom="true" >
+
+            <ImageView
+                android:id="@+id/btTweetBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/tweetback" />
+
+            <ImageView
+                android:id="@+id/btTweetPlayPause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/tweetpause" />
+
+            <ImageView
+                android:id="@+id/btTweetNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/tweetnext" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

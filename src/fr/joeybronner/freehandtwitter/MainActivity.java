@@ -20,7 +20,6 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		getActionBar().hide();
-
 		final EditText etSearch = (EditText) findViewById(R.id.etSearch);
 
 		btMore = (Button) findViewById(R.id.btMore);
@@ -52,7 +51,6 @@ public class MainActivity extends Activity {
 		} else {
 			return false;
 		}
-
 	}
 
 	private void showMoreActivity()

@@ -4,16 +4,18 @@
     <!-- Global -->
     <string name="app_name">Free Hand Twitter</string>
     <string name="slogan">Get a timeline as a video.</string>
+    <string name="nodescription"></string>
 
     <!-- Colors -->
     <color name="blue">#59ABE3</color>
     <color name="darkblue">#4183D7</color>
+	<color name="lightblue">#BCD3E3</color>
     <color name="white">#FFFFFF</color>
 
     <!-- MainActivity -->
     <string name="ab_about">About</string>
     <string name="search">Search</string>
-    <string name="lookingfor">UrHashtag</string>
+    <string name="lookingfor">YourHashtag</string>
 
     <!-- MoreActivity -->
     <string name="developedby">Developed by Joey Bronner</string>
@@ -27,6 +29,10 @@
 
     <!-- ResultActivity -->
     <string name="title_activity_result">ResultActivity</string>
+    
+    <!-- TweetFlipperActivity -->
+    <string name="screen_name">\@screen_name</string>
+    <string name="tweet_exemple">Hey, thats my first tweet. Im sure you can retweet it, OK? #FHT #FreeHandTwitter</string>
 
     <!-- Error messages -->
     <string name="emptysearch">You must tell me what I have to look for</string>
@@ -35,5 +41,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_tweet_gallery">TweetGalleryActivity</string>
     <string name="title_activity_twitter_slider">TwitterSliderActivity</string>
+    <string name="title_activity_tweet_flipper">TweetFlipperActivity</string>
 
 </resources>

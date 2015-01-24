@@ -1,5 +1,9 @@
 package fr.joeybronner.freehandtwitter.util;
 
+import java.util.List;
+
+import fr.joeybronner.freehandtwitter.api.TwitterStatus;
+
 public class Constants {
 
 	// Twitter app credentials
@@ -11,6 +15,9 @@ public class Constants {
 	final public static String TWITTER_USERTIMELINE_URL = "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=";
 	final public static String TWITTER_SEARCHTWEETS_URL = "https://api.twitter.com/1.1/search/tweets.json?q=";
 	final public static String TWITTER_SEARCH_COUNT = "&count=100";
+	final public static String TWITTER_SEARCH_LANG = "&lang=fr";
+	
+	public static List<TwitterStatus> twit;
 	
 }
  	

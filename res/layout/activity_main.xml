@@ -50,6 +50,7 @@
             android:layout_below="@id/ivSearch"
             android:layout_centerInParent="true"
             android:layout_marginRight="20dp"
+			android:textColorHint="@color/lightblue"
             android:layout_marginTop="20dp"
             android:ems="10"
             android:hint="@string/lookingfor"
