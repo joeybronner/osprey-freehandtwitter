@@ -12,6 +12,9 @@ public class TwitterUser {
 	
 	@SerializedName("profile_image_url")
 	private String profileImageUrl;
+	
+	@SerializedName("profile_background_color")
+	private String profileBackgroundColor;
 
 	public String getProfileImageUrl() {
 		return profileImageUrl;
@@ -19,6 +22,10 @@ public class TwitterUser {
 
 	public String getScreenName() {
 		return screenName;
+	}
+	
+	public String getProfileBackgroundColor() {
+		return profileBackgroundColor;
 	}
 
 	public void setProfileImageUrl(String profileImageUrl) {
@@ -35,5 +42,9 @@ public class TwitterUser {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+	
+	public void setProfileBackgroundColor(String color) {
+		this.profileBackgroundColor = color;
 	}
 }

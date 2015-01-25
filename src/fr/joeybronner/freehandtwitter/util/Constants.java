@@ -2,6 +2,8 @@ package fr.joeybronner.freehandtwitter.util;
 
 import java.util.List;
 
+import android.graphics.Typeface;
+
 import fr.joeybronner.freehandtwitter.api.TwitterStatus;
 
 public class Constants {
@@ -19,5 +21,6 @@ public class Constants {
 	
 	public static List<TwitterStatus> twit;
 	
+	public static Typeface tf;
 }
  	

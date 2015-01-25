@@ -24,8 +24,9 @@ public class TwitterAsyncTask extends AsyncTask<Object, Void, ArrayList<TwitterS
 	@Override
 	protected void onPreExecute() {
 		super.onPreExecute();
-		this.dialog.setMessage("Progress start");
+		//this.dialog.setMessage("Progress start");
 		this.dialog.show();
+		this.dialog.setCancelable(false);
 	}
 
 	@Override

@@ -5,6 +5,8 @@ import java.io.InputStream;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -25,8 +27,9 @@ public class TweetFlipperActivity extends Activity {
 	String search;
 	int i = 0;
 	boolean isPaused = false;
-	ImageView btPlayPause, ivUser;
+	ImageView btPlayPause, ivUser, btTweetNext;
 	TextView tvTweet, tvArobase;
+	View v;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +40,9 @@ public class TweetFlipperActivity extends Activity {
 		// Stay screen on
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
+		// Typeface
+		Constants.tf = Typeface.createFromAsset(this.getAssets(),"fonts/OpenSans-Light.ttf");
+
 		viewFlipper = (ViewFlipper) findViewById(R.id.viewflipper);
 		viewFlipper.setFlipInterval(SLIDER_TIMER);
 		viewFlipper.setInAnimation(this, R.anim.slide_in_from_right);
@@ -44,9 +50,12 @@ public class TweetFlipperActivity extends Activity {
 		viewFlipper.startFlipping();
 
 		tvTweet = (TextView) findViewById(R.id.tvTweetContent);
+		tvTweet.setTypeface(Constants.tf);
 		tvArobase = (TextView) findViewById(R.id.textView1);
+		tvArobase.setTypeface(Constants.tf);
 		ivUser = (ImageView) findViewById(R.id.ivUser);
 		btPlayPause = (ImageView) findViewById(R.id.btTweetPlayPause);
+		btTweetNext = (ImageView) findViewById(R.id.btTweetNext);
 		final Handler handler = new Handler();
 		final Runnable r = new Runnable()
 		{
@@ -57,74 +66,65 @@ public class TweetFlipperActivity extends Activity {
 				}
 				tvTweet.setText(Constants.twit.get(i).toString());
 				tvArobase.setText("@" + Constants.twit.get(i).getTwitterUser().getScreenName());
+				setBackgroundColor();
 				new ImageDownloader(ivUser).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
 				handler.postDelayed(this, SLIDER_TIMER);
 				i++;
 			}
 		}; 
 		handler.postDelayed(r, 0);
-		
+
 		btPlayPause.setOnClickListener(new OnClickListener() { 
-		     public void onClick(View v) { 
-		        if(isPaused) {
-		        	btPlayPause.setImageDrawable(getResources().getDrawable(R.drawable.tweetpause));
-		        	isPaused = false;
-		        	handler.postDelayed(r, 0);
-		        	viewFlipper.startFlipping();
-		        }
-		        else {
-		        	btPlayPause.setImageDrawable(getResources().getDrawable(R.drawable.tweetplay));
-		        	isPaused = true;
-		        	handler.removeCallbacks(r);
-		        	viewFlipper.stopFlipping();
-		        }
-		     }
+			public void onClick(View v) { 
+				if(isPaused) {
+					btPlayPause.setImageDrawable(getResources().getDrawable(R.drawable.tweetpause));
+					isPaused = false;
+					handler.postDelayed(r, 0);
+					viewFlipper.startFlipping();
+				}
+				else {
+					btPlayPause.setImageDrawable(getResources().getDrawable(R.drawable.tweetplay));
+					isPaused = true;
+					handler.removeCallbacks(r);
+					viewFlipper.stopFlipping();
+				}
+			}
+		});
+
+		btTweetNext.setOnClickListener(new OnClickListener() { 
+			public void onClick(View v) {
+				handler.removeCallbacks(r);
+				viewFlipper.stopFlipping();
+				handler.postDelayed(r, 0);
+				viewFlipper.startFlipping();
+			}
 		});
 	}
 
-	// Using the following method, we will handle all screen swaps
-	/*
-	public boolean onTouchEvent(MotionEvent touchevent) {
-		switch (touchevent.getAction()) {
-		case MotionEvent.ACTION_DOWN: 
-			lastX = touchevent.getX();
-			break;
-		case MotionEvent.ACTION_UP: 
-			float currentX = touchevent.getX();
-
-			// Handling left to right screen swap.
-			if (lastX < currentX) {
-				// If there aren't any other children, just break.
-				if (viewFlipper.getDisplayedChild() == 0)
-					break;
-
-				// Next screen comes in from left.
-				viewFlipper.setInAnimation(this, R.anim.slide_in_from_left);
-				// Current screen goes out from right. 
-				viewFlipper.setOutAnimation(this, R.anim.slide_out_to_right);
-
-				// Display next screen.
-				viewFlipper.showNext();
-			}
-			// Handling right to left screen swap.
-			if (lastX > currentX) {
-
-				// If there is a child (to the left), kust break.
-				if (viewFlipper.getDisplayedChild() == 1)
-					break;
-
-				// Next screen comes in from right.
-				viewFlipper.setInAnimation(this, R.anim.slide_in_from_right);
-				// Current screen goes out from left. 
-				viewFlipper.setOutAnimation(this, R.anim.slide_out_to_left);
-
-				// Display previous screen.
-				viewFlipper.showPrevious();
-			}
-			break;
+	private void setBackgroundColor() {
+		String fontColor = "#" + Constants.twit.get(i).getTwitterUser().getProfileBackgroundColor();
+		getWindow().getDecorView().setBackgroundColor(Color.parseColor(fontColor));
+		int lum = getBrightness(Color.parseColor("#" + Constants.twit.get(i).getTwitterUser().getProfileBackgroundColor()));
+		
+		if (lum > 150)
+		{
+			tvArobase.setTextColor(Color.BLACK);
+			tvTweet.setTextColor(Color.BLACK);
 		}
-		return false;
-	}*/
+		else
+		{
+			tvArobase.setTextColor(Color.WHITE);
+			tvTweet.setTextColor(Color.WHITE);
+		}
+	}
+
+	public static int getBrightness(int argb)
+	{
+		int lum= (   77  * ((argb>>16)&255) 
+				+ 150 * ((argb>>8)&255) 
+				+ 29  * ((argb)&255))>>8;
+				return lum;
+	}
 }
 
 class ImageDownloader extends AsyncTask<String, Void, Bitmap> {

@@ -32,6 +32,10 @@ public class TwitterStatus {
 		return createdAt;
 	}
 	
+	public int getTweetLenght() {
+		return text.length();
+	}
+	
 	public String getId() {
 		return id;
 	}
