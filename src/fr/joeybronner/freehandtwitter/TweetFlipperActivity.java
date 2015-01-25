@@ -27,15 +27,21 @@ public class TweetFlipperActivity extends Activity {
 	String search;
 	int i = 0;
 	boolean isPaused = false;
-	ImageView btPlayPause, ivUser, btTweetNext;
-	TextView tvTweet, tvArobase;
+	boolean isDark;
+	ImageView btPlayPause, ivUser, btTweetNext, btTweetBack;
+	TextView tvTweet, tvArobase, tvName;
 	View v;
+	Bitmap bm;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_tweet_flipper);
 		getActionBar().hide();
+
+		if (Constants.twit.isEmpty()) {
+			finish();
+		}
 
 		// Stay screen on
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
@@ -53,9 +59,12 @@ public class TweetFlipperActivity extends Activity {
 		tvTweet.setTypeface(Constants.tf);
 		tvArobase = (TextView) findViewById(R.id.textView1);
 		tvArobase.setTypeface(Constants.tf);
+		tvName = (TextView) findViewById(R.id.tvName);
+		tvName.setTypeface(Constants.tf);
 		ivUser = (ImageView) findViewById(R.id.ivUser);
 		btPlayPause = (ImageView) findViewById(R.id.btTweetPlayPause);
 		btTweetNext = (ImageView) findViewById(R.id.btTweetNext);
+		btTweetBack = (ImageView) findViewById(R.id.btTweetBack);
 		final Handler handler = new Handler();
 		final Runnable r = new Runnable()
 		{
@@ -66,7 +75,9 @@ public class TweetFlipperActivity extends Activity {
 				}
 				tvTweet.setText(Constants.twit.get(i).toString());
 				tvArobase.setText("@" + Constants.twit.get(i).getTwitterUser().getScreenName());
+				tvName.setText(Constants.twit.get(i).getTwitterUser().getName());
 				setBackgroundColor();
+				setFontColor();
 				new ImageDownloader(ivUser).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
 				handler.postDelayed(this, SLIDER_TIMER);
 				i++;
@@ -77,13 +88,23 @@ public class TweetFlipperActivity extends Activity {
 		btPlayPause.setOnClickListener(new OnClickListener() { 
 			public void onClick(View v) { 
 				if(isPaused) {
-					btPlayPause.setImageDrawable(getResources().getDrawable(R.drawable.tweetpause));
+					if (isDark) {
+						bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetpause),800, 800, true);
+					} else {
+						bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetpause_dark),800, 800, true);
+					}
+					btPlayPause.setImageBitmap(bm);
 					isPaused = false;
 					handler.postDelayed(r, 0);
 					viewFlipper.startFlipping();
 				}
 				else {
-					btPlayPause.setImageDrawable(getResources().getDrawable(R.drawable.tweetplay));
+					if (isDark) {
+						bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
+					} else {
+						bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay_dark),800, 800, true);
+					}
+					btPlayPause.setImageBitmap(bm);
 					isPaused = true;
 					handler.removeCallbacks(r);
 					viewFlipper.stopFlipping();
@@ -97,6 +118,13 @@ public class TweetFlipperActivity extends Activity {
 				viewFlipper.stopFlipping();
 				handler.postDelayed(r, 0);
 				viewFlipper.startFlipping();
+				if (isDark) {
+					bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
+				} else {
+					bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay_dark),800, 800, true);
+				}
+				btPlayPause.setImageBitmap(bm);
+				isPaused = false;
 			}
 		});
 	}
@@ -104,17 +132,43 @@ public class TweetFlipperActivity extends Activity {
 	private void setBackgroundColor() {
 		String fontColor = "#" + Constants.twit.get(i).getTwitterUser().getProfileBackgroundColor();
 		getWindow().getDecorView().setBackgroundColor(Color.parseColor(fontColor));
+	}
+
+	private void setFontColor() {
 		int lum = getBrightness(Color.parseColor("#" + Constants.twit.get(i).getTwitterUser().getProfileBackgroundColor()));
-		
 		if (lum > 150)
 		{
-			tvArobase.setTextColor(Color.BLACK);
-			tvTweet.setTextColor(Color.BLACK);
+			isDark = false;
+			tvArobase.setTextColor(getResources().getColor(R.color.darkgray));
+			tvTweet.setTextColor(getResources().getColor(R.color.darkgray));
+			tvName.setTextColor(getResources().getColor(R.color.darkgray));
+			if (isPaused) {
+				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay_dark),800, 800, true);
+			} else {
+				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetpause_dark),800, 800, true);
+			}
+			btPlayPause.setImageBitmap(bm);
+			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetnext_dark),800, 800, true);
+			btTweetNext.setImageBitmap(bm);
+			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetback_dark),800, 800, true);
+			btTweetBack.setImageBitmap(bm);
 		}
 		else
-		{
-			tvArobase.setTextColor(Color.WHITE);
-			tvTweet.setTextColor(Color.WHITE);
+		{	
+			isDark = true;
+			tvArobase.setTextColor(getResources().getColor(R.color.white));
+			tvTweet.setTextColor(getResources().getColor(R.color.white));
+			tvName.setTextColor(getResources().getColor(R.color.white));
+			if (isPaused) {
+				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
+			} else {
+				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetpause),800, 800, true);
+			}
+			btPlayPause.setImageBitmap(bm);
+			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetnext),800, 800, true);
+			btTweetNext.setImageBitmap(bm);
+			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetback),800, 800, true);
+			btTweetBack.setImageBitmap(bm);
 		}
 	}
 

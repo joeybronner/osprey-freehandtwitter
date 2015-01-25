@@ -21,7 +21,6 @@ public class MainActivity extends Activity {
 
 		getActionBar().hide();
 		final EditText etSearch = (EditText) findViewById(R.id.etSearch);
-		etSearch.setText("Alstom");
 
 		btMore = (Button) findViewById(R.id.btMore);
 		btMore.setOnClickListener(new View.OnClickListener() {

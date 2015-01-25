@@ -11,6 +11,7 @@
     <color name="darkblue">#4183D7</color>
 	<color name="lightblue">#BCD3E3</color>
     <color name="white">#FFFFFF</color>
+    <color name="darkgray">#5A5A5A</color>
 
     <!-- MainActivity -->
     <string name="ab_about">About</string>
@@ -31,6 +32,7 @@
     <string name="title_activity_result">ResultActivity</string>
     
     <!-- TweetFlipperActivity -->
+    <string name="name">My Name</string>
     <string name="screen_name">\@screen_name</string>
     <string name="tweet_exemple">Hey, thats my first tweet. Im sure you can retweet it, OK? #FHT #FreeHandTwitter</string>
 
