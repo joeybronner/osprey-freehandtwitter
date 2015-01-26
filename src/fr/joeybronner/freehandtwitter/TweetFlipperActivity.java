@@ -80,6 +80,8 @@ public class TweetFlipperActivity extends Activity {
 				setFontColor();
 				new ImageDownloader(ivUser).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
 				handler.postDelayed(this, SLIDER_TIMER);
+				viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
+				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);
 				i++;
 			}
 		}; 
@@ -116,6 +118,25 @@ public class TweetFlipperActivity extends Activity {
 			public void onClick(View v) {
 				handler.removeCallbacks(r);
 				viewFlipper.stopFlipping();
+				handler.postDelayed(r, 0);
+				viewFlipper.startFlipping();
+				if (isDark) {
+					bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
+				} else {
+					bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay_dark),800, 800, true);
+				}
+				btPlayPause.setImageBitmap(bm);
+				isPaused = false;
+			}
+		});
+		
+		btTweetBack.setOnClickListener(new OnClickListener() { 
+			public void onClick(View v) {
+				i = i-2;
+				handler.removeCallbacks(r);
+				viewFlipper.stopFlipping();
+				viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_left);
+				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_right);
 				handler.postDelayed(r, 0);
 				viewFlipper.startFlipping();
 				if (isDark) {
