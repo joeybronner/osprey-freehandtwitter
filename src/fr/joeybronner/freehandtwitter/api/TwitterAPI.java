@@ -51,7 +51,10 @@ public class TwitterAPI {
 	public ArrayList<TwitterStatus> getTwitterTweets(String screenName, TwitterAuthToken twitterAuthToken) {
 		ArrayList<TwitterStatus> twitterTweetArrayList = null;
 		if (twitterAuthToken != null && twitterAuthToken.token_type.equals("bearer")) {
-			HttpGet httpGet = new HttpGet(Constants.TWITTER_SEARCHTWEETS_URL + screenName + Constants.TWITTER_SEARCH_COUNT + Constants.TWITTER_SEARCH_LANG);
+			HttpGet httpGet = new HttpGet(Constants.TWITTER_SEARCHTWEETS_URL + screenName + 
+					Constants.TWITTER_SEARCH_COUNT + 
+					Constants.TWITTER_SEARCH_LANG + 
+					Constants.TWITTER_SEARCH_ENTITIES);
 			httpGet.setHeader("Authorization", "Bearer " + twitterAuthToken.access_token);
 			httpGet.setHeader("Content-Type", "application/json");
 			HttpUtil httpUtil = new HttpUtil();

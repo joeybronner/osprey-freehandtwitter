@@ -28,7 +28,7 @@ public class TweetFlipperActivity extends Activity {
 	int i = 0;
 	boolean isPaused = false;
 	boolean isDark;
-	ImageView btPlayPause, ivUser, btTweetNext, btTweetBack;
+	ImageView btPlayPause, ivUser, btTweetNext, btTweetBack, btShare;
 	TextView tvTweet, tvArobase, tvName;
 	View v;
 	Bitmap bm;
@@ -65,6 +65,7 @@ public class TweetFlipperActivity extends Activity {
 		btPlayPause = (ImageView) findViewById(R.id.btTweetPlayPause);
 		btTweetNext = (ImageView) findViewById(R.id.btTweetNext);
 		btTweetBack = (ImageView) findViewById(R.id.btTweetBack);
+		btShare = (ImageView) findViewById(R.id.btShare);
 		final Handler handler = new Handler();
 		final Runnable r = new Runnable()
 		{
@@ -173,6 +174,8 @@ public class TweetFlipperActivity extends Activity {
 			btTweetNext.setImageBitmap(bm);
 			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetback_dark),800, 800, true);
 			btTweetBack.setImageBitmap(bm);
+			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.share_dark),800, 800, true);
+			btShare.setImageBitmap(bm);
 		}
 		else
 		{	
@@ -190,6 +193,8 @@ public class TweetFlipperActivity extends Activity {
 			btTweetNext.setImageBitmap(bm);
 			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetback),800, 800, true);
 			btTweetBack.setImageBitmap(bm);
+			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.share),800, 800, true);
+			btShare.setImageBitmap(bm);
 		}
 	}
 
