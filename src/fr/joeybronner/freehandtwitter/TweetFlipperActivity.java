@@ -54,7 +54,6 @@ public class TweetFlipperActivity extends Activity {
 		viewFlipper.setInAnimation(this, R.anim.slide_in_from_right);
 		viewFlipper.setOutAnimation(this, R.anim.slide_out_to_left);
 		viewFlipper.startFlipping();
-
 		tvTweet = (TextView) findViewById(R.id.tvTweetContent);
 		tvTweet.setTypeface(Constants.tf);
 		tvArobase = (TextView) findViewById(R.id.textView1);

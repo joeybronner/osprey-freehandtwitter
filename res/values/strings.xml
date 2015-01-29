@@ -34,7 +34,7 @@
     <!-- TweetFlipperActivity -->
     <string name="name">My Name</string>
     <string name="screen_name">\@screen_name</string>
-    <string name="tweet_exemple">Hey, thats my first tweet. Im sure you can retweet it, OK? #FHT #FreeHandTwitter</string>
+    <string name="tweet_exemple">Les couleurs d antan sont enfin revenues. Comme des abeilles sur les ondes au large de la chose. Dépouillées de toute prétention résiduelle.</string>
 
     <!-- Error messages -->
     <string name="emptysearch">You must tell me what I have to look for</string>
