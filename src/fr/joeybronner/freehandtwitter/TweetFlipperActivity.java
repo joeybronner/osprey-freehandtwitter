@@ -17,6 +17,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
+import fr.joeybronner.freehandtwitter.util.AutoResizeTextView;
 import fr.joeybronner.freehandtwitter.util.Constants;
 
 public class TweetFlipperActivity extends Activity {
@@ -29,7 +30,8 @@ public class TweetFlipperActivity extends Activity {
 	boolean isPaused = false;
 	boolean isDark;
 	ImageView btPlayPause, ivUser, btTweetNext, btTweetBack, btShare;
-	TextView tvTweet, tvArobase, tvName;
+	TextView tvArobase, tvName;
+	AutoResizeTextView tvTweet;
 	View v;
 	Bitmap bm;
 
@@ -39,7 +41,7 @@ public class TweetFlipperActivity extends Activity {
 		setContentView(R.layout.activity_tweet_flipper);
 		getActionBar().hide();
 
-		if (Constants.twit.isEmpty()) {
+		if (Constants.twit.isEmpty() || Constants.twit == null) {
 			finish();
 		}
 
@@ -54,7 +56,7 @@ public class TweetFlipperActivity extends Activity {
 		viewFlipper.setInAnimation(this, R.anim.slide_in_from_right);
 		viewFlipper.setOutAnimation(this, R.anim.slide_out_to_left);
 		viewFlipper.startFlipping();
-		tvTweet = (TextView) findViewById(R.id.tvTweetContent);
+		tvTweet = (AutoResizeTextView) findViewById(R.id.tvTweetContent);
 		tvTweet.setTypeface(Constants.tf);
 		tvArobase = (TextView) findViewById(R.id.textView1);
 		tvArobase.setTypeface(Constants.tf);
