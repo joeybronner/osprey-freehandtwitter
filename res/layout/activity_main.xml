@@ -10,6 +10,15 @@
     tools:context="fr.joeybronner.freehandtwitter.MainActivity" >
 
     <Button
+        android:id="@+id/btSettings"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/settings" />
+
+    <Button
         android:id="@+id/btMore"
         android:layout_width="35dp"
         android:layout_height="35dp"
@@ -35,10 +44,10 @@
             android:id="@+id/ivHashtag"
             android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
             android:layout_alignBottom="@+id/etSearch"
-            android:layout_below="@id/ivSearch"
             android:layout_alignTop="@+id/etSearch"
+            android:layout_below="@id/ivSearch"
+            android:layout_marginLeft="20dp"
             android:contentDescription="@string/search"
             android:src="@drawable/hashtag" />
 
@@ -46,17 +55,17 @@
             android:id="@+id/etSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/ivHashtag"
             android:layout_below="@id/ivSearch"
             android:layout_centerInParent="true"
             android:layout_marginRight="20dp"
-			android:textColorHint="@color/lightblue"
             android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/ivHashtag"
             android:ems="10"
             android:hint="@string/lookingfor"
             android:inputType="text"
             android:maxWidth="200dp"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:textColorHint="@color/lightblue" />
 
         <Spinner
             android:id="@+id/spinnerResultType"

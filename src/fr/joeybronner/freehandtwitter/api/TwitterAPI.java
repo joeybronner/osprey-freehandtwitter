@@ -54,7 +54,13 @@ public class TwitterAPI {
 			HttpGet httpGet = new HttpGet(Constants.TWITTER_SEARCHTWEETS_URL + screenName + 
 					Constants.TWITTER_SEARCH_COUNT + 
 					Constants.TWITTER_SEARCH_LANG + 
-					Constants.TWITTER_SEARCH_ENTITIES);
+					Constants.TWITTER_RESULT_TYPE);
+			
+			System.out.println("Joey " + Constants.TWITTER_SEARCHTWEETS_URL + screenName + 
+					Constants.TWITTER_SEARCH_COUNT + 
+					Constants.TWITTER_SEARCH_LANG + 
+					Constants.TWITTER_RESULT_TYPE);
+			
 			httpGet.setHeader("Authorization", "Bearer " + twitterAuthToken.access_token);
 			httpGet.setHeader("Content-Type", "application/json");
 			HttpUtil httpUtil = new HttpUtil();

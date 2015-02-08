@@ -45,6 +45,9 @@
         android:layout_below="@id/ivSourcesGithub"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
+        android:gravity="center"
+        android:autoLink="web"
+        android:textColorLink="@color/darkblue"
         android:text="@string/sourcesgithub"
         android:textAppearance="?android:attr/textAppearance"
         android:textColor="@color/white" />

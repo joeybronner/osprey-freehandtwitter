@@ -13,7 +13,7 @@ public class ResultActivity extends ListActivity {
     final static String TAG = "MainActivity";
     
     public ProgressDialog progress;
-    String search;
+    String search, result_type;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ public class ResultActivity extends ListActivity {
         // Get search word(s)
         Intent myIntent = getIntent();
         search = myIntent.getStringExtra("search");
+        result_type = myIntent.getStringExtra("result_type");
         
         AndroidNetworkUtility androidNetworkUtility = new AndroidNetworkUtility();
         if (androidNetworkUtility.isConnected(this)) {

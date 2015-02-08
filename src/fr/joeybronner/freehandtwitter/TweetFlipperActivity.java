@@ -1,37 +1,48 @@
 package fr.joeybronner.freehandtwitter;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.io.OutputStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
+import android.provider.MediaStore.Images;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.ViewFlipper;
-import fr.joeybronner.freehandtwitter.util.AutoResizeTextView;
 import fr.joeybronner.freehandtwitter.util.Constants;
 
 public class TweetFlipperActivity extends Activity {
 
 	private ViewFlipper viewFlipper;
-	//private float lastX;
 	private static final int SLIDER_TIMER = 6000; 
 	String search;
 	int i = 0;
 	boolean isPaused = false;
 	boolean isDark;
 	ImageView btPlayPause, ivUser, btTweetNext, btTweetBack, btShare;
-	TextView tvArobase, tvName;
-	AutoResizeTextView tvTweet;
+	TextView tvArobase, tvName, tvTweet;
 	View v;
 	Bitmap bm;
 
@@ -56,7 +67,7 @@ public class TweetFlipperActivity extends Activity {
 		viewFlipper.setInAnimation(this, R.anim.slide_in_from_right);
 		viewFlipper.setOutAnimation(this, R.anim.slide_out_to_left);
 		viewFlipper.startFlipping();
-		tvTweet = (AutoResizeTextView) findViewById(R.id.tvTweetContent);
+		tvTweet = (TextView) findViewById(R.id.tvTweetContent);
 		tvTweet.setTypeface(Constants.tf);
 		tvArobase = (TextView) findViewById(R.id.textView1);
 		tvArobase.setTypeface(Constants.tf);
@@ -131,7 +142,7 @@ public class TweetFlipperActivity extends Activity {
 				isPaused = false;
 			}
 		});
-		
+
 		btTweetBack.setOnClickListener(new OnClickListener() { 
 			public void onClick(View v) {
 				i = i-2;
@@ -150,6 +161,84 @@ public class TweetFlipperActivity extends Activity {
 				isPaused = false;
 			}
 		});
+
+		btShare.setOnClickListener(new OnClickListener() { 
+			@SuppressLint("SimpleDateFormat") public void onClick(View v) {
+				try {
+					Bitmap screenshot = screenshot(v);
+
+					// Save file
+					OutputStream output;
+					File filepath = Environment.getExternalStorageDirectory();
+					File dir = new File(filepath.getAbsolutePath() + "/FreeHandTwitter/");
+					dir.mkdirs();
+					DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+					Calendar cal = Calendar.getInstance();
+					File file = new File(dir, "freehandtwitter" 
+							+ dateFormat.format(cal.getTime()) 
+							+ ".png");
+
+					// Share Intent
+					Intent share = new Intent(Intent.ACTION_SEND);
+					share.setType("image/jpeg");
+					output = new FileOutputStream(file);
+
+					// Compress into png format image from 0% - 100%
+					screenshot.compress(Bitmap.CompressFormat.PNG, 100, output);
+					output.flush();
+					output.close();
+
+					// Locate the image to Share
+					Uri uri = Uri.fromFile(file);
+					share.putExtra(Intent.EXTRA_STREAM, uri);
+					startActivity(Intent.createChooser(share, getResources().getString(R.string.share_tweet)));
+				} catch (Exception e) {
+					Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_unable_share), Toast.LENGTH_SHORT).show();
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	private Bitmap screenshot(View v) {
+		Bitmap bitmap;
+		View v1 = v.getRootView();
+		v1.setDrawingCacheEnabled(true);
+		bitmap = Bitmap.createBitmap(v1.getDrawingCache());
+		v1.setDrawingCacheEnabled(false);
+		return bitmap;
+	}
+
+	public void sendImage(Bitmap bitmap, String name) {
+		String pathofBmp = Images.Media.insertImage(getContentResolver(), bitmap, name, null);
+		Uri bmpUri = Uri.parse(pathofBmp);
+		final Intent emailIntent1 = new Intent(android.content.Intent.ACTION_SEND);
+		emailIntent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		emailIntent1.putExtra(Intent.EXTRA_STREAM, bmpUri);
+		emailIntent1.setType("image/png");
+	}
+
+	public void saveImage(Context context, Bitmap b,String name){
+		FileOutputStream out;
+		try {
+			out = context.openFileOutput(name, Context.MODE_PRIVATE);
+			b.compress(Bitmap.CompressFormat.JPEG, 90, out);
+			out.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public Bitmap getImageBitmap(Context context, String name){
+		try{
+			FileInputStream fis = context.openFileInput(name);
+			Bitmap b = BitmapFactory.decodeStream(fis);
+			fis.close();
+			return b;
+		}
+		catch(Exception e){
+		}
+		return null;
 	}
 
 	private void setBackgroundColor() {

@@ -18,11 +18,12 @@ public class Constants {
 	final public static String TWITTER_SEARCHTWEETS_URL = "https://api.twitter.com/1.1/search/tweets.json?q=";
 	final public static String TWITTER_SEARCH_COUNT = "&count=100";
 	final public static String TWITTER_SEARCH_LANG = "&lang=fr";
-	final public static String TWITTER_SEARCH_ENTITIES = "&include_entities=true";
-	final public static String TWITTER_FILTER_IMAGES = "&filter:images";
-		
+	public static String TWITTER_RESULT_TYPE = "&result_type=popular";
+	
 	public static List<TwitterStatus> twit;
 	
 	public static Typeface tf;
+	
+	public static int SCROLL_SPEED = 50;
 }
  	

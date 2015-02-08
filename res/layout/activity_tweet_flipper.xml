@@ -57,15 +57,17 @@
                 android:textAlignment="center"
                 android:textSize="12sp" />
 
-            <fr.joeybronner.freehandtwitter.util.AutoResizeTextView
+            <TextView
                 android:id="@+id/tvTweetContent"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_below="@+id/textView1"
                 android:ellipsize="none"
-                android:padding="20dip"
+                android:gravity="center"
+                android:autoLink="web"
                 android:text="@string/tweet_exemple"
-                android:textSize="500sp" />
+                android:textSize="26sp"
+                android:layout_margin="30sp" />
         </RelativeLayout>
     </ViewFlipper>
 
