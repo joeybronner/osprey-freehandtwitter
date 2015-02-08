@@ -14,6 +14,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Bitmap.Config;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -36,7 +37,7 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 public class TweetFlipperActivity extends Activity {
 
 	private ViewFlipper viewFlipper;
-	private static final int SLIDER_TIMER = 6000; 
+	private static int SLIDER_TIMER; 
 	String search;
 	int i = 0;
 	boolean isPaused = false;
@@ -45,6 +46,7 @@ public class TweetFlipperActivity extends Activity {
 	TextView tvArobase, tvName, tvTweet;
 	View v;
 	Bitmap bm;
+	final BitmapFactory.Options options = new BitmapFactory.Options();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +63,20 @@ public class TweetFlipperActivity extends Activity {
 
 		// Typeface
 		Constants.tf = Typeface.createFromAsset(this.getAssets(),"fonts/OpenSans-Light.ttf");
+
+		// Recalculation of SLIDER_TIMER
+		SLIDER_TIMER = 6000; 
+		if (Constants.SCROLL_SPEED < 20) {
+			SLIDER_TIMER = (int) (SLIDER_TIMER*1.5);
+		} else if (Constants.SCROLL_SPEED >= 20 && Constants.SCROLL_SPEED < 40) {
+			SLIDER_TIMER = (int) (SLIDER_TIMER*1.2);
+		} else if (Constants.SCROLL_SPEED >= 40 && Constants.SCROLL_SPEED < 60) {
+			// Nothing
+		} else if (Constants.SCROLL_SPEED >= 60 && Constants.SCROLL_SPEED < 80) {
+			SLIDER_TIMER = (int) (SLIDER_TIMER*0.8);
+		} else if (Constants.SCROLL_SPEED >= 80) {
+			SLIDER_TIMER = (int) (SLIDER_TIMER*0.5);
+		}
 
 		viewFlipper = (ViewFlipper) findViewById(R.id.viewflipper);
 		viewFlipper.setFlipInterval(SLIDER_TIMER);
@@ -79,10 +95,8 @@ public class TweetFlipperActivity extends Activity {
 		btTweetBack = (ImageView) findViewById(R.id.btTweetBack);
 		btShare = (ImageView) findViewById(R.id.btShare);
 		final Handler handler = new Handler();
-		final Runnable r = new Runnable()
-		{
-			public void run() 
-			{
+		final Runnable r = new Runnable() {
+			public void run() {
 				if (i == Constants.twit.size()) {
 					i = 0;
 				}
@@ -200,6 +214,11 @@ public class TweetFlipperActivity extends Activity {
 		});
 	}
 
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+	}
+	
 	private Bitmap screenshot(View v) {
 		Bitmap bitmap;
 		View v1 = v.getRootView();
@@ -248,6 +267,9 @@ public class TweetFlipperActivity extends Activity {
 
 	private void setFontColor() {
 		int lum = getBrightness(Color.parseColor("#" + Constants.twit.get(i).getTwitterUser().getProfileBackgroundColor()));
+		options.inJustDecodeBounds = false;
+		options.inPreferredConfig = Config.RGB_565;
+		options.inDither = true;
 		if (lum > 150)
 		{
 			isDark = false;

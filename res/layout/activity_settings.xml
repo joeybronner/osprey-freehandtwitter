@@ -15,8 +15,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:textAlignment="center"
-        android:gravity="center"
         android:text="@string/speed_normal"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/blue" />
@@ -26,7 +24,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvScrollSpeed"
-        android:layout_margin="20dp"
-        android:progress="50" />
+        android:layout_margin="20dp" />
 
 </RelativeLayout>

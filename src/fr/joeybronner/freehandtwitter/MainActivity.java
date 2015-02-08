@@ -20,6 +20,7 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 
 	Button btMore, btSearch, btSettings;
 	Spinner spinnerResultType;
+	TextView tvSpeed;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -70,8 +71,7 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 		}
 	}
 	
-	private void showSettingsActivity()
-	{
+	private void showSettingsActivity() {
 		// Create the new dialog
 		final Dialog dialog = new Dialog(btSettings.getContext());
 		// No title
@@ -82,23 +82,15 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 		dialog.setContentView(R.layout.activity_settings);
 		dialog.show();
 		
-		final TextView tvSpeed = (TextView) dialog.findViewById(R.id.tvScrollSpeed);
-		final SeekBar sk=(SeekBar) dialog.findViewById(R.id.sbScrollSpeed);     
-		sk.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {             
-
+		tvSpeed = (TextView) dialog.findViewById(R.id.tvScrollSpeed);
+		updateSpeedTextView(Constants.SCROLL_SPEED);
+		
+		final SeekBar sk=(SeekBar) dialog.findViewById(R.id.sbScrollSpeed);
+		sk.setProgress(Constants.SCROLL_SPEED);
+		sk.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
 			@Override       
 			public void onProgressChanged(SeekBar seekBar, int progress,boolean fromUser) {     
-				if (progress < 20) {
-					tvSpeed.setText(getResources().getString(R.string.speed_veryslow));
-				} else if (progress >= 20 && progress < 40) {
-					tvSpeed.setText(getResources().getString(R.string.speed_slow));
-				} else if (progress >= 40 && progress < 60) {
-					tvSpeed.setText(getResources().getString(R.string.speed_normal));
-				} else if (progress >= 60 && progress < 80) {
-					tvSpeed.setText(getResources().getString(R.string.speed_fast));
-				} else if (progress >= 80) {
-					tvSpeed.setText(getResources().getString(R.string.speed_veryfast));
-				}
+				updateSpeedTextView(progress);
 				// Update scroll speed
 				Constants.SCROLL_SPEED = progress;
 			}
@@ -110,9 +102,22 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 			public void onStopTrackingTouch(SeekBar seekBar) {	}       
 		});
 	}
+	
+	private void updateSpeedTextView(int progress) {
+		if (progress < 20) {
+			tvSpeed.setText(getResources().getString(R.string.speed_veryslow));
+		} else if (progress >= 20 && progress < 40) {
+			tvSpeed.setText(getResources().getString(R.string.speed_slow));
+		} else if (progress >= 40 && progress < 60) {
+			tvSpeed.setText(getResources().getString(R.string.speed_normal));
+		} else if (progress >= 60 && progress < 80) {
+			tvSpeed.setText(getResources().getString(R.string.speed_fast));
+		} else if (progress >= 80) {
+			tvSpeed.setText(getResources().getString(R.string.speed_veryfast));
+		}
+	}
 
-	private void showMoreActivity()
-	{
+	private void showMoreActivity() {
 		// Create the new dialog
 		final Dialog dialog = new Dialog(btMore.getContext());
 		// No title
