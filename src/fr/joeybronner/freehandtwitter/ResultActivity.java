@@ -4,7 +4,7 @@ import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
+import android.widget.Toast;
 import fr.joeybronner.freehandtwitter.api.TwitterAsyncTask;
 import fr.joeybronner.freehandtwitter.util.AndroidNetworkUtility;
 
@@ -13,7 +13,7 @@ public class ResultActivity extends ListActivity {
     final static String TAG = "MainActivity";
     
     public ProgressDialog progress;
-    String search, result_type;
+    public String search, result_type;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,8 @@ public class ResultActivity extends ListActivity {
         if (androidNetworkUtility.isConnected(this)) {
     		new TwitterAsyncTask(this).execute(search,this);
         } else {
-            Log.v(TAG, "Network not Available!");
+        	finish();
+        	Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_noconnection), Toast.LENGTH_SHORT).show();
         }
     }
 }

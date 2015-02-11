@@ -55,6 +55,7 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 					Intent intent = new Intent(MainActivity.this, ResultActivity.class);
 					intent.putExtra("search",etSearch.getText().toString());
 					Constants.TWITTER_RESULT_TYPE = "&result_type=" + spinnerResultType.getSelectedItem().toString().toLowerCase();
+					Constants.TWITTER_USER_SEARCH = etSearch.getText().toString();
 					startActivity(intent);
 				} else {
 					Toast.makeText(getApplicationContext(), getResources().getString(R.string.emptysearch), Toast.LENGTH_SHORT).show();

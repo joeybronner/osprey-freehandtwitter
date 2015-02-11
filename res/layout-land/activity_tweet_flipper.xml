@@ -68,6 +68,7 @@
                     android:layout_height="fill_parent"
                     android:layout_below="@+id/textView1"
                     android:gravity="center"
+                    android:autoLink="web"
                     android:text="@string/tweet_exemple"
                     android:textAlignment="center"
                     android:textSize="28sp" />

@@ -19,6 +19,7 @@ public class Constants {
 	final public static String TWITTER_SEARCH_COUNT = "&count=100";
 	final public static String TWITTER_SEARCH_LANG = "&lang=fr";
 	public static String TWITTER_RESULT_TYPE = "&result_type=popular";
+	public static String TWITTER_USER_SEARCH = "";
 	
 	public static List<TwitterStatus> twit;
 	

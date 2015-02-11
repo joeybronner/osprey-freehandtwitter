@@ -48,6 +48,9 @@
     <!-- Error messages -->
     <string name="emptysearch">You must tell me what I have to look for</string>
     <string name="error_unable_share">Unable to share</string>
+    <string name="error_noresults">No results found for</string>
+    <string name="error_noconnection">Network not available</string>
+    <string name="error_loading_tweets">Error while loading tweets. Please check your internet connection and try again.</string>
     <string name="title_activity_more">MoreActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
