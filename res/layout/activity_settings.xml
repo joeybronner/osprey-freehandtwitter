@@ -26,4 +26,22 @@
         android:layout_below="@+id/tvScrollSpeed"
         android:layout_margin="20dp" />
 
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sbScrollSpeed"
+        android:text="@string/language"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/blue" />
+
+    <Spinner
+        android:id="@+id/spinnerCountry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLanguage"
+        android:drawSelectorOnTop="true"
+        android:layout_margin="20dp" />
+
 </RelativeLayout>

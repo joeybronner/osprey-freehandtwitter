@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Global -->
-    <string name="app_name">Free Hand Twitter</string>
+    <string name="app_name">FH Twitter</string>
     <string name="slogan">Get a timeline as a video.</string>
     <string name="nodescription"></string>
 
@@ -19,12 +19,22 @@
     <string name="search">Search</string>
     <string name="lookingfor">YourHashtag</string>
     
-    <!-- MainActivity -->
+    <!-- SettingsActivity -->
     <string name="speed_veryslow">Speed: Like a snail</string>
     <string name="speed_slow">Speed: Slow</string>
     <string name="speed_normal">Speed: Normal</string>
     <string name="speed_fast">Speed: Fast</string>
     <string name="speed_veryfast">Speed: Very fast</string>
+    <string name="language">Tweets language</string>
+    <string name="ok">Okay,</string>
+    <string name="selected">is set-up.</string>
+    <string-array name="countries">
+        <item>French</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Italian</item>
+        <item>German</item>
+    </string-array>
 
     <!-- MoreActivity -->
     <string name="developedby">Developed by Joey Bronner</string>
