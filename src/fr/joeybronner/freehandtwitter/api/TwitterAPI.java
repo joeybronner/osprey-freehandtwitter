@@ -20,7 +20,7 @@ public class TwitterAPI {
 
 	private String twitterApiKey;
 	private String twitterAPISecret;
-	
+
 	/*
 	 * Here, all relevant documents
 	 * 
@@ -41,21 +41,34 @@ public class TwitterAPI {
 			String twitterKeySecret = twitterUrlApiKey + ":" + twitterUrlApiSecret;
 			String twitterKeyBase64 = Base64.encodeToString(twitterKeySecret.getBytes(), Base64.NO_WRAP);
 			TwitterAuthToken twitterAuthToken = getTwitterAuthToken(twitterKeyBase64);
-			twitterTweetArrayList = getTwitterTweets(screenName, twitterAuthToken);
-		} catch (UnsupportedEncodingException ex) {
-		} catch (IllegalStateException ex1) {
+			
+			// First research
+			twitterTweetArrayList = getTwitterTweets(screenName, twitterAuthToken, "filter");
+			// Second research with no filter if nothing was found
+			if (twitterTweetArrayList.size() < 1) {
+				twitterTweetArrayList = getTwitterTweets(screenName, twitterAuthToken, "nofilter");
+			}
+
 		}
+		catch (Exception ex) {} 
 		return twitterTweetArrayList;
 	}
 
-	public ArrayList<TwitterStatus> getTwitterTweets(String screenName, TwitterAuthToken twitterAuthToken) {
+	public ArrayList<TwitterStatus> getTwitterTweets(String screenName, TwitterAuthToken twitterAuthToken, String filter) {
 		ArrayList<TwitterStatus> twitterTweetArrayList = null;
+
 		if (twitterAuthToken != null && twitterAuthToken.token_type.equals("bearer")) {
-			HttpGet httpGet = new HttpGet(Constants.TWITTER_SEARCHTWEETS_URL + screenName + 
-					Constants.TWITTER_SEARCH_COUNT + 
-					Constants.TWITTER_SEARCH_LANG + Constants.USER_LANGAGE +
-					Constants.TWITTER_RESULT_TYPE);
-			
+			HttpGet httpGet = null;
+			if (filter.equals("filter")) {
+				httpGet = new HttpGet(Constants.TWITTER_SEARCHTWEETS_URL + screenName + 
+						Constants.TWITTER_SEARCH_COUNT + 
+						Constants.TWITTER_SEARCH_LANG + Constants.USER_LANGAGE +
+						Constants.TWITTER_RESULT_TYPE);
+			} else if (filter.equals("nofilter")) {
+				httpGet = new HttpGet(Constants.TWITTER_SEARCHTWEETS_URL + screenName + 
+						Constants.TWITTER_SEARCH_COUNT + 
+						Constants.TWITTER_SEARCH_LANG + Constants.USER_LANGAGE);
+			}
 			httpGet.setHeader("Authorization", "Bearer " + twitterAuthToken.access_token);
 			httpGet.setHeader("Content-Type", "application/json");
 			HttpUtil httpUtil = new HttpUtil();

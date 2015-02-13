@@ -47,7 +47,7 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 
 		spinnerValues = getResources().getStringArray(R.array.countries);
 
-		getActionBar().hide();
+		// getActionBar().hide();
 		final EditText etSearch = (EditText) findViewById(R.id.etSearch);
 		spinnerResultType = (Spinner) findViewById(R.id.spinnerResultType);
 

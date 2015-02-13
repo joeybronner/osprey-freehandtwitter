@@ -3,6 +3,7 @@
     <style name="AppBaseTheme" parent="android:Theme.Light"></style>
 
     <style name="AppTheme" parent="AppBaseTheme">
+
         <!-- For the resting Spinner style -->
         <item name="android:spinnerItemStyle">            @style/spinnerItemStyle</item>
 

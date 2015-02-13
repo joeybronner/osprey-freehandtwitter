@@ -20,7 +20,7 @@ public class ResultActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         
         // Hide action bar
-        getActionBar().hide();
+        //getActionBar().hide();
         
         // Get search word(s)
         Intent myIntent = getIntent();

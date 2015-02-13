@@ -53,7 +53,7 @@ public class TweetFlipperActivity extends Activity {
 		try {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.activity_tweet_flipper);
-			getActionBar().hide();
+			//getActionBar().hide();
 
 			if (Constants.twit == null || Constants.twit.isEmpty()) {
 				Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_noresults) + " #" + Constants.TWITTER_USER_SEARCH, Toast.LENGTH_SHORT).show();
