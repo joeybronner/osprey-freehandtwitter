@@ -24,7 +24,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvScrollSpeed"
-        android:layout_margin="20dp" />
+        android:layout_margin="20dp"
+        android:maxHeight="3dp"
+        android:minHeight="3dp"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/seekbar_thumb" >
+    </SeekBar>
 
     <TextView
         android:id="@+id/tvLanguage"
@@ -41,7 +46,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvLanguage"
-        android:drawSelectorOnTop="true"
-        android:layout_margin="20dp" />
+        android:layout_margin="20dp"
+        android:drawSelectorOnTop="true" />
 
 </RelativeLayout>

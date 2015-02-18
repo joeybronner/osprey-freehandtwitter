@@ -19,9 +19,6 @@ public class ResultActivity extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        // Hide action bar
-        //getActionBar().hide();
-        
         // Get search word(s)
         Intent myIntent = getIntent();
         search = myIntent.getStringExtra("search");

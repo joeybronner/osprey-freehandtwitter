@@ -84,6 +84,12 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 		});
 	}
 
+	@Override
+	public void onSaveInstanceState(Bundle savedInstanceState) {
+		super.onSaveInstanceState(savedInstanceState);
+		savedInstanceState.putInt("spinnerState", 0);
+	}
+
 	private boolean searchFieldIsValid(String search) {
 		if (!search.isEmpty() && !search.equals("")) {
 			return true;
@@ -106,10 +112,10 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 		// Load data
 		tvSpeed = (TextView) dialog.findViewById(R.id.tvScrollSpeed);
 		updateSpeedTextView(Constants.SCROLL_SPEED);
-
+		
 		Spinner mySpinner = (Spinner) dialog.findViewById(R.id.spinnerCountry); 
 		mySpinner.setAdapter(new MyAdapter(this, R.layout.custom_spinner, spinnerValues));
-		
+
 		if (Constants.USER_LANGAGE.equals("fr")) {
 			mySpinner.setSelection(0);
 		} else if (Constants.USER_LANGAGE.equals("en")) {
@@ -121,7 +127,7 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 		} else if (Constants.USER_LANGAGE.equals("de")) {
 			mySpinner.setSelection(4);
 		}
-		
+
 		mySpinner.setOnItemSelectedListener(new OnItemSelectedListener() {
 			@Override
 			public void onItemSelected(AdapterView<?> arg0, View arg1, int pos, long arg3) {

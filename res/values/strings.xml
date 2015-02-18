@@ -5,6 +5,7 @@
     <string name="app_name">FH Twitter</string>
     <string name="slogan">Get a timeline as a video.</string>
     <string name="nodescription"></string>
+    <string name="loading_tweets">Loading tweets...</string>
 
     <!-- Colors -->
     <color name="blue">#59ABE3</color>

@@ -7,6 +7,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+import fr.joeybronner.freehandtwitter.R;
 import fr.joeybronner.freehandtwitter.ResultActivity;
 import fr.joeybronner.freehandtwitter.TweetFlipperActivity;
 import fr.joeybronner.freehandtwitter.util.Constants;
@@ -25,7 +26,9 @@ public class TwitterAsyncTask extends AsyncTask<Object, Void, ArrayList<TwitterS
 	protected void onPreExecute() {
 		super.onPreExecute();
 		this.dialog.show();
-		this.dialog.setCancelable(false);
+		this.dialog.setCancelable(true);
+		this.dialog.setIndeterminate(true);
+		this.dialog.setMessage(context.getResources().getString(R.string.loading_tweets)/*"Loading..."*/);
 	}
 
 	@Override
