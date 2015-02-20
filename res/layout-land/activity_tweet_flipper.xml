@@ -3,6 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="horizontal"
+    android:baselineAligned="false"
     tools:context="fr.joeybronner.freehandtwitter.TweetFlipperActivity" >
 
     <LinearLayout
@@ -26,6 +27,7 @@
                     android:id="@+id/btShare"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="@string/nodescription"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/share_dark" />
@@ -47,7 +49,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:text="@string/name"
-                    android:textAlignment="center"
+                    android:gravity="center"
                     android:textSize="22sp"
                     android:textStyle="bold" />
 
@@ -59,7 +61,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="0dp"
                     android:text="@string/screen_name"
-                    android:textAlignment="center"
+                    android:gravity="center"
                     android:textSize="12sp" />
 
                 <TextView
@@ -70,7 +72,6 @@
                     android:gravity="center"
                     android:autoLink="web"
                     android:text="@string/tweet_exemple"
-                    android:textAlignment="center"
                     android:textSize="28sp" />
             </RelativeLayout>
         </ViewFlipper>
@@ -86,6 +87,7 @@
             android:id="@+id/btTweetBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/nodescription"
             android:layout_weight="1"
             android:src="@drawable/tweetback_dark" />
 
@@ -93,6 +95,7 @@
             android:id="@+id/btTweetPlayPause"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/nodescription"
             android:layout_weight="1"
             android:src="@drawable/tweetpause_dark" />
 
@@ -100,6 +103,7 @@
             android:id="@+id/btTweetNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/nodescription"
             android:layout_weight="1"
             android:src="@drawable/tweetnext_dark" />
     </LinearLayout>

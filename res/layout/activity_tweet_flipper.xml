@@ -7,6 +7,7 @@
 
     <ImageView
         android:id="@+id/btShare"
+        android:contentDescription="@string/nodescription"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignParentRight="true"
@@ -15,13 +16,13 @@
 
     <ViewFlipper
         android:id="@+id/viewflipper"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginBottom="100dp" >
 
         <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical" >
 
@@ -30,7 +31,7 @@
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="15sp"
                 android:contentDescription="@string/nodescription"
                 android:src="@drawable/nouserpicture" />
 
@@ -42,7 +43,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
                 android:text="@string/name"
-                android:textAlignment="center"
+                android:gravity="center"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -54,7 +55,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="0dp"
                 android:text="@string/screen_name"
-                android:textAlignment="center"
+                android:gravity="center"
                 android:textSize="12sp" />
 
             <TextView
@@ -66,18 +67,20 @@
                 android:autoLink="web"
                 android:text="@string/tweet_exemple"
                 android:textSize="26sp"
-                android:layout_margin="30sp" />
+                android:layout_marginTop="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginLeft="30sp" />
         </RelativeLayout>
     </ViewFlipper>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:layout_alignParentBottom="true"
-        android:layout_weight="3" >
+        android:layout_alignParentBottom="true" >
 
         <ImageView
             android:id="@+id/btTweetBack"
+            android:contentDescription="@string/nodescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -85,6 +88,7 @@
 
         <ImageView
             android:id="@+id/btTweetPlayPause"
+            android:contentDescription="@string/nodescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -92,6 +96,7 @@
 
         <ImageView
             android:id="@+id/btTweetNext"
+            android:contentDescription="@string/nodescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

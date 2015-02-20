@@ -47,19 +47,21 @@ public class TweetFlipperActivity extends Activity {
 	View v;
 	Bitmap bm;
 	final BitmapFactory.Options options = new BitmapFactory.Options();
+	final Handler handler = new Handler();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		try {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.activity_tweet_flipper);
-			//getActionBar().hide();
 
 			if (Constants.twit == null || Constants.twit.isEmpty()) {
 				Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_noresults) + " #" + Constants.TWITTER_USER_SEARCH, Toast.LENGTH_SHORT).show();
 				finish();
 			} else {
-
+				// Number of tweets loaded
+				Toast.makeText(getApplicationContext(), Constants.twit.size() + " " + getResources().getString(R.string.loaded), Toast.LENGTH_SHORT).show();
+				
 				// Stay screen on
 				getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
@@ -67,13 +69,13 @@ public class TweetFlipperActivity extends Activity {
 				Constants.tf = Typeface.createFromAsset(this.getAssets(),"fonts/OpenSans-Light.ttf");
 
 				// Recalculation of SLIDER_TIMER
-				SLIDER_TIMER = 6000; 
+				SLIDER_TIMER = 6000;
 				if (Constants.SCROLL_SPEED < 20) {
 					SLIDER_TIMER = (int) (SLIDER_TIMER*1.5);
 				} else if (Constants.SCROLL_SPEED >= 20 && Constants.SCROLL_SPEED < 40) {
 					SLIDER_TIMER = (int) (SLIDER_TIMER*1.2);
 				} else if (Constants.SCROLL_SPEED >= 40 && Constants.SCROLL_SPEED < 60) {
-					// Nothing
+					// Normal speed
 				} else if (Constants.SCROLL_SPEED >= 60 && Constants.SCROLL_SPEED < 80) {
 					SLIDER_TIMER = (int) (SLIDER_TIMER*0.8);
 				} else if (Constants.SCROLL_SPEED >= 80) {
@@ -96,29 +98,10 @@ public class TweetFlipperActivity extends Activity {
 				btTweetNext = (ImageView) findViewById(R.id.btTweetNext);
 				btTweetBack = (ImageView) findViewById(R.id.btTweetBack);
 				btShare = (ImageView) findViewById(R.id.btShare);
-				final Handler handler = new Handler();
-				final Runnable r = new Runnable() {
-					public void run() {
-						try {
-							if (i == Constants.twit.size()) {
-								i = 0;
-							}
-							tvTweet.setText(Constants.twit.get(i).toString());
-							tvArobase.setText("@" + Constants.twit.get(i).getTwitterUser().getScreenName());
-							tvName.setText(Constants.twit.get(i).getTwitterUser().getName());
-							setBackgroundColor();
-							setFontColor();
-							new ImageDownloader(ivUser).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
-							handler.postDelayed(this, SLIDER_TIMER);
-							viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
-							viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);
-							i++;
-						} catch (Exception e) { }
-					}
-				}; 
 				handler.postDelayed(r, 0);
 
 				btPlayPause.setOnClickListener(new OnClickListener() { 
+					@Override
 					public void onClick(View v) { 
 						if(isPaused) {
 							if (isDark) {
@@ -146,6 +129,7 @@ public class TweetFlipperActivity extends Activity {
 				});
 
 				btTweetNext.setOnClickListener(new OnClickListener() { 
+					@Override
 					public void onClick(View v) {
 						handler.removeCallbacks(r);
 						viewFlipper.stopFlipping();
@@ -162,6 +146,7 @@ public class TweetFlipperActivity extends Activity {
 				});
 
 				btTweetBack.setOnClickListener(new OnClickListener() { 
+					@Override
 					public void onClick(View v) {
 						i = i-2;
 						handler.removeCallbacks(r);
@@ -181,6 +166,7 @@ public class TweetFlipperActivity extends Activity {
 				});
 
 				btShare.setOnClickListener(new OnClickListener() { 
+					@Override
 					@SuppressLint("SimpleDateFormat") public void onClick(View v) {
 						try {
 							Bitmap screenshot = screenshot(v);
@@ -223,6 +209,27 @@ public class TweetFlipperActivity extends Activity {
 			Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_loading_tweets), Toast.LENGTH_SHORT).show();
 		}
 	}
+	
+	final Runnable r = new Runnable() {
+		@Override
+		public void run() {
+			try {
+				handler.postDelayed(this, SLIDER_TIMER);
+				if (i == Constants.twit.size()) {
+					i = 0;
+				}
+				tvTweet.setText(Constants.twit.get(i).toString());
+				tvArobase.setText("@" + Constants.twit.get(i).getTwitterUser().getScreenName());
+				tvName.setText(Constants.twit.get(i).getTwitterUser().getName());
+				setBackgroundColor();
+				setFontColor();
+				new ImageDownloader(ivUser).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
+				viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
+				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);
+				i++;
+			} catch (Exception e) { }
+		}
+	}; 
 
 	@Override
 	protected void onDestroy() {
@@ -271,7 +278,11 @@ public class TweetFlipperActivity extends Activity {
 	}
 
 	private void setBackgroundColor() {
-		String fontColor = "#" + Constants.twit.get(i).getTwitterUser().getProfileBackgroundColor();
+		String backColor = Constants.twit.get(i).getTwitterUser().getProfileBackgroundColor();
+		if (backColor.equals("C0DEED")) {
+			backColor="EEEEEE";
+		}
+		String fontColor = "#" + backColor;
 		getWindow().getDecorView().setBackgroundColor(Color.parseColor(fontColor));
 	}
 
@@ -336,6 +347,7 @@ class ImageDownloader extends AsyncTask<String, Void, Bitmap> {
 		this.bmImage = bmImage;
 	}
 
+	@Override
 	protected Bitmap doInBackground(String... urls) {
 		String url = urls[0];
 		Bitmap mIcon = null;
@@ -348,6 +360,7 @@ class ImageDownloader extends AsyncTask<String, Void, Bitmap> {
 		return mIcon;
 	}
 
+	@Override
 	protected void onPostExecute(Bitmap result) {
 		bmImage.setImageBitmap(result);
 	}

@@ -30,8 +30,9 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 	Button btMore, btSearch, btSettings;
 	Spinner spinnerResultType;
 	TextView tvSpeed;
-	String[] spinnerValues;
+	String[] spinnerValues, resultType;
 	int spinnerImages[] = { R.drawable.france, R.drawable.unitedk, R.drawable.spain, R.drawable.italy, R.drawable.german };
+	int resultsTypeImages[] = { R.drawable.popular, R.drawable.recent, R.drawable.mixed };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +47,12 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 		}
 
 		spinnerValues = getResources().getStringArray(R.array.countries);
+		resultType = getResources().getStringArray(R.array.reuslt_type);
+		
+		spinnerResultType = (Spinner) findViewById(R.id.spinnerResultType); 
+		spinnerResultType.setAdapter(new MyResultTypes(this, R.layout.custom_spinner_resulttype, resultType));
 
-		// getActionBar().hide();
 		final EditText etSearch = (EditText) findViewById(R.id.etSearch);
-		spinnerResultType = (Spinner) findViewById(R.id.spinnerResultType);
 
 		btMore = (Button) findViewById(R.id.btMore);
 		btMore.setOnClickListener(new View.OnClickListener() {
@@ -82,12 +85,6 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 				}
 			}
 		});
-	}
-
-	@Override
-	public void onSaveInstanceState(Bundle savedInstanceState) {
-		super.onSaveInstanceState(savedInstanceState);
-		savedInstanceState.putInt("spinnerState", 0);
 	}
 
 	private boolean searchFieldIsValid(String search) {
@@ -212,6 +209,30 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 			main_text.setText(spinnerValues[position]); 
 			ImageView left_icon = (ImageView) mySpinner .findViewById(R.id.left_pic); 
 			left_icon.setImageResource(spinnerImages[position]); return mySpinner; 
+		} 
+	}
+	
+	public class MyResultTypes extends ArrayAdapter<String> { 
+
+		public MyResultTypes(Context ctx, int txtViewResourceId, String[] objects) { 
+			super(ctx, txtViewResourceId, objects); 
+		} 
+
+		@Override public View getDropDownView(int position, View cnvtView, ViewGroup prnt) { 
+			return getCustomView(position, cnvtView, prnt); 
+		} 
+
+		@Override public View getView(int pos, View cnvtView, ViewGroup prnt) { 
+			return getCustomView(pos, cnvtView, prnt); 
+		} 
+
+		public View getCustomView(int position, View convertView, ViewGroup parent) { 
+			LayoutInflater inflater = getLayoutInflater(); 
+			View mySpinner = inflater.inflate(R.layout.custom_spinner_resulttype, parent, false); 
+			TextView main_text = (TextView) mySpinner .findViewById(R.id.text_main_seen); 
+			main_text.setText(resultType[position]); 
+			ImageView left_icon = (ImageView) mySpinner .findViewById(R.id.left_pic); 
+			left_icon.setImageResource(resultsTypeImages[position]); return mySpinner; 
 		} 
 	}
 }

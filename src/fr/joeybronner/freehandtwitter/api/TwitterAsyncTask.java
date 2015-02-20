@@ -2,11 +2,16 @@ package fr.joeybronner.freehandtwitter.api;
 
 import java.util.ArrayList;
 
+import android.app.Dialog;
 import android.app.ListActivity;
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.view.Window;
+import android.widget.ImageView;
+
+import com.koushikdutta.ion.Ion;
+
 import fr.joeybronner.freehandtwitter.R;
 import fr.joeybronner.freehandtwitter.ResultActivity;
 import fr.joeybronner.freehandtwitter.TweetFlipperActivity;
@@ -14,21 +19,28 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 
 public class TwitterAsyncTask extends AsyncTask<Object, Void, ArrayList<TwitterStatus>> {
 	ListActivity callerActivity;
-	private ProgressDialog dialog;
+	private Dialog loading;
 	private Context context;
 
 	public TwitterAsyncTask(ResultActivity activity) {
 		context = activity;
-		dialog = new ProgressDialog(context);
+		// Create the new dialog
+		loading = new Dialog(context);
+		// No title
+		loading.requestWindowFeature(Window.FEATURE_NO_TITLE); 
+		loading.setCancelable(true);
+		// Content of the dialog
+		loading.setContentView(R.layout.activity_loading);
+		
+		ImageView gif = (ImageView) loading.findViewById(R.id.ivGif);
+		Ion.with(gif).load("android.resource://fr.joeybronner.freehandtwitter/drawable/load");
+	
+		loading.show();
 	}
 
 	@Override
 	protected void onPreExecute() {
 		super.onPreExecute();
-		this.dialog.show();
-		this.dialog.setCancelable(true);
-		this.dialog.setIndeterminate(true);
-		this.dialog.setMessage(context.getResources().getString(R.string.loading_tweets)/*"Loading..."*/);
 	}
 
 	@Override
@@ -49,9 +61,8 @@ public class TwitterAsyncTask extends AsyncTask<Object, Void, ArrayList<TwitterS
 		//ListView lv = callerActivity.getListView();
 		//lv.setDividerHeight(0);
 		//lv.setBackgroundColor(callerActivity.getResources().getColor(R.color.blue));
-		if (dialog.isShowing()) {
+		if (loading.isShowing()) {
 			Constants.twit = twitterTweets;
-			dialog.dismiss();
     		Intent i = new Intent(callerActivity, TweetFlipperActivity.class);
     		callerActivity.startActivity(i);
     		callerActivity.finish();
