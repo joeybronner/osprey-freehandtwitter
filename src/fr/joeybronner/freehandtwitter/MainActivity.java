@@ -48,9 +48,10 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 
 		spinnerValues = getResources().getStringArray(R.array.countries);
 		resultType = getResources().getStringArray(R.array.reuslt_type);
-		
+
 		spinnerResultType = (Spinner) findViewById(R.id.spinnerResultType); 
 		spinnerResultType.setAdapter(new MyResultTypes(this, R.layout.custom_spinner_resulttype, resultType));
+		selectionOfMixedByDefault();
 
 		final EditText etSearch = (EditText) findViewById(R.id.etSearch);
 
@@ -109,7 +110,7 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 		// Load data
 		tvSpeed = (TextView) dialog.findViewById(R.id.tvScrollSpeed);
 		updateSpeedTextView(Constants.SCROLL_SPEED);
-		
+
 		Spinner mySpinner = (Spinner) dialog.findViewById(R.id.spinnerCountry); 
 		mySpinner.setAdapter(new MyAdapter(this, R.layout.custom_spinner, spinnerValues));
 
@@ -188,6 +189,12 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 		dialog.show();
 	}
 
+	private void selectionOfMixedByDefault() {
+		try {
+			spinnerResultType.setSelection(2);
+		} catch (Exception e) { }
+	}
+
 	public class MyAdapter extends ArrayAdapter<String> { 
 
 		public MyAdapter(Context ctx, int txtViewResourceId, String[] objects) { 
@@ -211,7 +218,7 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 			left_icon.setImageResource(spinnerImages[position]); return mySpinner; 
 		} 
 	}
-	
+
 	public class MyResultTypes extends ArrayAdapter<String> { 
 
 		public MyResultTypes(Context ctx, int txtViewResourceId, String[] objects) { 

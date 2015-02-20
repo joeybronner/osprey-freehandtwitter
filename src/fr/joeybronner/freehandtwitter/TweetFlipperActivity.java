@@ -210,6 +210,20 @@ public class TweetFlipperActivity extends Activity {
 		}
 	}
 	
+	@Override
+	protected void onPause() {
+		handler.removeCallbacks(r);
+		viewFlipper.stopFlipping();
+		super.onPause();
+	}
+	
+	@Override
+	protected void onResume() {
+		handler.postDelayed(r, 0);
+		viewFlipper.startFlipping();
+		super.onResume();
+	}
+	
 	final Runnable r = new Runnable() {
 		@Override
 		public void run() {
