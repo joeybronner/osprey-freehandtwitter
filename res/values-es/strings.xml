@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global -->
+    <string name="app_name">Free Hand Twitter</string>
+    <string name="slogan">Obtenga su línea de tiempo como un vídeo.</string>
+    <string name="nodescription"></string>
+    <string name="loading_tweets">Cargando tweets&#8230;</string>
+
+    <!-- Colors -->
+    <color name="blue">#59ABE3</color>
+    <color name="darkblue">#4183D7</color>
+    <color name="lightblue">#BCD3E3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkgray">#5A5A5A</color>
+    <color name="gray">#bdc3c7</color>
+
+    <!-- MainActivity -->
+    <string name="ab_about">Acerca de</string>
+    <string name="search">Buscados</string>
+    <string name="lookingfor">Su Hashtag aquí</string>
+
+    <!-- SettingsActivity -->
+    <string name="speed_veryslow">Velocidad: Muy Lento</string>
+    <string name="speed_slow">Velocidad: Lento</string>
+    <string name="speed_normal">Velocidad: Normal</string>
+    <string name="speed_fast">Velocidad: Rápido</string>
+    <string name="speed_veryfast">Velocidad: Muy rápido</string>
+    <string name="language">Tweets ubicación</string>
+    <string name="ok">Okay,</string>
+    <string name="selected">está configurado.</string>
+
+    <string-array name="countries">
+        <item>Francés</item>
+        <item>Inglés</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Alemán</item>
+    </string-array>
+
+    <!-- MoreActivity -->
+    <string name="developedby">Impulsado por Joey Bronner</string>
+    <string name="sourcesgithub">El código fuente disponible en Github : http://github.com/joeybronner/FreeHandTwitter</string>
+
+    <string-array name="reuslt_type">
+        <item>Popular</item>
+        <item>Reciente</item>
+        <item>Mezcla</item>
+    </string-array>
+
+    <!-- ResultActivity -->
+    <string name="title_activity_result">ResultActivity</string>
+
+    <!-- TweetFlipperActivity -->
+    <string name="name">My Name</string>
+    <string name="screen_name">\@screen_name</string>
+    <string name="share_tweet">Comparte este tweet</string>
+    <string name="tweet_exemple">Les couleurs d antan sont enfin revenues. Comme des abeilles sur les ondes au large de la chose. Dépouillées de toute prétention résiduelle.</string>
+    <string name="loaded">tweets fueron cargados.</string>
+
+    <!-- Error messages -->
+    <string name="emptysearch">Debe completar el campo de búsqueda</string>
+    <string name="error_unable_share">Incapaz de compartir</string>
+    <string name="error_noresults">No se han encontrado resultados para esa</string>
+    <string name="error_noconnection">No hay conexión a internet</string>
+    <string name="error_loading_tweets">Error al cargar los tweets.</string>
+    <string name="error_interrupted">Solicitud interrumpido.</string>
+    <string name="error_execution">Error de ejecución.</string>
+    <string name="error_timeout">La solicitud es anormalmente largo. Compruebe su conexión a Internet.</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_tweet_gallery">TweetGalleryActivity</string>
+    <string name="title_activity_twitter_slider">TwitterSliderActivity</string>
+    <string name="title_activity_tweet_flipper">TweetFlipperActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+
+</resources>

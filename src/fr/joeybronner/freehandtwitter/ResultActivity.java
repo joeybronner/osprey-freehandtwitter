@@ -5,7 +5,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 import android.app.ListActivity;
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -14,7 +13,6 @@ import fr.joeybronner.freehandtwitter.util.AndroidNetworkUtility;
 
 public class ResultActivity extends ListActivity {
 
-	public ProgressDialog progress;
 	public String search, result_type;
 
 	@Override
@@ -31,12 +29,15 @@ public class ResultActivity extends ListActivity {
 			try {
 				new TwitterAsyncTask(this).execute(search,this).get(20000, TimeUnit.MILLISECONDS);
 			} catch (InterruptedException e) {
+				MainActivity.dialog.dismiss();
 				Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_interrupted), Toast.LENGTH_SHORT).show();
 				e.printStackTrace();
 			} catch (ExecutionException e) {
+				MainActivity.dialog.dismiss();
 				Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_execution), Toast.LENGTH_SHORT).show();
 				e.printStackTrace();
 			} catch (TimeoutException e) {
+				MainActivity.dialog.dismiss();
 				Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_timeout), Toast.LENGTH_SHORT).show();
 				e.printStackTrace();
 			};

@@ -5,6 +5,7 @@ import java.util.Locale;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -33,7 +34,8 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 	String[] spinnerValues, resultType;
 	int spinnerImages[] = { R.drawable.france, R.drawable.unitedk, R.drawable.spain, R.drawable.italy, R.drawable.german };
 	int resultsTypeImages[] = { R.drawable.popular, R.drawable.recent, R.drawable.mixed };
-
+	public static ProgressDialog dialog;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -77,9 +79,14 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 			public void onClick(View v) {
 				if (searchFieldIsValid(etSearch.getText().toString())) {
 					Intent intent = new Intent(MainActivity.this, ResultActivity.class);
-					intent.putExtra("search",etSearch.getText().toString());
+					intent.putExtra("search",etSearch.getText().toString().replaceAll("\\s+",""));
 					Constants.TWITTER_RESULT_TYPE = "&result_type=" + spinnerResultType.getSelectedItem().toString().toLowerCase();
-					Constants.TWITTER_USER_SEARCH = etSearch.getText().toString();
+					Constants.TWITTER_USER_SEARCH = etSearch.getText().toString().replaceAll("\\s+","");
+					dialog = new ProgressDialog(MainActivity.this, ProgressDialog.THEME_DEVICE_DEFAULT_DARK);
+					dialog.setIndeterminate(true);
+					dialog.setMessage(getResources().getString(R.string.loading_tweets));
+					dialog.setCancelable(false);
+					dialog.show();
 					startActivity(intent);
 				} else {
 					Toast.makeText(getApplicationContext(), getResources().getString(R.string.emptysearch), Toast.LENGTH_SHORT).show();

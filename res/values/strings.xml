@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Global -->
-    <string name="app_name">FH Twitter</string>
+    <string name="app_name">Free Hand Twitter</string>
     <string name="slogan">Get a timeline as a video.</string>
     <string name="nodescription"></string>
     <string name="loading_tweets">Loading tweets&#8230;</string>
@@ -18,7 +18,7 @@
     <!-- MainActivity -->
     <string name="ab_about">About</string>
     <string name="search">Search</string>
-    <string name="lookingfor">YourHashtagHere</string>
+    <string name="lookingfor">Your Hashtag Here</string>
 
     <!-- SettingsActivity -->
     <string name="speed_veryslow">Speed: Like a snail</string>
@@ -40,7 +40,7 @@
 
     <!-- MoreActivity -->
     <string name="developedby">Developed by Joey Bronner</string>
-    <string name="sourcesgithub">Code source is available on Github : http://github.com/joeybronner/FreeHandTwitter</string>
+    <string name="sourcesgithub">Source code is available on Github : http://github.com/joeybronner/FreeHandTwitter</string>
 
     <string-array name="reuslt_type">
         <item>Popular</item>
@@ -68,7 +68,6 @@
     <string name="error_execution">Execution error.</string>
     <string name="error_timeout">The request is abnormally long, please check your connection.</string>
     <string name="title_activity_more">MoreActivity</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_tweet_gallery">TweetGalleryActivity</string>
     <string name="title_activity_twitter_slider">TwitterSliderActivity</string>
