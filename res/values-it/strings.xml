@@ -5,7 +5,7 @@
     <string name="app_name">Free Hand Twitter</string>
     <string name="slogan">Ottenere una linea temporale come un video.</string>
     <string name="nodescription"></string>
-    <string name="loading_tweets">Caricamento dei tweets&#8230;</string>
+    <string name="loading_tweets">Caricamento dei tweet&#8230;</string>
 
     <!-- Colors -->
     <color name="blue">#59ABE3</color>
@@ -65,7 +65,7 @@
     <string name="error_noconnection">Per favore verifica la tua connessione internet.</string>
     <string name="error_loading_tweets">Errore durante il caricamento dei tweet. per favore verifica la tua connessione internet e riprova.</string>
     <string name="error_interrupted">Richiesta interrotta</string>
-    <string name="error_execution">Errore durante l'esecuzione della richiesta.</string>
+    <string name="error_execution">Errore durante l\u0027esecuzione della richiesta.</string>
     <string name="error_timeout">Il tempo di attesa per la richiesta è scaduto, per favore verifica la tua connessione internet.</string>
     <string name="title_activity_more">MoreActivity</string>
     <string name="action_settings">Impostazioni</string>

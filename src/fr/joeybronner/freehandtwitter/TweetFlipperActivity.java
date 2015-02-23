@@ -244,6 +244,7 @@ public class TweetFlipperActivity extends Activity {
 				if (i == Constants.twit.size()) {
 					i = 0;
 				}
+				i++;
 				tvTweet.setText(Constants.twit.get(i).toString());
 				tvArobase.setText("@" + Constants.twit.get(i).getTwitterUser().getScreenName());
 				tvName.setText(Constants.twit.get(i).getTwitterUser().getName());
@@ -252,7 +253,6 @@ public class TweetFlipperActivity extends Activity {
 				new ImageDownloader(ivUser).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
 				viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
 				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);
-				i++;
 			} catch (Exception e) { }
 		}
 	}; 
