@@ -67,6 +67,7 @@
     <string name="error_interrupted">Solicitud interrumpido.</string>
     <string name="error_execution">Error de ejecución.</string>
     <string name="error_timeout">La solicitud es anormalmente largo. Compruebe su conexión a Internet.</string>
+    <string name="title_activity_more">MoreActivity</string>
     <string name="action_settings">Ajustes</string>
     <string name="title_activity_tweet_gallery">TweetGalleryActivity</string>
     <string name="title_activity_twitter_slider">TwitterSliderActivity</string>

@@ -61,8 +61,8 @@
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
             android:layout_toRightOf="@id/ivHashtag"
-            android:ems="10"
             android:background="@null"
+            android:ems="10"
             android:hint="@string/lookingfor"
             android:inputType="text"
             android:maxWidth="200dp"
@@ -83,16 +83,16 @@
             android:maxWidth="200dp"
             android:textColor="@color/white"
             android:theme="@style/AppTheme" />
-
-        <Button
-            android:id="@+id/btSearch"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@id/spinnerResultType"
-            android:layout_centerHorizontal="true"
-            android:adjustViewBounds="true"
-            android:background="@drawable/next"
-            android:padding="10dp" />
     </RelativeLayout>
+
+    <Button
+        android:id="@+id/btSearch"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/next_material"
+        android:padding="10dp" />
 
 </RelativeLayout>

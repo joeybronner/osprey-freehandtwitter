@@ -29,6 +29,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
@@ -37,6 +38,8 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 public class TweetFlipperActivity extends Activity {
 
 	private ViewFlipper viewFlipper;
+	private ProgressBar progressBar;
+	boolean updatePB = true;
 	private static int SLIDER_TIMER; 
 	String search;
 	int i = 0;
@@ -45,9 +48,12 @@ public class TweetFlipperActivity extends Activity {
 	ImageView btPlayPause, ivUser, btTweetNext, btTweetBack, btShare;
 	TextView tvArobase, tvName, tvTweet;
 	View v;
+	float lastX;
 	Bitmap bm;
 	final BitmapFactory.Options options = new BitmapFactory.Options();
 	final Handler handler = new Handler();
+	int progressStatus = 0;
+	Thread progressBarThread;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +67,7 @@ public class TweetFlipperActivity extends Activity {
 			} else {
 				// Number of tweets loaded
 				//Toast.makeText(getApplicationContext(), Constants.twit.size() + " " + getResources().getString(R.string.loaded), Toast.LENGTH_SHORT).show();
-				
+
 				// Stay screen on
 				getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
@@ -98,8 +104,9 @@ public class TweetFlipperActivity extends Activity {
 				btTweetNext = (ImageView) findViewById(R.id.btTweetNext);
 				btTweetBack = (ImageView) findViewById(R.id.btTweetBack);
 				btShare = (ImageView) findViewById(R.id.btShare);
-				handler.postDelayed(r, 0);
-
+				progressBar = (ProgressBar) findViewById(R.id.ProgressBar);
+				progressBar.setMax(100);
+				progressStatus = 0;
 				btPlayPause.setOnClickListener(new OnClickListener() { 
 					@Override
 					public void onClick(View v) { 
@@ -115,6 +122,7 @@ public class TweetFlipperActivity extends Activity {
 							viewFlipper.startFlipping();
 						}
 						else {
+							updatePB = false;
 							if (isDark) {
 								bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
 							} else {
@@ -209,58 +217,115 @@ public class TweetFlipperActivity extends Activity {
 			Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_loading_tweets), Toast.LENGTH_SHORT).show();
 		}
 	}
-	
+
 	@Override
 	public void onSaveInstanceState(Bundle savedInstanceState) {
-	  super.onSaveInstanceState(savedInstanceState);
-	  savedInstanceState.putInt("loopState", i-2);
+		super.onSaveInstanceState(savedInstanceState);
+		savedInstanceState.putInt("loopState", i-2);
 	}
-	
+
 	@Override
 	public void onRestoreInstanceState(Bundle savedInstanceState) {
-	  super.onRestoreInstanceState(savedInstanceState);
-	  i = savedInstanceState.getInt("loopState");
+		super.onRestoreInstanceState(savedInstanceState);
+		i = savedInstanceState.getInt("loopState");
 	}
-	
+
 	@Override
 	protected void onPause() {
 		handler.removeCallbacks(r);
 		viewFlipper.stopFlipping();
 		super.onPause();
 	}
-	
+
 	@Override
 	protected void onResume() {
 		handler.postDelayed(r, 0);
 		viewFlipper.startFlipping();
 		super.onResume();
 	}
-	
+
 	final Runnable r = new Runnable() {
 		@Override
 		public void run() {
 			try {
-				handler.postDelayed(this, SLIDER_TIMER);
+				updatePB = true;
+				final long millis = System.currentTimeMillis();
 				if (i == Constants.twit.size()) {
 					i = 0;
 				}
-				i++;
 				tvTweet.setText(Constants.twit.get(i).toString());
 				tvArobase.setText("@" + Constants.twit.get(i).getTwitterUser().getScreenName());
 				tvName.setText(Constants.twit.get(i).getTwitterUser().getName());
 				setBackgroundColor();
 				setFontColor();
 				new ImageDownloader(ivUser).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
+				ivUser.setOnClickListener(new View.OnClickListener(){
+					public void onClick(View v) {
+						Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/" + Constants.twit.get(i).getTwitterUser().getName()));
+						startActivity(browserIntent);
+					}
+				});
 				viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
 				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);
-			} catch (Exception e) { }
+				progressBarThread = new Thread(new Runnable() {
+					public void run() {
+						while(progressStatus < 100 && updatePB==true) {
+							try {
+								Thread.sleep(50); 
+								progressStatus = doWork(millis);
+								System.out.println(progressStatus);
+								progressBar.setProgress(progressStatus);
+								progressBar.refreshDrawableState();
+							} catch (InterruptedException e) {
+								e.printStackTrace();
+							}
+						}
+						progressBar.setProgress(0);
+					}
+				});
+				progressBarThread.start(); 
+				handler.postDelayed(this, SLIDER_TIMER);
+			} catch (Exception e) {
+
+			} finally {
+				i++;
+				progressStatus = 0;
+			}
+
 		}
 	}; 
+
+	private int doWork(long millis) throws InterruptedException {
+		long diff = System.currentTimeMillis() - millis;
+		return (int) ((diff*100)/SLIDER_TIMER);
+	}
 
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
 	}
+
+	/*
+	public boolean onTouchEvent(MotionEvent touchevent) {
+		switch (touchevent.getAction()) {
+		case MotionEvent.ACTION_DOWN: 
+			lastX = touchevent.getX();
+			break;
+		case MotionEvent.ACTION_UP: 
+			float currentX = touchevent.getX();
+
+			// Handling left to right screen swap.
+			if (lastX < currentX) {
+
+			}
+			// Handling right to left screen swap.
+			if (lastX > currentX) {
+
+			}
+			break;
+		}
+		return false;
+	}*/
 
 	private Bitmap screenshot(View v) {
 		Bitmap bitmap;
