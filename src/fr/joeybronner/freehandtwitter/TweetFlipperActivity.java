@@ -266,14 +266,13 @@ public class TweetFlipperActivity extends Activity {
 					}
 				});
 				viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
-				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);
+				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);	
 				progressBarThread = new Thread(new Runnable() {
 					public void run() {
 						while(progressStatus < 100 && updatePB==true) {
 							try {
 								Thread.sleep(50); 
 								progressStatus = doWork(millis);
-								System.out.println(progressStatus);
 								progressBar.setProgress(progressStatus);
 								progressBar.refreshDrawableState();
 							} catch (InterruptedException e) {
