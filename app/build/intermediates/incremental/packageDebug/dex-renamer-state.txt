@@ -1,0 +1,7 @@
+#Sat Jun 04 19:59:26 CEST 2016
+base.0=/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_63cb6c36a4f13d2c94589f6d81ea5f08f01e3cd8
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f8a98914eed2797c181c56890b7a8ec90ab44513/classes.dex
+base.1=/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f8a98914eed2797c181c56890b7a8ec90ab44513
+file.0=/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_63cb6c36a4f13d2c94589f6d81ea5f08f01e3cd8/classes.dex

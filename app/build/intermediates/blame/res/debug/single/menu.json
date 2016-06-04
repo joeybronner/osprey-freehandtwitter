@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/tweet_flipper.xml",
+        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/menu/tweet_flipper.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/tweet_gallery.xml",
+        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/menu/tweet_gallery.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/loading.xml",
+        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/menu/loading.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/settings.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/menu/settings.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/twitter_slider.xml",
+        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/menu/twitter_slider.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/more.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/menu/more.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/twitter_slider.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/menu/twitter_slider.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/settings.xml",
+        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/menu/settings.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/tweet_gallery.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/menu/tweet_gallery.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/loading.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/menu/loading.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/tweet_flipper.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/menu/tweet_flipper.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/more.xml",
+        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/menu/more.xml"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/menu/main.xml"
+    }
+]

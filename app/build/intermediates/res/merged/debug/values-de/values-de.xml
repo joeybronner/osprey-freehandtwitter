@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>Französisch</item>
+        <item>Englisch</item>
+        <item>Spanisch</item>
+        <item>Italienisch</item>
+        <item>Deutsch</item>
+    </string-array>
+    <string-array name="reuslt_type">
+        <item>Beliebt</item>
+        <item>Kürzlich</item>
+        <item>Gemischt</item>
+    </string-array>
+    <color name="blue">#59ABE3</color>
+    <color name="darkblue">#4183D7</color>
+    <color name="darkgray">#5A5A5A</color>
+    <color name="gray">#bdc3c7</color>
+    <color name="lightblue">#BCD3E3</color>
+    <color name="white">#FFFFFF</color>
+    <string name="ab_about">über</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="app_name">Free Hand Twitter</string>
+    <string name="developedby">Entwickelt von Joey Bronner</string>
+    <string name="emptysearch">Bitte füllen Sie das Suchfeld.</string>
+    <string name="error_execution">EExecution Error.</string>
+    <string name="error_interrupted">Unterbrochen anfordern.</string>
+    <string name="error_loading_tweets">Fehler beim Laden der Tweets. Bitte überprüfen Sie Ihre Internetverbindung.</string>
+    <string name="error_noconnection">Bitte überprüfen Sie Ihre Internetverbindung</string>
+    <string name="error_noresults">Keine Ergebnisse gefunden für</string>
+    <string name="error_timeout">Ungewöhnlich lange Verbindungs, Bitte überprüfen Sie Ihre Internetverbindung.</string>
+    <string name="error_unable_share">Kann teilen</string>
+    <string name="language">Tweets Sprache</string>
+    <string name="loaded">tweets im Speicher.</string>
+    <string name="loading_tweets">Suchen tweets…</string>
+    <string name="lookingfor">Dein Hashtag Hier</string>
+    <string name="name">My name</string>
+    <string name="nodescription"/>
+    <string name="ok">Ok,</string>
+    <string name="screen_name">\@screen_name</string>
+    <string name="search">Suche</string>
+    <string name="selected">konfiguriert.</string>
+    <string name="share_tweet">Teilen Sie diese tweet</string>
+    <string name="slogan">Holen Sie sich Ihre Timeline als Video.</string>
+    <string name="sourcesgithub">Code source verfügbar auf Github : http://github.com/joeybronner/FreeHandTwitter</string>
+    <string name="speed_fast">Geschwindigkeit: Schnell</string>
+    <string name="speed_normal">Geschwindigkeit: Normal</string>
+    <string name="speed_slow">Geschwindigkeit: Langsam</string>
+    <string name="speed_veryfast">Geschwindigkeit: Sehr schnell</string>
+    <string name="speed_veryslow">Geschwindigkeit: Sehr langsam</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="title_activity_more">MoreActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_tweet_flipper">TweetFlipperActivity</string>
+    <string name="title_activity_tweet_gallery">TweetGalleryActivity</string>
+    <string name="title_activity_twitter_slider">TwitterSliderActivity</string>
+    <string name="tweet_exemple">Les couleurs d antan sont enfin revenues. Comme des abeilles sur les ondes au large de la chose. Dépouillées de toute prétention résiduelle.</string>
+</resources>
