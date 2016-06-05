@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="23"
+    api-level="21"
     density="xxhdpi"
     format="7"
-    timestamp="22892353029486"
-    token="5787169542799320622" >
+    timestamp="54189730576417"
+    token="-1571042690958580167" >
 
     <task
         name="javac"
-        duration="30193" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="4418" />
+        duration="0" />
     <task
         name="verifier"
-        duration="88" />
+        duration="0" />
 
-    <artifact
-        location="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="22892353029486" >
+    <build timestamp="53431836545868" >
         <artifact
-            location="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
+            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
+    <build timestamp="54087065031757" >
+        <artifact
+            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="54169082862060" >
+        <artifact
+            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="54189730576417" />
 
 </instant-run>

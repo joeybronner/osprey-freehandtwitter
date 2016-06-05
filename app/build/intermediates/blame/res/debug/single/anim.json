@@ -1,13 +1,5 @@
 [
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/anim/slide_out_to_left.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/anim/slide_out_to_left.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/anim/slide_in_from_left.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/anim/slide_in_from_left.xml"
-    },
-    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/anim/slide_in_from_left.xml",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/anim/slide_in_from_left.xml"
     },
@@ -18,14 +10,6 @@
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/anim/slide_in_from_right.xml",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/anim/slide_in_from_right.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/anim/slide_out_to_right.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/anim/slide_out_to_right.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/anim/slide_in_from_right.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/anim/slide_in_from_right.xml"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/anim/slide_out_to_left.xml",

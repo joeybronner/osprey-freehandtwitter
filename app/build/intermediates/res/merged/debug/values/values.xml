@@ -35,7 +35,7 @@
     <string name="language">Tweets language</string>
     <string name="loaded">tweets loaded.</string>
     <string name="loading_tweets">Loading tweets…</string>
-    <string name="lookingfor">Your Hashtag Here</string>
+    <string name="lookingfor">Hashtag goes here</string>
     <string name="name">My Name</string>
     <string name="nodescription"/>
     <string name="ok">Okay,</string>

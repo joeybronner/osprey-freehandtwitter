@@ -51,19 +51,11 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 		spinnerValues = getResources().getStringArray(R.array.countries);
 		resultType = getResources().getStringArray(R.array.reuslt_type);
 
-		spinnerResultType = (Spinner) findViewById(R.id.spinnerResultType); 
-		spinnerResultType.setAdapter(new MyResultTypes(this, R.layout.custom_spinner_resulttype, resultType));
+		//spinnerResultType = (Spinner) findViewById(R.id.spinnerResultType);
+		//spinnerResultType.setAdapter(new MyResultTypes(this, R.layout.custom_spinner_resulttype, resultType));
 		selectionOfMixedByDefault();
 
 		final EditText etSearch = (EditText) findViewById(R.id.etSearch);
-
-		btMore = (Button) findViewById(R.id.btMore);
-		btMore.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				showMoreActivity();
-			}
-		});
 
 		btSettings = (Button) findViewById(R.id.btSettings);
 		btSettings.setOnClickListener(new View.OnClickListener() {
@@ -72,6 +64,14 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 				showSettingsActivity();
 			}
 		});
+
+		//btSettings = (Button) findViewById(R.id.btSettings);
+		/*btSettings.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				showSettingsActivity();
+			}
+		});*/
 
 		btSearch = (Button) findViewById(R.id.btSearch);
 		btSearch.setOnClickListener(new View.OnClickListener() {
@@ -238,15 +238,16 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 
 		@Override public View getView(int pos, View cnvtView, ViewGroup prnt) { 
 			return getCustomView(pos, cnvtView, prnt); 
-		} 
+		}
 
 		public View getCustomView(int position, View convertView, ViewGroup parent) { 
 			LayoutInflater inflater = getLayoutInflater(); 
 			View mySpinner = inflater.inflate(R.layout.custom_spinner_resulttype, parent, false); 
 			TextView main_text = (TextView) mySpinner .findViewById(R.id.text_main_seen); 
 			main_text.setText(resultType[position]); 
-			ImageView left_icon = (ImageView) mySpinner .findViewById(R.id.left_pic); 
-			left_icon.setImageResource(resultsTypeImages[position]); return mySpinner; 
+			ImageView left_icon = (ImageView) mySpinner .findViewById(R.id.left_pic);
+			left_icon.setImageResource(resultsTypeImages[position]);
+			return mySpinner;
 		} 
 	}
 }

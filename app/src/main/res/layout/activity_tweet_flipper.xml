@@ -8,17 +8,6 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
 
-        <ProgressBar
-            android:id="@+id/ProgressBar"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:indeterminate="false"
-            android:maxHeight="5dip"
-            android:minHeight="5dip"
-            android:progress="0"
-            android:progressDrawable="@drawable/myprogress" />
-
         <ImageView
             android:id="@+id/btShare"
             android:layout_width="50dp"
@@ -118,6 +107,18 @@
                 android:contentDescription="@string/nodescription"
                 android:src="@drawable/tweetnext_dark" />
         </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/ProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:maxHeight="5dip"
+            android:minHeight="5dip"
+            android:progress="0"
+            android:progressDrawable="@drawable/myprogress" />
+
     </RelativeLayout>
 
 </LinearLayout>

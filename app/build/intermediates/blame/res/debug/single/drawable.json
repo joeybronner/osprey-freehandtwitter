@@ -1,175 +1,19 @@
 [
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/load.gif",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/load.gif"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_progressfill.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/seekbar_progressfill.xml"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/mixed.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/mixed.png"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/share.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/share.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/popular.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/popular.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetback.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/tweetback.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetplay_dark.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetplay_dark.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/fht.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/fht.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_progress.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/seekbar_progress.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/settings.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/settings.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/fht.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/fht.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/hashtag.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/hashtag.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/german.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/german.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_backgroundfill.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/seekbar_backgroundfill.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/france.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/france.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/recent.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/recent.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/twitter.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/twitter.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetplay.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/tweetplay.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/italy.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/italy.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetnext_dark.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetnext_dark.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/unitedk.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/unitedk.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/spain.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/spain.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetback_dark.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetback_dark.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/nouserpicture.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/nouserpicture.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/github.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/github.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetplay_dark.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/tweetplay_dark.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_progressfill.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/seekbar_progressfill.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/hashtag.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/hashtag.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/joeybronner.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/joeybronner.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetnext.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/tweetnext.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetpause_dark.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/tweetpause_dark.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/recent.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/recent.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_thumb.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/seekbar_thumb.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/edittext_colors.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/edittext_colors.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/german.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/german.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/share_dark.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/share_dark.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/myprogress.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/myprogress.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_thumb.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/seekbar_thumb.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/nouserpicture.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/nouserpicture.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/edittext_colors.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/edittext_colors.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_progressfill.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/seekbar_progressfill.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/share.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/share.png"
-    },
-    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/popular.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/popular.png"
     },
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/mixed.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/mixed.png"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/share.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/share.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetplay.png",
@@ -184,52 +28,44 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/myprogress.xml"
     },
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetpause.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/tweetpause.png"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetplay_dark.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetplay_dark.png"
     },
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/spain.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/spain.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/unitedk.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/unitedk.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_backgroundfill.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/seekbar_backgroundfill.xml"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/twitter.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/twitter.png"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/german.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/german.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/italy.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/italy.png"
     },
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetback_dark.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/tweetback_dark.png"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_backgroundfill.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/seekbar_backgroundfill.xml"
     },
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/bg_card.xml",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/bg_card.xml"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/search_material.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/search_material.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/recent.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/recent.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/search.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/search.png"
     },
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetnext_dark.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/tweetnext_dark.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/next_material.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/next_material.png"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/twitter.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/twitter.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetnext.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetnext.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetnext_dark.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetnext_dark.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetback.png",
@@ -240,28 +76,36 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/seekbar_progress.xml"
     },
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/more.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/more.png"
-    },
-    {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/next_material.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/next_material.png"
-    },
-    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/github.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/github.png"
     },
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/joeybronner.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/joeybronner.png"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/unitedk.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/unitedk.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/next.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/next.png"
     },
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/next.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/next.png"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/spain.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/spain.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetback_dark.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetback_dark.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/osprey.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/osprey.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/nouserpicture.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/nouserpicture.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/joeybronner.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/joeybronner.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetpause_dark.png",
@@ -276,12 +120,12 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/bg_card.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/more.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/more.png"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/edittext_colors.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/edittext_colors.xml"
     },
     {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/search.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable/search.png"
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/more.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/more.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetpause.png",
@@ -294,5 +138,13 @@
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/load.gif",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/load.gif"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/hashtag_grey.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/hashtag_grey.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_thumb.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/seekbar_thumb.xml"
     }
 ]

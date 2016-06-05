@@ -1,0 +1,2 @@
+CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/MainActivity$override.class
+CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

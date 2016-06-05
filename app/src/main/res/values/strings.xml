@@ -18,7 +18,7 @@
     <!-- MainActivity -->
     <string name="ab_about">About</string>
     <string name="search">Search</string>
-    <string name="lookingfor">Your Hashtag Here</string>
+    <string name="lookingfor">Hashtag goes here</string>
 
     <!-- SettingsActivity -->
     <string name="speed_veryslow">Speed: Like a snail</string>

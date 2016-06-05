@@ -2,9 +2,5 @@
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
-        "source": "/Users/joeybronner/StudioProjects/FreeHandTwitter/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     }
 ]

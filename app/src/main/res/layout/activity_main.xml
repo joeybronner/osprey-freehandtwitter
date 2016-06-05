@@ -2,26 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
+    xmlns:andoird="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="fr.joeybronner.freehandtwitter.MainActivity" >
+    tools:context="fr.joeybronner.freehandtwitter.MainActivity">
 
     <Button
         android:id="@+id/btSettings"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:adjustViewBounds="true"
-        android:background="@drawable/settings" />
-
-    <Button
-        android:id="@+id/btMore"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:adjustViewBounds="true"
@@ -38,7 +30,7 @@
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:contentDescription="@string/search"
-            android:src="@drawable/fht" />
+            android:src="@drawable/osprey" />
 
         <ImageView
             android:id="@+id/ivHashtag"
@@ -49,7 +41,7 @@
             android:layout_below="@id/ivSearch"
             android:layout_marginLeft="20dp"
             android:contentDescription="@string/search"
-            android:src="@drawable/hashtag" />
+            android:src="@drawable/hashtag_grey" />
 
         <EditText
             android:id="@+id/etSearch"
@@ -69,7 +61,7 @@
             android:textColor="@color/white"
             android:textColorHint="@color/lightblue" />
 
-        <Spinner
+        <!--<Spinner
             android:id="@+id/spinnerResultType"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,7 +74,7 @@
             android:entries="@array/reuslt_type"
             android:maxWidth="200dp"
             android:textColor="@color/white"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme" />-->
     </RelativeLayout>
 
     <Button
@@ -90,9 +82,9 @@
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
         android:adjustViewBounds="true"
-        android:background="@drawable/next_material"
+        android:background="@drawable/search_material"
         android:padding="10dp" />
 
 </RelativeLayout>

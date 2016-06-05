@@ -3,57 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.3"
-        sha1="98784fb20f21b6fd6ab4f893f7b0b3773b8f92c2">
-        <dex dex="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_63cb6c36a4f13d2c94589f6d81ea5f08f01e3cd8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/libs/androidasync-2.0.6.jar"
+        jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/libs/androidasync-2.0.6.jar"
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
         sha1="3c7c00692fbef12f4be7dd2eba79504a7af53767">
-        <dex dex="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/2/androidasync-2.0.6_46916025d054c6702464c3f5ee2af61082c9c8cf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.3"
-        sha1="a189c43ed682911ba72bc91553787927bdade546">
-        <dex dex="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f8a98914eed2797c181c56890b7a8ec90ab44513/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_dd0502f2fe1351237269c51c490d51437470e225/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/libs/ion-2.0.6.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.3"
-        sha1="3b5482a31054611c62f171e4c1e7f729bbb7818c">
-        <dex dex="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/2/ion-2.0.6_1db684be6ac7b987a71c434223e10e90a47578c0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_3925fd4b629c7733a5fc766ec3cf121a003b940c/classes.dex" />
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/2/androidasync-2.0.6_8657be074a5cfc9934be47c03e163207fcf9074d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -62,7 +17,43 @@
         optimize="false"
         revision="23.0.3"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_5848ef46d0cd5f8fb37a9213d29be4a755625db6/classes.dex" />
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_5848ef46d0cd5f8fb37a9213d29be4a755625db6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/libs/ion-2.0.6.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="3b5482a31054611c62f171e4c1e7f729bbb7818c">
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/2/ion-2.0.6_ed296064abb3c0354643b158f0e6c83d9e5e8f6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="8d880c475e19894f12ad77167aa982b83614f97b">
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7be550780ea6d85678b7689c5bdf843e53b49582/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_3619248fe5c9d94dea2c86fd1e7d05b4a140e7f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="4841d262154f81fd481df3cea5268fb850c992be">
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_59f6a0e624c848b14ec59425f783b74daf7e8a78/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -71,7 +62,16 @@
         optimize="false"
         revision="23.0.3"
         sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="/Users/joeybronner/StudioProjects/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.4_5165a765aa1a33d8645a3c5052956ace20dba474/classes.dex" />
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.4_5165a765aa1a33d8645a3c5052956ace20dba474/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_25a8ece33f0881922674dcb6b698556f399d61bc/classes.dex" />
     </item>
 
 </items>
