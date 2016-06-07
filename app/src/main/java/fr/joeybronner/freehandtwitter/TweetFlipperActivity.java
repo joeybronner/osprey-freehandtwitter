@@ -46,7 +46,7 @@ public class TweetFlipperActivity extends Activity {
 	boolean isPaused = false;
 	boolean isDark;
 	ImageView btPlayPause, ivUser, btTweetNext, btTweetBack, btShare;
-	TextView tvArobase, tvName, tvTweet;
+	TextView tvArobase, tvName, tvTweet, tvHashtag;
 	View v;
 	float lastX;
 	Bitmap bm;
@@ -95,6 +95,9 @@ public class TweetFlipperActivity extends Activity {
 				viewFlipper.startFlipping();
 				tvTweet = (TextView) findViewById(R.id.tvTweetContent);
 				tvTweet.setTypeface(Constants.tf);
+				tvHashtag = (TextView) findViewById(R.id.hashtag);
+				tvHashtag.setTypeface(Constants.tf);
+				tvHashtag.setText("#" + Constants.TWITTER_USER_SEARCH);
 				tvArobase = (TextView) findViewById(R.id.textView1);
 				tvArobase.setTypeface(Constants.tf);
 				tvName = (TextView) findViewById(R.id.tvName);
@@ -111,11 +114,12 @@ public class TweetFlipperActivity extends Activity {
 					@Override
 					public void onClick(View v) { 
 						if(isPaused) {
-							if (isDark) {
+							/*if (isDark) {
 								bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetpause),800, 800, true);
 							} else {
 								bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetpause_dark),800, 800, true);
-							}
+							}*/
+							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.pause_material),800, 800, true);
 							btPlayPause.setImageBitmap(bm);
 							isPaused = false;
 							handler.postDelayed(r, 0);
@@ -123,11 +127,12 @@ public class TweetFlipperActivity extends Activity {
 						}
 						else {
 							updatePB = false;
-							if (isDark) {
+							/*if (isDark) {
 								bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
 							} else {
 								bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay_dark),800, 800, true);
-							}
+							}*/
+							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.play_material),800, 800, true);
 							btPlayPause.setImageBitmap(bm);
 							isPaused = true;
 							handler.removeCallbacks(r);
@@ -143,11 +148,12 @@ public class TweetFlipperActivity extends Activity {
 						viewFlipper.stopFlipping();
 						handler.postDelayed(r, 0);
 						viewFlipper.startFlipping();
-						if (isDark) {
+						/*if (isDark) {
 							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
 						} else {
 							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay_dark),800, 800, true);
-						}
+						}*/
+						bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.next_material),800, 800, true);
 						btPlayPause.setImageBitmap(bm);
 						isPaused = false;
 					}
@@ -163,11 +169,12 @@ public class TweetFlipperActivity extends Activity {
 						viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_right);
 						handler.postDelayed(r, 0);
 						viewFlipper.startFlipping();
-						if (isDark) {
+						/*if (isDark) {
 							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
 						} else {
 							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay_dark),800, 800, true);
-						}
+						}*/
+						bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.previous_material),800, 800, true);
 						btPlayPause.setImageBitmap(bm);
 						isPaused = false;
 					}
@@ -256,7 +263,7 @@ public class TweetFlipperActivity extends Activity {
 				tvTweet.setText(Constants.twit.get(i).toString());
 				tvArobase.setText("@" + Constants.twit.get(i).getTwitterUser().getScreenName());
 				tvName.setText(Constants.twit.get(i).getTwitterUser().getName());
-				setBackgroundColor();
+				//setBackgroundColor();
 				setFontColor();
 				new ImageDownloader(ivUser).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
 				ivUser.setOnClickListener(new View.OnClickListener(){
@@ -381,25 +388,25 @@ public class TweetFlipperActivity extends Activity {
 		options.inJustDecodeBounds = false;
 		options.inPreferredConfig = Config.RGB_565;
 		options.inDither = true;
-		if (lum > 150)
-		{
+		//if (lum > 150)
+		//{
 			isDark = false;
 			tvArobase.setTextColor(getResources().getColor(R.color.darkgray));
 			tvTweet.setTextColor(getResources().getColor(R.color.darkgray));
 			tvName.setTextColor(getResources().getColor(R.color.darkgray));
 			if (isPaused) {
-				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay_dark),800, 800, true);
+				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.play_material),800, 800, true);
 			} else {
-				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetpause_dark),800, 800, true);
+				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.pause_material),800, 800, true);
 			}
 			btPlayPause.setImageBitmap(bm);
-			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetnext_dark),800, 800, true);
+			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.next_material),800, 800, true);
 			btTweetNext.setImageBitmap(bm);
-			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetback_dark),800, 800, true);
+			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.previous_material),800, 800, true);
 			btTweetBack.setImageBitmap(bm);
 			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.share_dark),800, 800, true);
 			btShare.setImageBitmap(bm);
-		}
+		/*}
 		else
 		{	
 			isDark = true;
@@ -418,7 +425,7 @@ public class TweetFlipperActivity extends Activity {
 			btTweetBack.setImageBitmap(bm);
 			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.share),800, 800, true);
 			btShare.setImageBitmap(bm);
-		}
+		}*/
 	}
 
 	public static int getBrightness(int argb)

@@ -58,7 +58,7 @@
             android:hint="@string/lookingfor"
             android:inputType="text"
             android:maxWidth="200dp"
-            android:textColor="@color/white"
+            android:textColor="@color/blue"
             android:textColorHint="@color/lightblue" />
 
         <!--<Spinner

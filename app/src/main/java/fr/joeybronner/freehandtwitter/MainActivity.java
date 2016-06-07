@@ -80,7 +80,7 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 				if (searchFieldIsValid(etSearch.getText().toString())) {
 					Intent intent = new Intent(MainActivity.this, ResultActivity.class);
 					intent.putExtra("search",etSearch.getText().toString().replaceAll("\\s+",""));
-					Constants.TWITTER_RESULT_TYPE = "&result_type=" + spinnerResultType.getSelectedItem().toString().toLowerCase();
+					Constants.TWITTER_RESULT_TYPE = "&result_type=fr";
 					Constants.TWITTER_USER_SEARCH = etSearch.getText().toString().replaceAll("\\s+","");
 					dialog = new ProgressDialog(MainActivity.this, ProgressDialog.THEME_DEVICE_DEFAULT_DARK);
 					dialog.setIndeterminate(true);
