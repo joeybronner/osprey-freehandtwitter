@@ -1,2 +1,7 @@
 bin
 gen
+build/
+*.class
+/app/build/
+app/build/
+/app/build/*
