@@ -1,5 +1,9 @@
-CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/ImageDownloader$override.class
+CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/R$id$override.class
+CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/MainActivity$MyResultTypes$override.class
+CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/MainActivity$MyAdapter$override.class
 CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/R$string$override.class
+CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/R$style$override.class
 CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/TweetFlipperActivity$override.class
-CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5$override.class
-CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5$2$override.class
+CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/R$menu$override.class
+CHANGED,/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/fr/joeybronner/freehandtwitter/R$layout$override.class

@@ -26,8 +26,9 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
+                android:layout_marginTop="50dp"
                 android:orientation="vertical" >
+
 
                 <TextView
                     android:id="@+id/hashtag"
@@ -35,15 +36,12 @@
                     android:layout_height="120px"
                     android:text="#Hashtag"
                     android:textSize="30sp"
-                    android:gravity="center"
-                    android:textAlignment="center"/>
+                    android:layout_alignParentTop="true" />
 
                 <fr.joeybronner.freehandtwitter.util.RoundedImageView
                     android:id="@+id/ivUser"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:layout_below="@+id/hashtag"
-                    android:layout_centerHorizontal="true"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_marginTop="15sp"
                     android:clickable="true"
                     android:contentDescription="@string/nodescription"
@@ -53,37 +51,36 @@
                     android:id="@+id/tvName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/ivUser"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
                     android:gravity="center"
                     android:text="@string/name"
-                    android:textSize="22sp"
-                    android:textStyle="bold" />
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_alignTop="@+id/ivUser"
+                    android:layout_toRightOf="@+id/ivUser"
+                    android:layout_toEndOf="@+id/ivUser" />
 
                 <TextView
                     android:id="@+id/textView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/tvName"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="0dp"
                     android:gravity="center"
                     android:text="@string/screen_name"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:layout_alignTop="@+id/tvName"
+                    android:layout_toRightOf="@+id/tvName"
+                    android:layout_toEndOf="@+id/tvName" />
 
                 <TextView
                     android:id="@+id/tvTweetContent"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:layout_below="@+id/textView1"
-                    android:layout_marginLeft="30sp"
-                    android:layout_marginRight="30sp"
-                    android:layout_marginTop="30sp"
                     android:autoLink="web"
-                    android:gravity="center"
                     android:text="@string/tweet_exemple"
-                    android:textSize="26sp" />
+                    android:textSize="12sp"
+                    android:layout_below="@+id/tvName"
+                    android:layout_toRightOf="@+id/ivUser"
+                    android:layout_toEndOf="@+id/ivUser"
+                    android:layout_alignBottom="@+id/ivUser" />
             </RelativeLayout>
         </ViewFlipper>
 

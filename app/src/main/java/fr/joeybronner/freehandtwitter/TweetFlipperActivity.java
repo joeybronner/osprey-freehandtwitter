@@ -261,7 +261,7 @@ public class TweetFlipperActivity extends Activity {
 					i = 0;
 				}
 				tvTweet.setText(Constants.twit.get(i).toString());
-				tvArobase.setText("@" + Constants.twit.get(i).getTwitterUser().getScreenName());
+				tvArobase.setText(String.valueOf(i) + "/" + Constants.twit.size() + " @" + Constants.twit.get(i).getTwitterUser().getScreenName());
 				tvName.setText(Constants.twit.get(i).getTwitterUser().getName());
 				//setBackgroundColor();
 				setFontColor();
