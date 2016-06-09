@@ -32,12 +32,12 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetplay_dark.png"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/italy.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/italy.png"
-    },
-    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/german.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/german.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/italy.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/italy.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/pause_material.png",

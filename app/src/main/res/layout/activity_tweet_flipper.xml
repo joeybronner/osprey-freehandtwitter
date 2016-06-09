@@ -29,15 +29,6 @@
                 android:layout_marginTop="50dp"
                 android:orientation="vertical" >
 
-
-                <TextView
-                    android:id="@+id/hashtag"
-                    android:layout_width="match_parent"
-                    android:layout_height="120px"
-                    android:text="#Hashtag"
-                    android:textSize="30sp"
-                    android:layout_alignParentTop="true" />
-
                 <fr.joeybronner.freehandtwitter.util.RoundedImageView
                     android:id="@+id/ivUser"
                     android:layout_width="35dp"
@@ -128,6 +119,15 @@
             android:progress="0"
             android:layout_alignParentBottom="true"
             android:progressDrawable="@drawable/myprogress" />
+
+        <TextView
+            android:id="@+id/hashtag"
+            android:layout_width="match_parent"
+            android:layout_height="120px"
+            android:text="#Hashtag"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_alignParentTop="true" />
 
     </RelativeLayout>
 

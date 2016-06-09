@@ -77,36 +77,36 @@ public final class R {
         public static final int unitedk=0x7f020029;
     }
     public static final class id {
-        public static final int ProgressBar=0x7f0b001b;
+        public static final int ProgressBar=0x7f0b001a;
         public static final int action_settings=0x7f0b001f;
         public static final int btSearch=0x7f0b0007;
         public static final int btSettings=0x7f0b0003;
         public static final int btShare=0x7f0b0011;
-        public static final int btTweetBack=0x7f0b0018;
-        public static final int btTweetNext=0x7f0b001a;
-        public static final int btTweetPlayPause=0x7f0b0019;
+        public static final int btTweetBack=0x7f0b0017;
+        public static final int btTweetNext=0x7f0b0019;
+        public static final int btTweetPlayPause=0x7f0b0018;
         public static final int container=0x7f0b0000;
         public static final int etSearch=0x7f0b0006;
-        public static final int hashtag=0x7f0b0013;
+        public static final int hashtag=0x7f0b001b;
         public static final int ivDevelopedBy=0x7f0b0008;
         public static final int ivGif=0x7f0b0001;
         public static final int ivHashtag=0x7f0b0005;
         public static final int ivSearch=0x7f0b0004;
         public static final int ivSourcesGithub=0x7f0b000a;
-        public static final int ivUser=0x7f0b0014;
+        public static final int ivUser=0x7f0b0013;
         public static final int left_pic=0x7f0b001d;
         public static final int listTextView=0x7f0b000c;
         public static final int sbScrollSpeed=0x7f0b000e;
         public static final int spinnerCountry=0x7f0b0010;
-        public static final int textView1=0x7f0b0016;
+        public static final int textView1=0x7f0b0015;
         public static final int text_main_seen=0x7f0b001e;
         public static final int tvDevelopedBy=0x7f0b0009;
         public static final int tvLanguage=0x7f0b000f;
         public static final int tvLoad=0x7f0b0002;
-        public static final int tvName=0x7f0b0015;
+        public static final int tvName=0x7f0b0014;
         public static final int tvScrollSpeed=0x7f0b000d;
         public static final int tvSourcesGithub=0x7f0b000b;
-        public static final int tvTweetContent=0x7f0b0017;
+        public static final int tvTweetContent=0x7f0b0016;
         public static final int tweetLayout=0x7f0b001c;
         public static final int viewflipper=0x7f0b0012;
     }

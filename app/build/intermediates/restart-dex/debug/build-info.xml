@@ -4,12 +4,12 @@
     api-level="21"
     density="xxhdpi"
     format="7"
-    timestamp="8538083644179"
+    timestamp="19300822616521"
     token="-1571042690958580167" >
 
     <task
         name="javac"
-        duration="658" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -24,22 +24,29 @@
         location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="6076403833647" >
+    <build timestamp="19034547332208" >
         <artifact
             location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="8538083644179" >
-        <artifact
-            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
     <build
-        timestamp="75832442551024"
-        verifier="METHOD_DELETED" >
+        timestamp="19128417746570"
+        verifier="FIELD_REMOVED" >
         <artifact
             location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="19223083608143"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/builds/debug/19223083608143/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="19300822616521" >
+        <artifact
+            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
