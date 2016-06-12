@@ -4,27 +4,27 @@
     api-level="24"
     density="420dpi"
     format="7"
-    timestamp="42173666720031"
+    timestamp="47319593123475"
     token="-1571042690958580167" >
 
     <task
         name="javac"
-        duration="534" />
+        duration="384" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="97" />
+        duration="200" />
     <task
         name="verifier"
-        duration="7" />
+        duration="35" />
 
     <artifact
         location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="42173666720031" >
+    <build timestamp="47319593123475" >
         <artifact
             location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

@@ -28,7 +28,10 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -45,8 +48,8 @@ public class TweetFlipperActivity extends Activity {
 	int i = 0;
 	boolean isPaused = false;
 	boolean isDark;
-	ImageView btPlayPause, ivUser1, ivUser2, btTweetNext, btTweetBack, btShare;
-	TextView tvArobase1, tvName1, tvTweet1, tvArobase2, tvName2, tvTweet2, tvHashtag;
+	ImageView btPlayPause, ivUser1, ivUser2, ivUser3, btTweetNext, btTweetBack, btShare;
+	TextView tvArobase1, tvName1, tvTweet1, tvArobase2, tvName2, tvTweet2, tvArobase3, tvName3, tvTweet3, tvHashtag;
 	View v;
 	float lastX;
 	Bitmap bm;
@@ -114,6 +117,15 @@ public class TweetFlipperActivity extends Activity {
 				tvArobase2.setTypeface(Constants.tf);
 				tvTweet2 = (TextView) findViewById(R.id.tvTweetContent2);
 				tvTweet2.setTypeface(Constants.tf);
+
+				// Third card
+				ivUser3 = (ImageView) findViewById(R.id.ivUser3);
+				tvName3 = (TextView) findViewById(R.id.tvName3);
+				tvName3.setTypeface(Constants.tf);
+				tvArobase3 = (TextView) findViewById(R.id.tvArobase3);
+				tvArobase3.setTypeface(Constants.tf);
+				tvTweet3 = (TextView) findViewById(R.id.tvTweetContent3);
+				tvTweet3.setTypeface(Constants.tf);
 
 
 				btPlayPause = (ImageView) findViewById(R.id.btTweetPlayPause);
@@ -270,9 +282,9 @@ public class TweetFlipperActivity extends Activity {
 			try {
 				updatePB = true;
 				final long millis = System.currentTimeMillis();
-				if (i == Constants.twit.size()) {
-					i = 0;
-				}
+				i = i+2 >= Constants.twit.size() ? i = 0 : i+2;
+
+				// Card 1
 				tvTweet1.setText(Constants.twit.get(i).toString());
 				tvArobase1.setText(" " +
 						"@" + Constants.twit.get(i).getTwitterUser().getScreenName());
@@ -285,6 +297,35 @@ public class TweetFlipperActivity extends Activity {
 						startActivity(browserIntent);
 					}
 				});
+
+				// Card 2
+				tvTweet2.setText(Constants.twit.get(i+1).toString());
+				tvArobase2.setText(" " +
+						"@" + Constants.twit.get(i+1).getTwitterUser().getScreenName());
+				tvName2.setText(Constants.twit.get(i+1).getTwitterUser().getName());
+				setFontColor();
+				new ImageDownloader(ivUser2).execute(Constants.twit.get(i+1).getTwitterUser().getProfileImageUrl());
+				ivUser2.setOnClickListener(new View.OnClickListener(){
+					public void onClick(View v) {
+						Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/" + Constants.twit.get(i+1).getTwitterUser().getName()));
+						startActivity(browserIntent);
+					}
+				});
+
+				// Card 3
+				tvTweet3.setText(Constants.twit.get(i+2).toString());
+				tvArobase3.setText(" " +
+						"@" + Constants.twit.get(i+2).getTwitterUser().getScreenName());
+				tvName3.setText(Constants.twit.get(i+2).getTwitterUser().getName());
+				setFontColor();
+				new ImageDownloader(ivUser3).execute(Constants.twit.get(i+2).getTwitterUser().getProfileImageUrl());
+				ivUser3.setOnClickListener(new View.OnClickListener(){
+					public void onClick(View v) {
+						Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/" + Constants.twit.get(i+2).getTwitterUser().getName()));
+						startActivity(browserIntent);
+					}
+				});
+
 				viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
 				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);	
 				progressBarThread = new Thread(new Runnable() {
@@ -295,6 +336,9 @@ public class TweetFlipperActivity extends Activity {
 								progressStatus = doWork(millis);
 								progressBar.setProgress(progressStatus);
 								progressBar.refreshDrawableState();
+								if (progressStatus > 50 && progressStatus < 65) {
+									animate(v);
+								}
 							} catch (InterruptedException e) {
 								e.printStackTrace();
 							}
@@ -307,12 +351,22 @@ public class TweetFlipperActivity extends Activity {
 			} catch (Exception e) {
 
 			} finally {
-				i++;
+				i = i + 3;
 				progressStatus = 0;
 			}
 
 		}
-	}; 
+	};
+
+	private void animate(View view){
+		LinearLayout dialog = (LinearLayout)findViewById(R.id.card1);
+		dialog.setVisibility(LinearLayout.VISIBLE);
+		Animation animation = AnimationUtils.loadAnimation(this, R.anim.slide_out_to_left);
+		animation.setDuration(500);
+		dialog.setAnimation(animation);
+		dialog.animate();
+		animation.start();
+	}
 
 	private int doWork(long millis) throws InterruptedException {
 		long diff = System.currentTimeMillis() - millis;
@@ -383,17 +437,9 @@ public class TweetFlipperActivity extends Activity {
 			return b;
 		}
 		catch(Exception e){
+			// Catch error
 		}
 		return null;
-	}
-
-	private void setBackgroundColor() {
-		String backColor = Constants.twit.get(i).getTwitterUser().getProfileBackgroundColor();
-		if (backColor.equals("C0DEED")) {
-			backColor="EEEEEE";
-		}
-		String fontColor = "#" + backColor;
-		getWindow().getDecorView().setBackgroundColor(Color.parseColor(fontColor));
 	}
 
 	private void setFontColor() {
@@ -401,8 +447,6 @@ public class TweetFlipperActivity extends Activity {
 		options.inJustDecodeBounds = false;
 		options.inPreferredConfig = Config.RGB_565;
 		options.inDither = true;
-		//if (lum > 150)
-		//{
 			isDark = false;
 			tvArobase1.setTextColor(getResources().getColor(R.color.darkgray));
 			tvTweet1.setTextColor(getResources().getColor(R.color.darkgray));
@@ -419,26 +463,6 @@ public class TweetFlipperActivity extends Activity {
 			btTweetBack.setImageBitmap(bm);
 			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.share_dark),800, 800, true);
 			btShare.setImageBitmap(bm);
-		/*}
-		else
-		{	
-			isDark = true;
-			tvArobase.setTextColor(getResources().getColor(R.color.white));
-			tvTweet.setTextColor(getResources().getColor(R.color.white));
-			tvName.setTextColor(getResources().getColor(R.color.white));
-			if (isPaused) {
-				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
-			} else {
-				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetpause),800, 800, true);
-			}
-			btPlayPause.setImageBitmap(bm);
-			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetnext),800, 800, true);
-			btTweetNext.setImageBitmap(bm);
-			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetback),800, 800, true);
-			btTweetBack.setImageBitmap(bm);
-			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.share),800, 800, true);
-			btShare.setImageBitmap(bm);
-		}*/
 	}
 
 	public static int getBrightness(int argb)
