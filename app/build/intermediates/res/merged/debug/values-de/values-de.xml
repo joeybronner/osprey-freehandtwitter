@@ -18,6 +18,14 @@
     <color name="gray">#bdc3c7</color>
     <color name="lightblue">#BCD3E3</color>
     <color name="white">#FFFFFF</color>
+    <plurals name="card_selected_items">
+        <item quantity="one">1 Element gewählt</item>
+        <item quantity="other">%d Elemente gewählt</item>
+    </plurals>
+    <plurals name="list_card_undo_items">
+        <item quantity="one">1 Karte entfernt</item>
+        <item quantity="other">%d Karten entfernt</item>
+    </plurals>
     <string name="ab_about">über</string>
     <string name="action_settings">Einstellungen</string>
     <string name="app_name">Free Hand Twitter</string>
@@ -31,6 +39,7 @@
     <string name="error_timeout">Ungewöhnlich lange Verbindungs, Bitte überprüfen Sie Ihre Internetverbindung.</string>
     <string name="error_unable_share">Kann teilen</string>
     <string name="language">Tweets Sprache</string>
+    <string name="list_card_undo_title">Rückgängig</string>
     <string name="loaded">tweets im Speicher.</string>
     <string name="loading_tweets">Suchen tweets…</string>
     <string name="lookingfor">Dein Hashtag Hier</string>

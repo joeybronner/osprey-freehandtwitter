@@ -45,8 +45,8 @@ public class TweetFlipperActivity extends Activity {
 	int i = 0;
 	boolean isPaused = false;
 	boolean isDark;
-	ImageView btPlayPause, ivUser, btTweetNext, btTweetBack, btShare;
-	TextView tvArobase, tvName, tvTweet, tvHashtag;
+	ImageView btPlayPause, ivUser1, ivUser2, btTweetNext, btTweetBack, btShare;
+	TextView tvArobase1, tvName1, tvTweet1, tvArobase2, tvName2, tvTweet2, tvHashtag;
 	View v;
 	float lastX;
 	Bitmap bm;
@@ -66,7 +66,7 @@ public class TweetFlipperActivity extends Activity {
 				finish();
 			} else {
 				// Number of tweets loaded
-				//Toast.makeText(getApplicationContext(), Constants.twit.size() + " " + getResources().getString(R.string.loaded), Toast.LENGTH_SHORT).show();
+				Toast.makeText(getApplicationContext(), Constants.twit.size() + " " + getResources().getString(R.string.loaded), Toast.LENGTH_SHORT).show();
 
 				// Stay screen on
 				getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
@@ -93,16 +93,29 @@ public class TweetFlipperActivity extends Activity {
 				viewFlipper.setInAnimation(this, R.anim.slide_in_from_right);
 				viewFlipper.setOutAnimation(this, R.anim.slide_out_to_left);
 				viewFlipper.startFlipping();
-				tvTweet = (TextView) findViewById(R.id.tvTweetContent);
-				tvTweet.setTypeface(Constants.tf);
 				tvHashtag = (TextView) findViewById(R.id.hashtag);
 				tvHashtag.setTypeface(Constants.tf);
 				tvHashtag.setText("#" + Constants.TWITTER_USER_SEARCH);
-				tvArobase = (TextView) findViewById(R.id.textView1);
-				tvArobase.setTypeface(Constants.tf);
-				tvName = (TextView) findViewById(R.id.tvName);
-				tvName.setTypeface(Constants.tf);
-				ivUser = (ImageView) findViewById(R.id.ivUser);
+
+				// First card
+				ivUser1 = (ImageView) findViewById(R.id.ivUser1);
+				tvName1 = (TextView) findViewById(R.id.tvName1);
+				tvName1.setTypeface(Constants.tf);
+				tvArobase1 = (TextView) findViewById(R.id.tvArobase1);
+				tvArobase1.setTypeface(Constants.tf);
+				tvTweet1 = (TextView) findViewById(R.id.tvTweetContent1);
+				tvTweet1.setTypeface(Constants.tf);
+
+				// Second card
+				ivUser2 = (ImageView) findViewById(R.id.ivUser2);
+				tvName2 = (TextView) findViewById(R.id.tvName2);
+				tvName2.setTypeface(Constants.tf);
+				tvArobase2 = (TextView) findViewById(R.id.tvArobase2);
+				tvArobase2.setTypeface(Constants.tf);
+				tvTweet2 = (TextView) findViewById(R.id.tvTweetContent2);
+				tvTweet2.setTypeface(Constants.tf);
+
+
 				btPlayPause = (ImageView) findViewById(R.id.btTweetPlayPause);
 				btTweetNext = (ImageView) findViewById(R.id.btTweetNext);
 				btTweetBack = (ImageView) findViewById(R.id.btTweetBack);
@@ -260,13 +273,13 @@ public class TweetFlipperActivity extends Activity {
 				if (i == Constants.twit.size()) {
 					i = 0;
 				}
-				tvTweet.setText(Constants.twit.get(i).toString());
-				tvArobase.setText(String.valueOf(i) + "/" + Constants.twit.size() + " @" + Constants.twit.get(i).getTwitterUser().getScreenName());
-				tvName.setText(Constants.twit.get(i).getTwitterUser().getName());
-				//setBackgroundColor();
+				tvTweet1.setText(Constants.twit.get(i).toString());
+				tvArobase1.setText(" " +
+						"@" + Constants.twit.get(i).getTwitterUser().getScreenName());
+				tvName1.setText(Constants.twit.get(i).getTwitterUser().getName());
 				setFontColor();
-				new ImageDownloader(ivUser).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
-				ivUser.setOnClickListener(new View.OnClickListener(){
+				new ImageDownloader(ivUser1).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
+				ivUser1.setOnClickListener(new View.OnClickListener(){
 					public void onClick(View v) {
 						Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/" + Constants.twit.get(i).getTwitterUser().getName()));
 						startActivity(browserIntent);
@@ -391,9 +404,9 @@ public class TweetFlipperActivity extends Activity {
 		//if (lum > 150)
 		//{
 			isDark = false;
-			tvArobase.setTextColor(getResources().getColor(R.color.darkgray));
-			tvTweet.setTextColor(getResources().getColor(R.color.darkgray));
-			tvName.setTextColor(getResources().getColor(R.color.darkgray));
+			tvArobase1.setTextColor(getResources().getColor(R.color.darkgray));
+			tvTweet1.setTextColor(getResources().getColor(R.color.darkgray));
+			tvName1.setTextColor(getResources().getColor(R.color.darkgray));
 			if (isPaused) {
 				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.play_material),800, 800, true);
 			} else {
@@ -430,7 +443,7 @@ public class TweetFlipperActivity extends Activity {
 
 	public static int getBrightness(int argb)
 	{
-		int lum= (   77  * ((argb>>16)&255) 
+		int lum= (77  * ((argb>>16)&255)
 				+ 150 * ((argb>>8)&255) 
 				+ 29  * ((argb)&255))>>8;
 				return lum;
