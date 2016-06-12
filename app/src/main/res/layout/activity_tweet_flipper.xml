@@ -105,6 +105,7 @@
                 </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/card2"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -175,6 +176,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/card3"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

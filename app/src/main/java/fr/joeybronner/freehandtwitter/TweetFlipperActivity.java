@@ -57,6 +57,9 @@ public class TweetFlipperActivity extends Activity {
 	final Handler handler = new Handler();
 	int progressStatus = 0;
 	Thread progressBarThread;
+	boolean hideCard1, hideCard2, hideCard3;
+	Animation previousAnim, nextAnim;
+	int cardNr;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +68,7 @@ public class TweetFlipperActivity extends Activity {
 			setContentView(R.layout.activity_tweet_flipper);
 
 			if (Constants.twit == null || Constants.twit.isEmpty()) {
-				Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_noresults) + " #" + Constants.TWITTER_USER_SEARCH, Toast.LENGTH_SHORT).show();
+				Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_noresults) + " #" + Constants.TWITTER_USER_SEARCH, Toast.LENGTH_SHORT).show();Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_noresults) + " #" + Constants.TWITTER_USER_SEARCH, Toast.LENGTH_SHORT).show();
 				finish();
 			} else {
 				// Number of tweets loaded
@@ -90,6 +93,8 @@ public class TweetFlipperActivity extends Activity {
 				} else if (Constants.SCROLL_SPEED >= 80) {
 					SLIDER_TIMER = (int) (SLIDER_TIMER*0.5);
 				}
+
+				nextAnim = AnimationUtils.loadAnimation(this, R.anim.next);
 
 				viewFlipper = (ViewFlipper) findViewById(R.id.viewflipper);
 				viewFlipper.setFlipInterval(SLIDER_TIMER);
@@ -281,6 +286,9 @@ public class TweetFlipperActivity extends Activity {
 		public void run() {
 			try {
 				updatePB = true;
+				hideCard1 = true;
+				hideCard2 = true;
+				hideCard3 = true;
 				final long millis = System.currentTimeMillis();
 				i = i+2 >= Constants.twit.size() ? i = 0 : i+2;
 
@@ -326,8 +334,10 @@ public class TweetFlipperActivity extends Activity {
 					}
 				});
 
+				allCardsVisible();
 				viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
-				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);	
+				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);
+
 				progressBarThread = new Thread(new Runnable() {
 					public void run() {
 						while(progressStatus < 100 && updatePB==true) {
@@ -336,8 +346,20 @@ public class TweetFlipperActivity extends Activity {
 								progressStatus = doWork(millis);
 								progressBar.setProgress(progressStatus);
 								progressBar.refreshDrawableState();
-								if (progressStatus > 50 && progressStatus < 65) {
-									animate(v);
+								if (progressStatus > 70 && hideCard3) {
+									cardNr = 3;
+									anim();
+									hideCard3 = false;
+								}
+								if (progressStatus > 60 && hideCard2) {
+									cardNr = 2;
+									anim();
+									hideCard2 = false;
+								}
+								if (progressStatus > 50 && hideCard1) {
+									cardNr = 1;
+									anim();
+									hideCard1 = false;
 								}
 							} catch (InterruptedException e) {
 								e.printStackTrace();
@@ -358,10 +380,47 @@ public class TweetFlipperActivity extends Activity {
 		}
 	};
 
-	private void animate(View view){
-		LinearLayout dialog = (LinearLayout)findViewById(R.id.card1);
-		dialog.setVisibility(LinearLayout.VISIBLE);
-		Animation animation = AnimationUtils.loadAnimation(this, R.anim.slide_out_to_left);
+	private void anim() {
+		runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				LinearLayout dialog = null;
+				if (cardNr == 1)
+					dialog = (LinearLayout)findViewById(R.id.card1);
+				else if (cardNr == 2)
+					dialog = (LinearLayout)findViewById(R.id.card2);
+				else if (cardNr == 3)
+					dialog = (LinearLayout)findViewById(R.id.card3);
+				dialog.startAnimation(nextAnim);
+				dialog.setVisibility(View.INVISIBLE);
+			}
+		});
+	}
+
+	private void allCardsVisible() {
+		runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				LinearLayout dialog1 = (LinearLayout)findViewById(R.id.card1);
+				LinearLayout dialog2 = (LinearLayout)findViewById(R.id.card2);
+				LinearLayout dialog3 = (LinearLayout)findViewById(R.id.card3);
+				dialog1.setVisibility(View.VISIBLE);
+				dialog2.setVisibility(View.VISIBLE);
+				dialog3.setVisibility(View.VISIBLE);
+			}
+		});
+	}
+
+	private void animate(View view, int cardNr){
+		LinearLayout dialog = null;
+		if (cardNr == 1)
+			dialog = (LinearLayout)findViewById(R.id.card1);
+		else if (cardNr == 2)
+			dialog = (LinearLayout)findViewById(R.id.card2);
+		else if (cardNr == 3)
+			dialog = (LinearLayout)findViewById(R.id.card3);
+
+		Animation animation = AnimationUtils.loadAnimation(this, R.anim.anim);
 		animation.setDuration(500);
 		dialog.setAnimation(animation);
 		dialog.animate();
@@ -377,28 +436,6 @@ public class TweetFlipperActivity extends Activity {
 	protected void onDestroy() {
 		super.onDestroy();
 	}
-
-	/*
-	public boolean onTouchEvent(MotionEvent touchevent) {
-		switch (touchevent.getAction()) {
-		case MotionEvent.ACTION_DOWN: 
-			lastX = touchevent.getX();
-			break;
-		case MotionEvent.ACTION_UP: 
-			float currentX = touchevent.getX();
-
-			// Handling left to right screen swap.
-			if (lastX < currentX) {
-
-			}
-			// Handling right to left screen swap.
-			if (lastX > currentX) {
-
-			}
-			break;
-		}
-		return false;
-	}*/
 
 	private Bitmap screenshot(View v) {
 		Bitmap bitmap;
