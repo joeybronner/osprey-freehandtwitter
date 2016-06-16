@@ -25,11 +25,11 @@ public final class R {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int card_header_layout_resourceID=0x7f01000b;
+        public static final int card_header_layout_resourceID=0x7f01000e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int card_layout_resourceID=0x7f010009;
+        public static final int card_layout_resourceID=0x7f01000c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -39,15 +39,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int card_list_item_dividerHeight=0x7f010008;
+        public static final int card_list_item_dividerHeight=0x7f01000b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int card_shadow_layout_resourceID=0x7f01000a;
+        public static final int card_shadow_layout_resourceID=0x7f01000d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int card_thumbnail_layout_resourceID=0x7f01000c;
+        public static final int card_thumbnail_layout_resourceID=0x7f01000f;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -55,7 +55,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int column_count=0x7f010000;
+        public static final int column_count=0x7f010003;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -63,7 +63,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int column_count_landscape=0x7f010002;
+        public static final int column_count_landscape=0x7f010005;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -71,7 +71,20 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int column_count_portrait=0x7f010001;
+        public static final int column_count_portrait=0x7f010004;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int freezesAnimation=0x7f010002;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int gifSource=0x7f010000;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -81,7 +94,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int grid_paddingBottom=0x7f010007;
+        public static final int grid_paddingBottom=0x7f01000a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -91,7 +104,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int grid_paddingLeft=0x7f010004;
+        public static final int grid_paddingLeft=0x7f010007;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -101,7 +114,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int grid_paddingRight=0x7f010005;
+        public static final int grid_paddingRight=0x7f010008;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -111,7 +124,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int grid_paddingTop=0x7f010006;
+        public static final int grid_paddingTop=0x7f010009;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int isOpaque=0x7f010001;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -121,11 +142,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int item_margin=0x7f010003;
+        public static final int item_margin=0x7f010006;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int list_card_layout_resourceID=0x7f01000d;
+        public static final int list_card_layout_resourceID=0x7f010010;
     }
     public static final class color {
         public static final int blue=0x7f060000;
@@ -247,125 +268,127 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int layer_card_background=0x7f020020;
         public static final int layer_card_background_selected=0x7f020021;
         public static final int load=0x7f020022;
-        public static final int mixed=0x7f020023;
-        public static final int more=0x7f020024;
-        public static final int myprogress=0x7f020025;
-        public static final int next=0x7f020026;
-        public static final int next_material=0x7f020027;
-        public static final int nouserpicture=0x7f020028;
-        public static final int osprey=0x7f020029;
-        public static final int pause_material=0x7f02002a;
-        public static final int play_material=0x7f02002b;
-        public static final int popular=0x7f02002c;
-        public static final int pressed_background_card=0x7f02002d;
-        public static final int pressed_background_kitkat_card=0x7f02002e;
-        public static final int previous_material=0x7f02002f;
-        public static final int recent=0x7f020030;
-        public static final int search=0x7f020031;
-        public static final int search_material=0x7f020032;
-        public static final int seekbar_backgroundfill=0x7f020033;
-        public static final int seekbar_progress=0x7f020034;
-        public static final int seekbar_progressfill=0x7f020035;
-        public static final int seekbar_thumb=0x7f020036;
-        public static final int selector_card_background=0x7f020037;
-        public static final int settings=0x7f020038;
-        public static final int share=0x7f020039;
-        public static final int share_dark=0x7f02003a;
-        public static final int spain=0x7f02003b;
-        public static final int tweetback=0x7f02003c;
-        public static final int tweetback_dark=0x7f02003d;
-        public static final int tweetnext=0x7f02003e;
-        public static final int tweetnext_dark=0x7f02003f;
-        public static final int tweetpause=0x7f020040;
-        public static final int tweetpause_dark=0x7f020041;
-        public static final int tweetplay=0x7f020042;
-        public static final int tweetplay_dark=0x7f020043;
-        public static final int twitter=0x7f020044;
-        public static final int undobar=0x7f020045;
-        public static final int undobar_button_focused=0x7f020046;
-        public static final int undobar_button_pressed=0x7f020047;
-        public static final int undobar_divider=0x7f020048;
-        public static final int unitedk=0x7f020049;
+        public static final int loading=0x7f020023;
+        public static final int mixed=0x7f020024;
+        public static final int more=0x7f020025;
+        public static final int myprogress=0x7f020026;
+        public static final int next=0x7f020027;
+        public static final int next_material=0x7f020028;
+        public static final int nouserpicture=0x7f020029;
+        public static final int osprey=0x7f02002a;
+        public static final int pause_material=0x7f02002b;
+        public static final int play_material=0x7f02002c;
+        public static final int popular=0x7f02002d;
+        public static final int pressed_background_card=0x7f02002e;
+        public static final int pressed_background_kitkat_card=0x7f02002f;
+        public static final int previous_material=0x7f020030;
+        public static final int recent=0x7f020031;
+        public static final int search=0x7f020032;
+        public static final int search_material=0x7f020033;
+        public static final int seekbar_backgroundfill=0x7f020034;
+        public static final int seekbar_progress=0x7f020035;
+        public static final int seekbar_progressfill=0x7f020036;
+        public static final int seekbar_thumb=0x7f020037;
+        public static final int selector_card_background=0x7f020038;
+        public static final int settings=0x7f020039;
+        public static final int share=0x7f02003a;
+        public static final int share_dark=0x7f02003b;
+        public static final int spain=0x7f02003c;
+        public static final int src_main=0x7f02003d;
+        public static final int tweetback=0x7f02003e;
+        public static final int tweetback_dark=0x7f02003f;
+        public static final int tweetnext=0x7f020040;
+        public static final int tweetnext_dark=0x7f020041;
+        public static final int tweetpause=0x7f020042;
+        public static final int tweetpause_dark=0x7f020043;
+        public static final int tweetplay=0x7f020044;
+        public static final int tweetplay_dark=0x7f020045;
+        public static final int twitter=0x7f020046;
+        public static final int twitterbird=0x7f020047;
+        public static final int undobar=0x7f020048;
+        public static final int undobar_button_focused=0x7f020049;
+        public static final int undobar_button_pressed=0x7f02004a;
+        public static final int undobar_divider=0x7f02004b;
+        public static final int unitedk=0x7f02004c;
     }
     public static final class id {
-        public static final int ProgressBar=0x7f0d0027;
-        public static final int action_settings=0x7f0d004d;
-        public static final int btSearch=0x7f0d0007;
-        public static final int btSettings=0x7f0d0003;
-        public static final int btShare=0x7f0d0011;
-        public static final int btTweetBack=0x7f0d0024;
-        public static final int btTweetNext=0x7f0d0026;
-        public static final int btTweetPlayPause=0x7f0d0025;
-        public static final int card1=0x7f0d0013;
-        public static final int card2=0x7f0d001a;
-        public static final int card3=0x7f0d001f;
-        public static final int card_base_empty_cardwithlist_text=0x7f0d0035;
-        public static final int card_children_simple_title=0x7f0d0031;
-        public static final int card_content_expand_layout=0x7f0d003a;
-        public static final int card_expand_inner_simple_title=0x7f0d0043;
-        public static final int card_header_button_expand=0x7f0d002f;
-        public static final int card_header_button_frame=0x7f0d002d;
-        public static final int card_header_button_other=0x7f0d0030;
-        public static final int card_header_button_overflow=0x7f0d002e;
-        public static final int card_header_inner_frame=0x7f0d002c;
-        public static final int card_header_inner_simple_title=0x7f0d0044;
-        public static final int card_header_layout=0x7f0d0039;
-        public static final int card_inner_base_empty_cardwithlist=0x7f0d0047;
-        public static final int card_inner_base_main_cardwithlist=0x7f0d0046;
-        public static final int card_inner_base_progressbar_cardwithlist=0x7f0d0048;
-        public static final int card_main_content_layout=0x7f0d0036;
-        public static final int card_main_inner_simple_title=0x7f0d0045;
-        public static final int card_main_layout=0x7f0d0038;
-        public static final int card_overlap=0x7f0d003b;
-        public static final int card_section_simple_title=0x7f0d0032;
-        public static final int card_shadow_layout=0x7f0d0037;
-        public static final int card_shadow_view=0x7f0d0033;
-        public static final int card_thumb_and_content_layout=0x7f0d003c;
-        public static final int card_thumbnail_image=0x7f0d0034;
-        public static final int card_thumbnail_layout=0x7f0d003d;
+        public static final int ProgressBar=0x7f0d0026;
+        public static final int action_settings=0x7f0d004c;
+        public static final int btSearch=0x7f0d0006;
+        public static final int btSettings=0x7f0d0002;
+        public static final int btShare=0x7f0d0010;
+        public static final int btTweetBack=0x7f0d0023;
+        public static final int btTweetNext=0x7f0d0025;
+        public static final int btTweetPlayPause=0x7f0d0024;
+        public static final int card1=0x7f0d0012;
+        public static final int card2=0x7f0d0019;
+        public static final int card3=0x7f0d001e;
+        public static final int card_base_empty_cardwithlist_text=0x7f0d0034;
+        public static final int card_children_simple_title=0x7f0d0030;
+        public static final int card_content_expand_layout=0x7f0d0039;
+        public static final int card_expand_inner_simple_title=0x7f0d0042;
+        public static final int card_header_button_expand=0x7f0d002e;
+        public static final int card_header_button_frame=0x7f0d002c;
+        public static final int card_header_button_other=0x7f0d002f;
+        public static final int card_header_button_overflow=0x7f0d002d;
+        public static final int card_header_inner_frame=0x7f0d002b;
+        public static final int card_header_inner_simple_title=0x7f0d0043;
+        public static final int card_header_layout=0x7f0d0038;
+        public static final int card_inner_base_empty_cardwithlist=0x7f0d0046;
+        public static final int card_inner_base_main_cardwithlist=0x7f0d0045;
+        public static final int card_inner_base_progressbar_cardwithlist=0x7f0d0047;
+        public static final int card_main_content_layout=0x7f0d0035;
+        public static final int card_main_inner_simple_title=0x7f0d0044;
+        public static final int card_main_layout=0x7f0d0037;
+        public static final int card_overlap=0x7f0d003a;
+        public static final int card_section_simple_title=0x7f0d0031;
+        public static final int card_shadow_layout=0x7f0d0036;
+        public static final int card_shadow_view=0x7f0d0032;
+        public static final int card_thumb_and_content_layout=0x7f0d003b;
+        public static final int card_thumbnail_image=0x7f0d0033;
+        public static final int card_thumbnail_layout=0x7f0d003c;
         public static final int container=0x7f0d0000;
-        public static final int etSearch=0x7f0d0006;
-        public static final int hashtag=0x7f0d0028;
-        public static final int ivDevelopedBy=0x7f0d0008;
-        public static final int ivGif=0x7f0d0001;
-        public static final int ivHashtag=0x7f0d0005;
-        public static final int ivSearch=0x7f0d0004;
-        public static final int ivSourcesGithub=0x7f0d000a;
-        public static final int ivUser=0x7f0d0016;
-        public static final int ivUser1=0x7f0d0014;
-        public static final int ivUser2=0x7f0d001b;
-        public static final int ivUser3=0x7f0d0020;
-        public static final int left_pic=0x7f0d0041;
-        public static final int listTextView=0x7f0d000c;
-        public static final int list_cardId=0x7f0d0049;
-        public static final int list_card_undobar=0x7f0d004a;
-        public static final int list_card_undobar_button=0x7f0d004c;
-        public static final int list_card_undobar_message=0x7f0d004b;
-        public static final int sbScrollSpeed=0x7f0d000e;
-        public static final int spinnerCountry=0x7f0d0010;
-        public static final int textView1=0x7f0d002a;
-        public static final int text_main_seen=0x7f0d0042;
-        public static final int tvArobase1=0x7f0d0017;
-        public static final int tvArobase2=0x7f0d001d;
-        public static final int tvArobase3=0x7f0d0022;
-        public static final int tvDevelopedBy=0x7f0d0009;
-        public static final int tvLanguage=0x7f0d000f;
-        public static final int tvLoad=0x7f0d0002;
-        public static final int tvName=0x7f0d0018;
-        public static final int tvName1=0x7f0d0015;
-        public static final int tvName2=0x7f0d001c;
-        public static final int tvName3=0x7f0d0021;
-        public static final int tvScrollSpeed=0x7f0d000d;
-        public static final int tvSourcesGithub=0x7f0d000b;
-        public static final int tvTweetContent=0x7f0d002b;
-        public static final int tvTweetContent1=0x7f0d0019;
-        public static final int tvTweetContent2=0x7f0d001e;
-        public static final int tvTweetContent3=0x7f0d0023;
-        public static final int tweetLayout=0x7f0d0029;
-        public static final int undobar=0x7f0d003e;
-        public static final int undobar_button=0x7f0d0040;
-        public static final int undobar_message=0x7f0d003f;
-        public static final int viewflipper=0x7f0d0012;
+        public static final int etSearch=0x7f0d0005;
+        public static final int gifLoad=0x7f0d0001;
+        public static final int hashtag=0x7f0d0027;
+        public static final int ivDevelopedBy=0x7f0d0007;
+        public static final int ivHashtag=0x7f0d0004;
+        public static final int ivSearch=0x7f0d0003;
+        public static final int ivSourcesGithub=0x7f0d0009;
+        public static final int ivUser=0x7f0d0015;
+        public static final int ivUser1=0x7f0d0013;
+        public static final int ivUser2=0x7f0d001a;
+        public static final int ivUser3=0x7f0d001f;
+        public static final int left_pic=0x7f0d0040;
+        public static final int listTextView=0x7f0d000b;
+        public static final int list_cardId=0x7f0d0048;
+        public static final int list_card_undobar=0x7f0d0049;
+        public static final int list_card_undobar_button=0x7f0d004b;
+        public static final int list_card_undobar_message=0x7f0d004a;
+        public static final int sbScrollSpeed=0x7f0d000d;
+        public static final int spinnerCountry=0x7f0d000f;
+        public static final int textView1=0x7f0d0029;
+        public static final int text_main_seen=0x7f0d0041;
+        public static final int tvArobase1=0x7f0d0016;
+        public static final int tvArobase2=0x7f0d001c;
+        public static final int tvArobase3=0x7f0d0021;
+        public static final int tvDevelopedBy=0x7f0d0008;
+        public static final int tvLanguage=0x7f0d000e;
+        public static final int tvName=0x7f0d0017;
+        public static final int tvName1=0x7f0d0014;
+        public static final int tvName2=0x7f0d001b;
+        public static final int tvName3=0x7f0d0020;
+        public static final int tvScrollSpeed=0x7f0d000c;
+        public static final int tvSourcesGithub=0x7f0d000a;
+        public static final int tvTweetContent=0x7f0d002a;
+        public static final int tvTweetContent1=0x7f0d0018;
+        public static final int tvTweetContent2=0x7f0d001d;
+        public static final int tvTweetContent3=0x7f0d0022;
+        public static final int tweetLayout=0x7f0d0028;
+        public static final int undobar=0x7f0d003d;
+        public static final int undobar_button=0x7f0d003f;
+        public static final int undobar_message=0x7f0d003e;
+        public static final int viewflipper=0x7f0d0011;
     }
     public static final class integer {
         public static final int list_card_swipe_distance_divisor=0x7f0b0000;
@@ -545,6 +568,73 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name android:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_android_foregroundInsidePadding = 2;
+        /** Attributes that can be used with a GifTextureView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GifTextureView_gifSource fr.joeybronner.freehandtwitter:gifSource}</code></td><td></td></tr>
+           <tr><td><code>{@link #GifTextureView_isOpaque fr.joeybronner.freehandtwitter:isOpaque}</code></td><td></td></tr>
+           </table>
+           @see #GifTextureView_gifSource
+           @see #GifTextureView_isOpaque
+         */
+        public static final int[] GifTextureView = {
+            0x7f010000, 0x7f010001
+        };
+        /**
+          <p>This symbol is the offset where the {@link fr.joeybronner.freehandtwitter.R.attr#gifSource}
+          attribute's value can be found in the {@link #GifTextureView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name fr.joeybronner.freehandtwitter:gifSource
+        */
+        public static final int GifTextureView_gifSource = 0;
+        /**
+          <p>This symbol is the offset where the {@link fr.joeybronner.freehandtwitter.R.attr#isOpaque}
+          attribute's value can be found in the {@link #GifTextureView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name fr.joeybronner.freehandtwitter:isOpaque
+        */
+        public static final int GifTextureView_isOpaque = 1;
+        /** Attributes that can be used with a GifView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GifView_freezesAnimation fr.joeybronner.freehandtwitter:freezesAnimation}</code></td><td></td></tr>
+           </table>
+           @see #GifView_freezesAnimation
+         */
+        public static final int[] GifView = {
+            0x7f010002
+        };
+        /**
+          <p>This symbol is the offset where the {@link fr.joeybronner.freehandtwitter.R.attr#freezesAnimation}
+          attribute's value can be found in the {@link #GifView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name fr.joeybronner.freehandtwitter:freezesAnimation
+        */
+        public static final int GifView_freezesAnimation = 0;
         /** Attributes that can be used with a StaggeredGridView.
            <p>Includes the following attributes:</p>
            <table>
@@ -570,8 +660,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #StaggeredGridView_item_margin
          */
         public static final int[] StaggeredGridView = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007
+            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a
         };
         /**
           <p>This symbol is the offset where the {@link fr.joeybronner.freehandtwitter.R.attr#column_count}
@@ -706,7 +796,7 @@ containing a value of this type.
            @see #card_listItem_card_list_item_dividerHeight
          */
         public static final int[] card_listItem = {
-            0x7f010008
+            0x7f01000b
         };
         /**
           <p>This symbol is the offset where the {@link fr.joeybronner.freehandtwitter.R.attr#card_list_item_dividerHeight}
@@ -743,8 +833,8 @@ containing a value of this type.
            @see #card_options_list_card_layout_resourceID
          */
         public static final int[] card_options = {
-            0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c,
-            0x7f01000d
+            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f,
+            0x7f010010
         };
         /**
           <p>This symbol is the offset where the {@link fr.joeybronner.freehandtwitter.R.attr#card_header_layout_resourceID}

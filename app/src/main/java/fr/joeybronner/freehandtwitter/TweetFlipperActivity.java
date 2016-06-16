@@ -81,7 +81,7 @@ public class TweetFlipperActivity extends Activity {
 				Constants.tf = Typeface.createFromAsset(this.getAssets(),"fonts/OpenSans-Light.ttf");
 
 				// Recalculation of SLIDER_TIMER
-				SLIDER_TIMER = 6000;
+				SLIDER_TIMER = 12000;
 				if (Constants.SCROLL_SPEED < 20) {
 					SLIDER_TIMER = (int) (SLIDER_TIMER*1.5);
 				} else if (Constants.SCROLL_SPEED >= 20 && Constants.SCROLL_SPEED < 40) {
@@ -108,7 +108,7 @@ public class TweetFlipperActivity extends Activity {
 				// First card
 				ivUser1 = (ImageView) findViewById(R.id.ivUser1);
 				tvName1 = (TextView) findViewById(R.id.tvName1);
-				tvName1.setTypeface(Constants.tf);
+				tvName1.setTypeface(Constants.tf, Typeface.BOLD);
 				tvArobase1 = (TextView) findViewById(R.id.tvArobase1);
 				tvArobase1.setTypeface(Constants.tf);
 				tvTweet1 = (TextView) findViewById(R.id.tvTweetContent1);
@@ -117,7 +117,7 @@ public class TweetFlipperActivity extends Activity {
 				// Second card
 				ivUser2 = (ImageView) findViewById(R.id.ivUser2);
 				tvName2 = (TextView) findViewById(R.id.tvName2);
-				tvName2.setTypeface(Constants.tf);
+				tvName2.setTypeface(Constants.tf, Typeface.BOLD);
 				tvArobase2 = (TextView) findViewById(R.id.tvArobase2);
 				tvArobase2.setTypeface(Constants.tf);
 				tvTweet2 = (TextView) findViewById(R.id.tvTweetContent2);
@@ -126,7 +126,7 @@ public class TweetFlipperActivity extends Activity {
 				// Third card
 				ivUser3 = (ImageView) findViewById(R.id.ivUser3);
 				tvName3 = (TextView) findViewById(R.id.tvName3);
-				tvName3.setTypeface(Constants.tf);
+				tvName3.setTypeface(Constants.tf, Typeface.BOLD);
 				tvArobase3 = (TextView) findViewById(R.id.tvArobase3);
 				tvArobase3.setTypeface(Constants.tf);
 				tvTweet3 = (TextView) findViewById(R.id.tvTweetContent3);
@@ -340,23 +340,28 @@ public class TweetFlipperActivity extends Activity {
 
 				progressBarThread = new Thread(new Runnable() {
 					public void run() {
+						int TMP_SLIDER_TIMER = 0;
+						double TMP_SLIDER_TIMER_CARD1 = SLIDER_TIMER * 0.80;
+						double TMP_SLIDER_TIMER_CARD2 = SLIDER_TIMER * 0.85;
+						double TMP_SLIDER_TIMER_CARD3 = SLIDER_TIMER * 0.90;
 						while(progressStatus < 100 && updatePB==true) {
 							try {
-								Thread.sleep(50); 
+								Thread.sleep(50);
+								TMP_SLIDER_TIMER += 50;
 								progressStatus = doWork(millis);
 								progressBar.setProgress(progressStatus);
 								progressBar.refreshDrawableState();
-								if (progressStatus > 70 && hideCard3) {
+								if (TMP_SLIDER_TIMER > TMP_SLIDER_TIMER_CARD3 && hideCard3) {
 									cardNr = 3;
 									anim();
 									hideCard3 = false;
 								}
-								if (progressStatus > 60 && hideCard2) {
+								if (TMP_SLIDER_TIMER > TMP_SLIDER_TIMER_CARD2 && hideCard2) {
 									cardNr = 2;
 									anim();
 									hideCard2 = false;
 								}
-								if (progressStatus > 50 && hideCard1) {
+								if (TMP_SLIDER_TIMER > TMP_SLIDER_TIMER_CARD1 && hideCard1) {
 									cardNr = 1;
 									anim();
 									hideCard1 = false;

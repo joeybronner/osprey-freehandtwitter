@@ -18,7 +18,7 @@
     <!-- MainActivity -->
     <string name="ab_about">A propos</string>
     <string name="search">Recherche</string>
-    <string name="lookingfor">Votre Hashtag Ici</string>
+    <string name="lookingfor">Votre hashtag ici</string>
 
     <!-- SettingsActivity -->
     <string name="speed_veryslow">Vitesse: Comme un escargot</string>

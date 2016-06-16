@@ -8,6 +8,7 @@ import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,7 +35,7 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 	String[] spinnerValues, resultType;
 	int spinnerImages[] = { R.drawable.france, R.drawable.unitedk, R.drawable.spain, R.drawable.italy, R.drawable.german };
 	int resultsTypeImages[] = { R.drawable.popular, R.drawable.recent, R.drawable.mixed };
-	public static ProgressDialog dialog;
+	public static Dialog dialog;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -82,10 +83,15 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 					intent.putExtra("search",etSearch.getText().toString().replaceAll("\\s+",""));
 					Constants.TWITTER_RESULT_TYPE = "&result_type=fr";
 					Constants.TWITTER_USER_SEARCH = etSearch.getText().toString().replaceAll("\\s+","");
-					dialog = new ProgressDialog(MainActivity.this, ProgressDialog.THEME_DEVICE_DEFAULT_DARK);
-					dialog.setIndeterminate(true);
-					dialog.setMessage(getResources().getString(R.string.loading_tweets));
+					//dialog = new ProgressDialog(MainActivity.this, ProgressDialog.THEME_HOLO_LIGHT);
+					// Create the new dialog
+					dialog = new Dialog(btSearch.getContext());
+					// No title
+					dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
 					dialog.setCancelable(false);
+					// Content of the dialog
+					dialog.setContentView(R.layout.activity_loading);
+					dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
 					dialog.show();
 					startActivity(intent);
 				} else {

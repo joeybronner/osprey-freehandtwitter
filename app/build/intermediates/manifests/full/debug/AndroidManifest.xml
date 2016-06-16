@@ -42,7 +42,8 @@
         </activity>
         <activity
             android:name="fr.joeybronner.freehandtwitter.TweetFlipperActivity"
-            android:label="@string/title_activity_tweet_flipper" >
+            android:label="@string/title_activity_tweet_flipper"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="fr.joeybronner.freehandtwitter.SettingsActivity"

@@ -19,72 +19,74 @@
         android:adjustViewBounds="true"
         android:background="@drawable/more" />
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true" >
 
         <ImageView
             android:id="@+id/ivSearch"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:contentDescription="@string/search"
             android:src="@drawable/osprey" />
 
-        <ImageView
-            android:id="@+id/ivHashtag"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/etSearch"
-            android:layout_alignTop="@+id/etSearch"
-            android:layout_below="@id/ivSearch"
-            android:layout_marginLeft="20dp"
-            android:contentDescription="@string/search"
-            android:src="@drawable/hashtag_grey" />
-
-        <EditText
-            android:id="@+id/etSearch"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/ivSearch"
-            android:layout_centerInParent="true"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_toRightOf="@id/ivHashtag"
-            android:background="@null"
-            android:ems="10"
-            android:hint="@string/lookingfor"
-            android:inputType="text"
-            android:maxWidth="200dp"
-            android:textColor="@color/blue"
-            android:textColorHint="@color/lightblue" />
+            android:gravity="center">
 
-        <!--<Spinner
-            android:id="@+id/spinnerResultType"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/etSearch"
+            <ImageView
+                android:id="@+id/ivHashtag"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:contentDescription="@string/search"
+                android:src="@drawable/hashtag_grey" />
+
+            <EditText
+                android:id="@+id/etSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/ivHashtag"
+                android:background="@null"
+                android:ems="1"
+                android:hint="@string/lookingfor"
+                android:inputType="text"
+                android:maxWidth="200dp"
+                android:textSize="24sp"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/lightblue" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center">
+        <Button
+            android:id="@+id/btSearch"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="10dp"
-            android:entries="@array/reuslt_type"
-            android:maxWidth="200dp"
-            android:textColor="@color/white"
-            android:theme="@style/AppTheme" />-->
-    </RelativeLayout>
+            android:adjustViewBounds="true"
+            android:background="@drawable/search_material" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btSearch"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:adjustViewBounds="true"
-        android:background="@drawable/search_material"
-        android:padding="10dp" />
+    </LinearLayout>
 
 </RelativeLayout>

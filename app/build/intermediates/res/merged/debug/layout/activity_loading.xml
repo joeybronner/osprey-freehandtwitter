@@ -1,29 +1,24 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff" >
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/activity_horizontal_margin">
 
-    <ImageView
-        android:id="@+id/ivGif"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        android:layout_centerInParent="true"
-        android:contentDescription="@string/nodescription"
-        android:src="@drawable/load" />
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifLoad"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/twitterbird" />
 
     <TextView
-        android:id="@+id/tvLoad"
+        android:layout_below="@+id/gifLoad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ivGif"
-        android:text="@string/loading_tweets"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="30dp"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/loading_tweets"/>
 
-</RelativeLayout>
+</LinearLayout>

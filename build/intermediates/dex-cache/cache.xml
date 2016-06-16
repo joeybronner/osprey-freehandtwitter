@@ -30,6 +30,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.16/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="20bd99246ec075d0ca8ffd16d629dc18e35eafac">
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/pl.droidsonroids.gif-android-gif-drawable-1.1.16_89725df3910d886d8bbb9a2ad63efd6f760e7b72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="55e0f28475c9f55dd77bd1c196de221ac4f53dc7">
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7be550780ea6d85678b7689c5bdf843e53b49582/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.etsy.android.grid/library/1.0.5/jars/classes.jar"
         jumboMode="true"
         optimize="false"
@@ -39,20 +57,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.3"
-        sha1="6c5b7165f727a26420b43e6e5969bfd5b486f2a6">
-        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7be550780ea6d85678b7689c5bdf843e53b49582/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
-        sha1="3315be95528534628b1e3eefcabc52e389e6e645">
+        sha1="d3a7ef91054d73aac3dfccdbd55b98a28d39ddea">
         <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_59f6a0e624c848b14ec59425f783b74daf7e8a78/classes.dex" />
     </item>
     <item

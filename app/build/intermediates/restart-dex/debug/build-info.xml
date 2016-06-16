@@ -4,67 +4,30 @@
     api-level="24"
     density="420dpi"
     format="7"
-    timestamp="50336149799011"
-    token="-1571042690958580167"
-    verifier="COMPATIBLE" >
+    timestamp="36720766161562"
+    token="-1571042690958580167" >
 
     <task
         name="javac"
-        duration="224" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="834" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="12" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
     <artifact
-        location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="47319593123475" >
+    <build timestamp="36720766161562" >
         <artifact
             location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="49140885399622"
-        verifier="FIELD_REMOVED" >
-        <artifact
-            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="50030274275499" >
-        <artifact
-            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="50233640030390"
-        verifier="METHOD_DELETED" >
-        <artifact
-            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="50303402661777"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/builds/debug/50303402661777/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="50336149799011"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
