@@ -29,14 +29,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="fr.joeybronner.freehandtwitter.ResultActivity"
-            android:label="@string/title_activity_result"
-            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="fr.joeybronner.freehandtwitter.MainActivity" />
-        </activity>
-        <activity
             android:name="fr.joeybronner.freehandtwitter.MoreActivity"
             android:label="@string/title_activity_more" >
         </activity>

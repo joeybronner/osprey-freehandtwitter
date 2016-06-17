@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:2:1-57:12
+ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml
@@ -51,7 +51,7 @@ ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main
 	android:name
 		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:14:22-65
 application
-ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:16:5-55:19
+ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:16:5-47:19
 MERGED from [com.github.gabrielemariotti.cards:library-extra:1.9.1] /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library-extra/1.9.1/AndroidManifest.xml:28:5-29:19
 MERGED from [com.etsy.android.grid:library:1.0.5] /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.etsy.android.grid/library/1.0.5/AndroidManifest.xml:6:5-19
 MERGED from [com.android.support:support-v4:23.4.0] /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
@@ -86,43 +86,29 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
 		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:27:27-74
-activity#fr.joeybronner.freehandtwitter.ResultActivity
-ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:30:9-37:20
-	android:label
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:32:13-58
-	android:theme
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:33:13-88
-	android:name
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:31:13-43
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:34:13-36:79
-	android:value
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:36:17-76
-	android:name
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:35:17-63
 activity#fr.joeybronner.freehandtwitter.MoreActivity
-ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:38:9-41:20
+ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:30:9-33:20
 	android:label
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:40:13-56
+		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:32:13-56
 	android:name
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:39:13-41
+		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:31:13-41
 activity#fr.joeybronner.freehandtwitter.TweetFlipperActivity
-ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:42:9-46:20
+ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:34:9-38:20
 	android:screenOrientation
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:44:13-49
+		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:36:13-49
 	android:label
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:45:13-65
+		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:37:13-65
 	android:name
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:43:13-49
+		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:35:13-49
 activity#fr.joeybronner.freehandtwitter.SettingsActivity
-ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:47:9-50:20
+ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:39:9-42:20
 	android:label
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:49:13-60
+		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:41:13-60
 	android:name
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:48:13-45
+		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:40:13-45
 activity#fr.joeybronner.freehandtwitter.LoadingActivity
-ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:51:9-54:20
+ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:43:9-46:20
 	android:label
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:53:13-59
+		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:45:13-59
 	android:name
-		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:52:13-44
+		ADDED from /Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/AndroidManifest.xml:44:13-44

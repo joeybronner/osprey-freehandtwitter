@@ -101,13 +101,14 @@ public class TwitterAPI {
 
 	private ArrayList<TwitterStatus> convertJsonToTwitterTweet(String twitterTweets) {
 		ArrayList<TwitterStatus> twitterTweetArrayList = new ArrayList<TwitterStatus>();
-		Log.v("Joey", twitterTweets);
+		//Log.v("Joey", twitterTweets);
 		if (twitterTweets != null && twitterTweets.length() > 0) {
 			Gson g = new Gson();
 			TwitterStatuses vc = g.fromJson(twitterTweets, TwitterStatuses.class);
 			for (int i = 0; i < vc.statuses.size(); i++) {
 				if (vc.statuses.get(i).getText()!=null) {
 					try {
+						Log.v("A new tweet", vc.statuses.get(i).toString());
 						TwitterStatus s = vc.statuses.get(i);
 						twitterTweetArrayList.add(s);
 					} catch (Exception e) {

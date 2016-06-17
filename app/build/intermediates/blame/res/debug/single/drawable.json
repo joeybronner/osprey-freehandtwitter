@@ -92,12 +92,12 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/spain.png"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/card_selector.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/drawable/card_selector.xml"
-    },
-    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetback_dark.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetback_dark.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/card_selector.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/drawable/card_selector.xml"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/osprey.png",

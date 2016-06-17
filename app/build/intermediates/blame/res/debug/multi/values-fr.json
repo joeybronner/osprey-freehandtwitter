@@ -12,7 +12,15 @@
                     "endOffset": 254
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1231,
+                        "endLine": 38,
+                        "endColumn": 19,
+                        "endOffset": 1430
+                    }
                 }
             },
             {
@@ -25,7 +33,15 @@
                     "endOffset": 400
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1654,
+                        "endLine": 48,
+                        "endColumn": 19,
+                        "endOffset": 1795
+                    }
                 }
             },
             {
@@ -37,7 +53,14 @@
                     "endOffset": 439
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 333,
+                        "endColumn": 38,
+                        "endOffset": 367
+                    }
                 }
             },
             {
@@ -49,7 +72,14 @@
                     "endOffset": 482
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 42,
+                        "endOffset": 410
+                    }
                 }
             },
             {
@@ -61,7 +91,14 @@
                     "endOffset": 525
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 499,
+                        "endColumn": 42,
+                        "endOffset": 537
+                    }
                 }
             },
             {
@@ -73,7 +110,14 @@
                     "endOffset": 564
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 542,
+                        "endColumn": 38,
+                        "endOffset": 576
+                    }
                 }
             },
             {
@@ -85,7 +129,14 @@
                     "endOffset": 608
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 415,
+                        "endColumn": 43,
+                        "endOffset": 454
+                    }
                 }
             },
             {
@@ -97,7 +148,14 @@
                     "endOffset": 648
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 459,
+                        "endColumn": 39,
+                        "endOffset": 494
+                    }
                 }
             },
             {
@@ -109,7 +167,14 @@
                     "endOffset": 694
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 608,
+                        "endColumn": 45,
+                        "endOffset": 649
+                    }
                 }
             },
             {
@@ -121,7 +186,14 @@
                     "endOffset": 749
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3133,
+                        "endColumn": 54,
+                        "endOffset": 3183
+                    }
                 }
             },
             {
@@ -133,7 +205,14 @@
                     "endOffset": 804
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 76,
+                        "endColumn": 54,
+                        "endOffset": 126
+                    }
                 }
             },
             {
@@ -145,7 +224,14 @@
                     "endOffset": 871
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1462,
+                        "endColumn": 66,
+                        "endOffset": 1524
+                    }
                 }
             },
             {
@@ -157,7 +243,14 @@
                     "endOffset": 953
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2349,
+                        "endColumn": 81,
+                        "endOffset": 2426
+                    }
                 }
             },
             {
@@ -169,7 +262,14 @@
                     "endOffset": 1036
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 2876,
+                        "endColumn": 82,
+                        "endOffset": 2954
+                    }
                 }
             },
             {
@@ -181,7 +281,14 @@
                     "endOffset": 1103
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 2809,
+                        "endColumn": 66,
+                        "endOffset": 2871
+                    }
                 }
             },
             {
@@ -193,7 +300,14 @@
                     "endOffset": 1250
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 2662,
+                        "endColumn": 146,
+                        "endOffset": 2804
+                    }
                 }
             },
             {
@@ -205,7 +319,14 @@
                     "endOffset": 1340
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2572,
+                        "endColumn": 89,
+                        "endOffset": 2657
+                    }
                 }
             },
             {
@@ -217,7 +338,14 @@
                     "endOffset": 1411
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2501,
+                        "endColumn": 70,
+                        "endOffset": 2567
+                    }
                 }
             },
             {
@@ -229,7 +357,14 @@
                     "endOffset": 1524
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2959,
+                        "endColumn": 112,
+                        "endOffset": 3067
+                    }
                 }
             },
             {
@@ -241,7 +376,14 @@
                     "endOffset": 1594
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2431,
+                        "endColumn": 69,
+                        "endOffset": 2496
+                    }
                 }
             },
             {
@@ -253,7 +395,14 @@
                     "endOffset": 1651
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1086,
+                        "endColumn": 56,
+                        "endOffset": 1138
+                    }
                 }
             },
             {
@@ -265,7 +414,14 @@
                     "endOffset": 1705
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 1,
+                        "startOffset": 2262,
+                        "endColumn": 50,
+                        "endOffset": 2311
+                    }
                 }
             },
             {
@@ -277,7 +433,14 @@
                     "endOffset": 1771
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 71,
+                        "endOffset": 307
+                    }
                 }
             },
             {
@@ -308,7 +471,14 @@
                     "endOffset": 1869
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 1929,
+                        "endColumn": 40,
+                        "endOffset": 1965
+                    }
                 }
             },
             {
@@ -320,7 +490,14 @@
                     "endOffset": 1904
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 42,
+                        "endOffset": 235
+                    }
                 }
             },
             {
@@ -332,7 +509,14 @@
                     "endOffset": 1939
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1143,
+                        "endColumn": 34,
+                        "endOffset": 1173
+                    }
                 }
             },
             {
@@ -344,7 +528,14 @@
                     "endOffset": 1993
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 1970,
+                        "endColumn": 53,
+                        "endOffset": 2019
+                    }
                 }
             },
             {
@@ -356,7 +547,14 @@
                     "endOffset": 2038
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 654,
+                        "endColumn": 44,
+                        "endOffset": 694
+                    }
                 }
             },
             {
@@ -368,7 +566,14 @@
                     "endOffset": 2090
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1178,
+                        "endColumn": 51,
+                        "endOffset": 1225
+                    }
                 }
             },
             {
@@ -380,7 +585,14 @@
                     "endOffset": 2148
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2024,
+                        "endColumn": 57,
+                        "endOffset": 2077
+                    }
                 }
             },
             {
@@ -392,7 +604,14 @@
                     "endOffset": 2214
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 131,
+                        "endColumn": 65,
+                        "endOffset": 192
+                    }
                 }
             },
             {
@@ -404,7 +623,14 @@
                     "endOffset": 2338
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1529,
+                        "endColumn": 123,
+                        "endOffset": 1648
+                    }
                 }
             },
             {
@@ -416,7 +642,14 @@
                     "endOffset": 2393
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 967,
+                        "endColumn": 54,
+                        "endOffset": 1017
+                    }
                 }
             },
             {
@@ -428,7 +661,14 @@
                     "endOffset": 2450
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 910,
+                        "endColumn": 56,
+                        "endOffset": 962
+                    }
                 }
             },
             {
@@ -440,7 +680,14 @@
                     "endOffset": 2503
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 857,
+                        "endColumn": 52,
+                        "endOffset": 905
+                    }
                 }
             },
             {
@@ -452,7 +699,14 @@
                     "endOffset": 2567
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1022,
+                        "endColumn": 63,
+                        "endOffset": 1081
+                    }
                 }
             },
             {
@@ -464,7 +718,14 @@
                     "endOffset": 2637
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 787,
+                        "endColumn": 69,
+                        "endOffset": 852
+                    }
                 }
             },
             {
@@ -476,7 +737,14 @@
                     "endOffset": 2704
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3493,
+                        "endColumn": 66,
+                        "endOffset": 3555
+                    }
                 }
             },
             {
@@ -488,7 +756,14 @@
                     "endOffset": 2765
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3072,
+                        "endColumn": 60,
+                        "endOffset": 3128
+                    }
                 }
             },
             {
@@ -500,7 +775,14 @@
                     "endOffset": 2830
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 1829,
+                        "endColumn": 64,
+                        "endOffset": 1889
+                    }
                 }
             },
             {
@@ -512,7 +794,14 @@
                     "endOffset": 2899
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3424,
+                        "endColumn": 68,
+                        "endOffset": 3488
+                    }
                 }
             },
             {
@@ -524,7 +813,14 @@
                     "endOffset": 2977
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3346,
+                        "endColumn": 77,
+                        "endOffset": 3419
+                    }
                 }
             },
             {
@@ -536,7 +832,14 @@
                     "endOffset": 3055
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3188,
+                        "endColumn": 77,
+                        "endOffset": 3261
+                    }
                 }
             },
             {
@@ -548,7 +851,14 @@
                     "endOffset": 3135
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3266,
+                        "endColumn": 79,
+                        "endOffset": 3341
+                    }
                 }
             },
             {
@@ -560,7 +870,14 @@
                     "endOffset": 3318
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml"
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2082,
+                        "endColumn": 182,
+                        "endOffset": 2260
+                    }
                 }
             }
         ]

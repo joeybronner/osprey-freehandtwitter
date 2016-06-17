@@ -1,6 +1,9 @@
 package fr.joeybronner.freehandtwitter;
 
 import java.util.Locale;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -25,17 +28,24 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import fr.joeybronner.freehandtwitter.api.TwitterAsyncTask;
+import fr.joeybronner.freehandtwitter.util.AndroidNetworkUtility;
 import fr.joeybronner.freehandtwitter.util.Constants;
+import pl.droidsonroids.gif.GifImageView;
 
 @SuppressLint("DefaultLocale") public class MainActivity extends Activity {
 
-	Button btMore, btSearch, btSettings;
+	public static Button btSearch, btSettings, btMore;
+	public static GifImageView gifLoader;
 	Spinner spinnerResultType;
 	TextView tvSpeed;
 	String[] spinnerValues, resultType;
 	int spinnerImages[] = { R.drawable.france, R.drawable.unitedk, R.drawable.spain, R.drawable.italy, R.drawable.german };
 	int resultsTypeImages[] = { R.drawable.popular, R.drawable.recent, R.drawable.mixed };
 	public static Dialog dialog;
+	static Context c;
+	MainActivity ma;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +58,9 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 		} else {
 			Constants.USER_LANGAGE = "en";
 		}
+
+		ma = this;
+		c = this.getApplicationContext();
 
 		spinnerValues = getResources().getStringArray(R.array.countries);
 		resultType = getResources().getStringArray(R.array.reuslt_type);
@@ -74,26 +87,48 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 			}
 		});*/
 
+		gifLoader = (GifImageView) findViewById(R.id.gifLoader);
+
 		btSearch = (Button) findViewById(R.id.btSearch);
 		btSearch.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				if (searchFieldIsValid(etSearch.getText().toString())) {
-					Intent intent = new Intent(MainActivity.this, ResultActivity.class);
-					intent.putExtra("search",etSearch.getText().toString().replaceAll("\\s+",""));
+					showLoader(true);
+					//Intent intent = new Intent(MainActivity.this, ResultActivity.class);
+					//intent.putExtra("search",etSearch.getText().toString().replaceAll("\\s+",""));
 					Constants.TWITTER_RESULT_TYPE = "&result_type=fr";
 					Constants.TWITTER_USER_SEARCH = etSearch.getText().toString().replaceAll("\\s+","");
-					//dialog = new ProgressDialog(MainActivity.this, ProgressDialog.THEME_HOLO_LIGHT);
-					// Create the new dialog
-					dialog = new Dialog(btSearch.getContext());
-					// No title
-					dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-					dialog.setCancelable(false);
-					// Content of the dialog
-					dialog.setContentView(R.layout.activity_loading);
+					/*dialog = new Dialog(btSearch.getContext()); // Create the new dialog
+					dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); // No title
+					dialog.setCancelable(false); // No cancelable
+					dialog.setContentView(R.layout.activity_loading); // Content of the dialog
 					dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-					dialog.show();
-					startActivity(intent);
+					dialog.show();*/
+					//startActivity(intent);
+					AndroidNetworkUtility androidNetworkUtility = new AndroidNetworkUtility();
+					if (androidNetworkUtility.isConnected(c)) {
+						try {
+							new TwitterAsyncTask().execute(etSearch.getText().toString().replaceAll("\\s+",""),this)/*.get(20000, TimeUnit.MILLISECONDS)*/;
+						} catch (Exception e) {
+							Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_timeout), Toast.LENGTH_SHORT).show();
+							e.printStackTrace();
+						};/*(InterruptedException e) {
+							//MainActivity.dialog.dismiss();
+							Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_interrupted), Toast.LENGTH_SHORT).show();
+							e.printStackTrace();
+						} catch (ExecutionException e) {
+							//MainActivity.dialog.dismiss();
+							Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_execution), Toast.LENGTH_SHORT).show();
+							e.printStackTrace();
+						} catch (TimeoutException e) {
+							//MainActivity.dialog.dismiss();
+							Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_timeout), Toast.LENGTH_SHORT).show();
+							e.printStackTrace();
+						};*/
+					} else {
+						Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_noconnection), Toast.LENGTH_SHORT).show();
+					}
 				} else {
 					Toast.makeText(getApplicationContext(), getResources().getString(R.string.emptysearch), Toast.LENGTH_SHORT).show();
 				}
@@ -175,6 +210,19 @@ import fr.joeybronner.freehandtwitter.util.Constants;
 			@Override
 			public void onStopTrackingTouch(SeekBar seekBar) {	}       
 		});
+	}
+
+	public static void showLoader(boolean show) {
+		if (show) {
+			btSearch.setVisibility(View.INVISIBLE);
+			gifLoader.setVisibility(View.VISIBLE);
+		} else {
+			btSearch.setVisibility(View.VISIBLE);
+			gifLoader.setVisibility(View.INVISIBLE);
+			Intent i = new Intent(c, TweetFlipperActivity.class);
+			i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+			c.startActivity(i);
+		}
 	}
 
 	private void updateSpeedTextView(int progress) {

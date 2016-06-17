@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
-        sha1="55e0f28475c9f55dd77bd1c196de221ac4f53dc7">
+        sha1="8507a813704ad990bf4b2bbdd8025a265d8a1618">
         <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7be550780ea6d85678b7689c5bdf843e53b49582/classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
-        sha1="d3a7ef91054d73aac3dfccdbd55b98a28d39ddea">
+        sha1="b401d1cb802dee293ccd4e4fece2180f0e22a1cf">
         <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_59f6a0e624c848b14ec59425f783b74daf7e8a78/classes.dex" />
     </item>
     <item
@@ -99,6 +99,15 @@
         revision="23.0.3"
         sha1="63737e512fcd9e0ebe9bcd0bb375c2dded74116f">
         <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/lib-manipulation-3.1.0_723910fad40730651be98a9864d5984cbc8e6df7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/joeybronner/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_c8a3d5c56ad063e3a82ea2319bc087659ee2be6c/classes.dex" />
     </item>
     <item
         is-multidex="true"
