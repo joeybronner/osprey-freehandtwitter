@@ -78,7 +78,7 @@ public class TweetFlipperActivity extends Activity {
 				getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
 				// Typeface
-				Constants.tf = Typeface.createFromAsset(this.getAssets(),"fonts/OpenSans-Light.ttf");
+				Constants.tf = Typeface.createFromAsset(this.getAssets(),"fonts/Roboto-Light.ttf");
 
 				// Recalculation of SLIDER_TIMER
 				SLIDER_TIMER = 12000;
