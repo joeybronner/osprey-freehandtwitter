@@ -44,13 +44,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@drawable/bottom_gray_border">
 
             <ImageView
                 android:id="@+id/ivHashtag"
-                android:layout_width="20dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
+                android:layout_width="31dp"
+                android:layout_height="36dp"
                 android:contentDescription="@string/search"
                 android:src="@drawable/hashtag_grey" />
 
@@ -66,7 +67,7 @@
                 android:hint="@string/lookingfor"
                 android:inputType="text"
                 android:maxWidth="200dp"
-                android:textSize="24sp"
+                android:textSize="22sp"
                 android:textColor="@color/blue"
                 android:textColorHint="@color/lightblue" />
 
@@ -80,7 +81,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="bottom|center">
+            android:gravity="center|center">
 
             <Button
                 android:id="@+id/btSearch"

@@ -61,12 +61,14 @@ public class TwitterAPI {
 			HttpGet httpGet = null;
 			if (filter.equals("filter")) {
 				httpGet = new HttpGet(Constants.TWITTER_SEARCHTWEETS_URL + screenName + 
-						Constants.TWITTER_SEARCH_COUNT + 
+						Constants.TWITTER_SEARCH_COUNT +
+						Constants.TWITTER_NOT_RETRIEVE_RTS +
 						Constants.TWITTER_SEARCH_LANG + Constants.USER_LANGAGE +
 						Constants.TWITTER_RESULT_TYPE);
 			} else if (filter.equals("nofilter")) {
 				httpGet = new HttpGet(Constants.TWITTER_SEARCHTWEETS_URL + screenName + 
-						Constants.TWITTER_SEARCH_COUNT + 
+						Constants.TWITTER_SEARCH_COUNT +
+						Constants.TWITTER_NOT_RETRIEVE_RTS +
 						Constants.TWITTER_SEARCH_LANG + Constants.USER_LANGAGE);
 			}
 			httpGet.setHeader("Authorization", "Bearer " + twitterAuthToken.access_token);
