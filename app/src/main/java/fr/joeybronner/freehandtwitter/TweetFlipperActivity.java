@@ -72,7 +72,7 @@ public class TweetFlipperActivity extends Activity {
 				finish();
 			} else {
 				// Number of tweets loaded
-				Toast.makeText(getApplicationContext(), Constants.twit.size() + " " + getResources().getString(R.string.loaded), Toast.LENGTH_SHORT).show();
+				// Toast.makeText(getApplicationContext(), Constants.twit.size() + " " + getResources().getString(R.string.loaded), Toast.LENGTH_SHORT).show();
 
 				// Stay screen on
 				getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);

@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
-        sha1="83b6ead7f3f1e1b9313c3e2b8e8c429f326f317c">
+        sha1="ee9d74aa49aeaa4e3ce21280a023a2509da69319">
         <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7be550780ea6d85678b7689c5bdf843e53b49582/classes.dex" />
     </item>
     <item
@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
-        sha1="7ddb00b46971c70f0d85e8d72d6cdbb1131a831c">
+        sha1="d11b5e028fefd46e6fd3d4622948281ba478c445">
         <dex dex="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_59f6a0e624c848b14ec59425f783b74daf7e8a78/classes.dex" />
     </item>
     <item
