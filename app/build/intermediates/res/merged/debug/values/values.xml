@@ -34,6 +34,7 @@
     <color name="darkgray">#5A5A5A</color>
     <color name="gray">#bdc3c7</color>
     <color name="lightblue">#BCD3E3</color>
+    <color name="lightgray">#dadcde</color>
     <color name="white">#FFFFFF</color>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundInsidePadding"/><attr name="android:foregroundGravity"/></declare-styleable>
     <declare-styleable name="GifTextureView"><attr format="reference|string" name="gifSource"/><attr format="boolean" name="isOpaque"/></declare-styleable>
@@ -154,10 +155,10 @@
     <style name="AppBaseTheme" parent="android:Theme.Light"/>
     <style name="AppTheme" parent="AppBaseTheme">
 
-        <!-- For the resting Spinner style -->
+        
         <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item>
 
-        <!-- For each individual Spinner list item once clicked on -->
+        
         <item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItemStyle</item>
     </style>
     <style name="card"/>

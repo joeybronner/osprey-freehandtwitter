@@ -46,6 +46,7 @@ int color darkblue 0x7f060001
 int color darkgray 0x7f060002
 int color gray 0x7f060003
 int color lightblue 0x7f060004
+int color lightgray 0x7f060017
 int color white 0x7f060005
 int dimen activity_horizontal_margin 0x7f0a0000
 int dimen activity_vertical_margin 0x7f0a0001

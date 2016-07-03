@@ -12,15 +12,7 @@
                     "endOffset": 249
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 1178,
-                        "endLine": 38,
-                        "endColumn": 19,
-                        "endOffset": 1372
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -33,15 +25,7 @@
                     "endOffset": 391
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 44,
-                        "startColumn": 4,
-                        "startOffset": 1596,
-                        "endLine": 48,
-                        "endColumn": 19,
-                        "endOffset": 1733
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -53,14 +37,7 @@
                     "endOffset": 430
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 311,
-                        "endColumn": 38,
-                        "endOffset": 345
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -72,14 +49,7 @@
                     "endOffset": 479
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 206,
-                        "endColumn": 48,
-                        "endOffset": 250
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -91,14 +61,7 @@
                     "endOffset": 535
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 255,
-                        "endColumn": 55,
-                        "endOffset": 306
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -110,14 +73,7 @@
                     "endOffset": 582
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 311,
-                        "endColumn": 46,
-                        "endOffset": 353
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -129,14 +85,7 @@
                     "endOffset": 638
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 358,
-                        "endColumn": 55,
-                        "endOffset": 409
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -148,14 +97,7 @@
                     "endOffset": 692
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 414,
-                        "endColumn": 53,
-                        "endOffset": 463
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -167,14 +109,7 @@
                     "endOffset": 773
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 468,
-                        "endColumn": 80,
-                        "endOffset": 544
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -186,14 +121,7 @@
                     "endOffset": 844
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 549,
-                        "endColumn": 70,
-                        "endOffset": 615
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -205,14 +133,7 @@
                     "endOffset": 902
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 620,
-                        "endColumn": 57,
-                        "endOffset": 673
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -224,14 +145,7 @@
                     "endOffset": 964
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 678,
-                        "endColumn": 61,
-                        "endOffset": 735
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -243,14 +157,7 @@
                     "endOffset": 1033
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 740,
-                        "endColumn": 68,
-                        "endOffset": 804
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -262,14 +169,7 @@
                     "endOffset": 1082
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 809,
-                        "endColumn": 48,
-                        "endOffset": 853
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -281,14 +181,7 @@
                     "endOffset": 1138
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 858,
-                        "endColumn": 55,
-                        "endOffset": 909
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -300,14 +193,7 @@
                     "endOffset": 1220
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 914,
-                        "endColumn": 81,
-                        "endOffset": 991
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -319,14 +205,7 @@
                     "endOffset": 1292
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 996,
-                        "endColumn": 71,
-                        "endOffset": 1063
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -338,14 +217,7 @@
                     "endOffset": 1346
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1068,
-                        "endColumn": 53,
-                        "endOffset": 1117
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -357,14 +229,7 @@
                     "endOffset": 1419
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 1277,
-                        "endColumn": 72,
-                        "endOffset": 1345
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -376,14 +241,7 @@
                     "endOffset": 1486
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 1350,
-                        "endColumn": 66,
-                        "endOffset": 1412
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
@@ -395,14 +253,7 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 350,
-                        "endColumn": 42,
-                        "endOffset": 388
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -414,14 +265,7 @@
                     "endOffset": 1572
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 477,
-                        "endColumn": 42,
-                        "endOffset": 515
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -433,14 +277,7 @@
                     "endOffset": 1611
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 520,
-                        "endColumn": 38,
-                        "endOffset": 554
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -452,14 +289,7 @@
                     "endOffset": 1655
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 393,
-                        "endColumn": 43,
-                        "endOffset": 432
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -467,1238 +297,788 @@
                     "startLine": 36,
                     "startColumn": 4,
                     "startOffset": 1660,
-                    "endColumn": 39,
-                    "endOffset": 1695
+                    "endColumn": 43,
+                    "endOffset": 1699
                 },
                 "from": {
                     "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 437,
-                        "endColumn": 39,
-                        "endOffset": 472
+                        "startOffset": 559,
+                        "endColumn": 43,
+                        "endOffset": 598
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3123,
-                    "endColumn": 57,
-                    "endOffset": 3176
+                    "startOffset": 1704,
+                    "endColumn": 39,
+                    "endOffset": 1739
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 89,
-                        "endColumn": 57,
-                        "endOffset": 142
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 3181,
-                    "endColumn": 55,
-                    "endOffset": 3232
+                    "startOffset": 3167,
+                    "endColumn": 57,
+                    "endOffset": 3220
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 147,
-                        "endColumn": 55,
-                        "endOffset": 198
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/dimens.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 3237,
-                    "endColumn": 61,
-                    "endOffset": 3294
+                    "startOffset": 3225,
+                    "endColumn": 55,
+                    "endOffset": 3276
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 59,
-                        "startColumn": 4,
-                        "startOffset": 3018,
-                        "endColumn": 61,
-                        "endOffset": 3075
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/dimens.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 3299,
-                    "endColumn": 66,
-                    "endOffset": 3361
+                    "startOffset": 3281,
+                    "endColumn": 61,
+                    "endOffset": 3338
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 60,
-                        "startColumn": 4,
-                        "startOffset": 3080,
-                        "endColumn": 66,
-                        "endOffset": 3142
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 3366,
-                    "endColumn": 70,
-                    "endOffset": 3432
+                    "startOffset": 3343,
+                    "endColumn": 66,
+                    "endOffset": 3405
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 61,
-                        "startColumn": 4,
-                        "startOffset": 3147,
-                        "endColumn": 70,
-                        "endOffset": 3213
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 3437,
-                    "endColumn": 71,
-                    "endOffset": 3504
+                    "startOffset": 3410,
+                    "endColumn": 70,
+                    "endOffset": 3476
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 62,
-                        "startColumn": 4,
-                        "startOffset": 3218,
-                        "endColumn": 71,
-                        "endOffset": 3285
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 3509,
-                    "endColumn": 69,
-                    "endOffset": 3574
+                    "startOffset": 3481,
+                    "endColumn": 71,
+                    "endOffset": 3548
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 63,
-                        "startColumn": 4,
-                        "startOffset": 3290,
-                        "endColumn": 69,
-                        "endOffset": 3355
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 3579,
+                    "startOffset": 3553,
                     "endColumn": 69,
-                    "endOffset": 3644
+                    "endOffset": 3618
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 64,
-                        "startColumn": 4,
-                        "startOffset": 3360,
-                        "endColumn": 69,
-                        "endOffset": 3425
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 3649,
-                    "endColumn": 53,
-                    "endOffset": 3698
+                    "startOffset": 3623,
+                    "endColumn": 69,
+                    "endOffset": 3688
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 65,
-                        "startColumn": 4,
-                        "startOffset": 3430,
-                        "endColumn": 53,
-                        "endOffset": 3479
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 3703,
-                    "endColumn": 67,
-                    "endOffset": 3766
+                    "startOffset": 3693,
+                    "endColumn": 53,
+                    "endOffset": 3742
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 66,
-                        "startColumn": 4,
-                        "startOffset": 3484,
-                        "endColumn": 67,
-                        "endOffset": 3547
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 3771,
-                    "endColumn": 65,
-                    "endOffset": 3832
+                    "startOffset": 3747,
+                    "endColumn": 67,
+                    "endOffset": 3810
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 67,
-                        "startColumn": 4,
-                        "startOffset": 3552,
-                        "endColumn": 65,
-                        "endOffset": 3613
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 3837,
-                    "endColumn": 66,
-                    "endOffset": 3899
+                    "startOffset": 3815,
+                    "endColumn": 65,
+                    "endOffset": 3876
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 68,
-                        "startColumn": 4,
-                        "startOffset": 3618,
-                        "endColumn": 66,
-                        "endOffset": 3680
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 3904,
-                    "endColumn": 64,
-                    "endOffset": 3964
+                    "startOffset": 3881,
+                    "endColumn": 66,
+                    "endOffset": 3943
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 69,
-                        "startColumn": 4,
-                        "startOffset": 3685,
-                        "endColumn": 64,
-                        "endOffset": 3745
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 3969,
-                    "endColumn": 56,
-                    "endOffset": 4021
+                    "startOffset": 3948,
+                    "endColumn": 64,
+                    "endOffset": 4008
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 70,
-                        "startColumn": 4,
-                        "startOffset": 3750,
-                        "endColumn": 56,
-                        "endOffset": 3802
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 4026,
-                    "endColumn": 67,
-                    "endOffset": 4089
+                    "startOffset": 4013,
+                    "endColumn": 56,
+                    "endOffset": 4065
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 71,
-                        "startColumn": 4,
-                        "startOffset": 3807,
-                        "endColumn": 67,
-                        "endOffset": 3870
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 4094,
-                    "endColumn": 68,
-                    "endOffset": 4158
+                    "startOffset": 4070,
+                    "endColumn": 67,
+                    "endOffset": 4133
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 72,
-                        "startColumn": 4,
-                        "startOffset": 3875,
-                        "endColumn": 68,
-                        "endOffset": 3939
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 4163,
-                    "endColumn": 65,
-                    "endOffset": 4224
+                    "startOffset": 4138,
+                    "endColumn": 68,
+                    "endOffset": 4202
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 73,
-                        "startColumn": 4,
-                        "startOffset": 3944,
-                        "endColumn": 65,
-                        "endOffset": 4005
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 4229,
-                    "endColumn": 61,
-                    "endOffset": 4286
+                    "startOffset": 4207,
+                    "endColumn": 65,
+                    "endOffset": 4268
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 74,
-                        "startColumn": 4,
-                        "startOffset": 4010,
-                        "endColumn": 61,
-                        "endOffset": 4067
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 4291,
-                    "endColumn": 70,
-                    "endOffset": 4357
+                    "startOffset": 4273,
+                    "endColumn": 61,
+                    "endOffset": 4330
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 75,
-                        "startColumn": 4,
-                        "startOffset": 4072,
-                        "endColumn": 70,
-                        "endOffset": 4138
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 4362,
-                    "endColumn": 63,
-                    "endOffset": 4421
+                    "startOffset": 4335,
+                    "endColumn": 70,
+                    "endOffset": 4401
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 76,
-                        "startColumn": 4,
-                        "startOffset": 4143,
-                        "endColumn": 63,
-                        "endOffset": 4202
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 4426,
-                    "endColumn": 62,
-                    "endOffset": 4484
+                    "startOffset": 4406,
+                    "endColumn": 63,
+                    "endOffset": 4465
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 77,
-                        "startColumn": 4,
-                        "startOffset": 4207,
-                        "endColumn": 62,
-                        "endOffset": 4265
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 4489,
+                    "startOffset": 4470,
                     "endColumn": 62,
-                    "endOffset": 4547
+                    "endOffset": 4528
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 78,
-                        "startColumn": 4,
-                        "startOffset": 4270,
-                        "endColumn": 62,
-                        "endOffset": 4328
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 4552,
-                    "endColumn": 60,
-                    "endOffset": 4608
+                    "startOffset": 4533,
+                    "endColumn": 62,
+                    "endOffset": 4591
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 79,
-                        "startColumn": 4,
-                        "startOffset": 4333,
-                        "endColumn": 60,
-                        "endOffset": 4389
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 4613,
-                    "endColumn": 66,
-                    "endOffset": 4675
+                    "startOffset": 4596,
+                    "endColumn": 60,
+                    "endOffset": 4652
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 80,
-                        "startColumn": 4,
-                        "startOffset": 4394,
-                        "endColumn": 66,
-                        "endOffset": 4456
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 4680,
-                    "endColumn": 64,
-                    "endOffset": 4740
+                    "startOffset": 4657,
+                    "endColumn": 66,
+                    "endOffset": 4719
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 81,
-                        "startColumn": 4,
-                        "startOffset": 4461,
-                        "endColumn": 64,
-                        "endOffset": 4521
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 4745,
-                    "endColumn": 65,
-                    "endOffset": 4806
+                    "startOffset": 4724,
+                    "endColumn": 64,
+                    "endOffset": 4784
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 82,
-                        "startColumn": 4,
-                        "startOffset": 4526,
-                        "endColumn": 65,
-                        "endOffset": 4587
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 4811,
-                    "endColumn": 63,
-                    "endOffset": 4870
+                    "startOffset": 4789,
+                    "endColumn": 65,
+                    "endOffset": 4850
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 83,
-                        "startColumn": 4,
-                        "startOffset": 4592,
-                        "endColumn": 63,
-                        "endOffset": 4651
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 4875,
-                    "endColumn": 68,
-                    "endOffset": 4939
+                    "startOffset": 4855,
+                    "endColumn": 63,
+                    "endOffset": 4914
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 84,
-                        "startColumn": 4,
-                        "startOffset": 4656,
-                        "endColumn": 68,
-                        "endOffset": 4720
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 4944,
-                    "endColumn": 67,
-                    "endOffset": 5007
+                    "startOffset": 4919,
+                    "endColumn": 68,
+                    "endOffset": 4983
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 85,
-                        "startColumn": 4,
-                        "startOffset": 4725,
-                        "endColumn": 67,
-                        "endOffset": 4788
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 5012,
-                    "endColumn": 68,
-                    "endOffset": 5076
+                    "startOffset": 4988,
+                    "endColumn": 67,
+                    "endOffset": 5051
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 86,
-                        "startColumn": 4,
-                        "startOffset": 4793,
-                        "endColumn": 68,
-                        "endOffset": 4857
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 5081,
-                    "endColumn": 65,
-                    "endOffset": 5142
+                    "startOffset": 5056,
+                    "endColumn": 68,
+                    "endOffset": 5120
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 87,
-                        "startColumn": 4,
-                        "startOffset": 4862,
-                        "endColumn": 65,
-                        "endOffset": 4923
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 5147,
+                    "startOffset": 5125,
                     "endColumn": 65,
-                    "endOffset": 5208
+                    "endOffset": 5186
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 88,
-                        "startColumn": 4,
-                        "startOffset": 4928,
-                        "endColumn": 65,
-                        "endOffset": 4989
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 5213,
+                    "startOffset": 5191,
                     "endColumn": 65,
-                    "endOffset": 5274
+                    "endOffset": 5252
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 89,
-                        "startColumn": 4,
-                        "startOffset": 4994,
-                        "endColumn": 65,
-                        "endOffset": 5055
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 5279,
-                    "endColumn": 63,
-                    "endOffset": 5338
+                    "startOffset": 5257,
+                    "endColumn": 65,
+                    "endOffset": 5318
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 90,
-                        "startColumn": 4,
-                        "startOffset": 5060,
-                        "endColumn": 63,
-                        "endOffset": 5119
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 5343,
-                    "endColumn": 64,
-                    "endOffset": 5403
+                    "startOffset": 5323,
+                    "endColumn": 63,
+                    "endOffset": 5382
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 91,
-                        "startColumn": 4,
-                        "startOffset": 5124,
-                        "endColumn": 64,
-                        "endOffset": 5184
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 5408,
-                    "endColumn": 62,
-                    "endOffset": 5466
+                    "startOffset": 5387,
+                    "endColumn": 64,
+                    "endOffset": 5447
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 92,
-                        "startColumn": 4,
-                        "startOffset": 5189,
-                        "endColumn": 62,
-                        "endOffset": 5247
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 5471,
-                    "endColumn": 64,
-                    "endOffset": 5531
+                    "startOffset": 5452,
+                    "endColumn": 62,
+                    "endOffset": 5510
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 93,
-                        "startColumn": 4,
-                        "startOffset": 5252,
-                        "endColumn": 64,
-                        "endOffset": 5312
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 5536,
-                    "endColumn": 63,
-                    "endOffset": 5595
+                    "startOffset": 5515,
+                    "endColumn": 64,
+                    "endOffset": 5575
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 94,
-                        "startColumn": 4,
-                        "startOffset": 5317,
-                        "endColumn": 63,
-                        "endOffset": 5376
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 5600,
-                    "endColumn": 66,
-                    "endOffset": 5662
+                    "startOffset": 5580,
+                    "endColumn": 63,
+                    "endOffset": 5639
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 95,
-                        "startColumn": 4,
-                        "startOffset": 5381,
-                        "endColumn": 66,
-                        "endOffset": 5443
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 5667,
-                    "endColumn": 67,
-                    "endOffset": 5730
+                    "startOffset": 5644,
+                    "endColumn": 66,
+                    "endOffset": 5706
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 96,
-                        "startColumn": 4,
-                        "startOffset": 5448,
-                        "endColumn": 67,
-                        "endOffset": 5511
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 5735,
-                    "endColumn": 49,
-                    "endOffset": 5780
+                    "startOffset": 5711,
+                    "endColumn": 67,
+                    "endOffset": 5774
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 97,
-                        "startColumn": 4,
-                        "startOffset": 5516,
-                        "endColumn": 49,
-                        "endOffset": 5561
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 5785,
-                    "endColumn": 60,
-                    "endOffset": 5841
+                    "startOffset": 5779,
+                    "endColumn": 49,
+                    "endOffset": 5824
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 98,
-                        "startColumn": 4,
-                        "startOffset": 5566,
-                        "endColumn": 60,
-                        "endOffset": 5622
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 5846,
-                    "endColumn": 48,
-                    "endOffset": 5890
+                    "startOffset": 5829,
+                    "endColumn": 60,
+                    "endOffset": 5885
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 99,
-                        "startColumn": 4,
-                        "startOffset": 5627,
-                        "endColumn": 48,
-                        "endOffset": 5671
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 5895,
-                    "endColumn": 60,
-                    "endOffset": 5951
+                    "startOffset": 5890,
+                    "endColumn": 48,
+                    "endOffset": 5934
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 100,
-                        "startColumn": 4,
-                        "startOffset": 5676,
-                        "endColumn": 60,
-                        "endOffset": 5732
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 5956,
-                    "endColumn": 92,
-                    "endOffset": 6044
+                    "startOffset": 5939,
+                    "endColumn": 60,
+                    "endOffset": 5995
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 101,
-                        "startColumn": 4,
-                        "startOffset": 5737,
-                        "endColumn": 92,
-                        "endOffset": 5825
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 6049,
-                    "endColumn": 93,
-                    "endOffset": 6138
+                    "startOffset": 6000,
+                    "endColumn": 92,
+                    "endOffset": 6088
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 102,
-                        "startColumn": 4,
-                        "startOffset": 5830,
-                        "endColumn": 93,
-                        "endOffset": 5919
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 6143,
-                    "endColumn": 57,
-                    "endOffset": 6196
+                    "startOffset": 6093,
+                    "endColumn": 93,
+                    "endOffset": 6182
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 103,
-                        "startColumn": 4,
-                        "startOffset": 5924,
-                        "endColumn": 57,
-                        "endOffset": 5977
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 6201,
-                    "endColumn": 52,
-                    "endOffset": 6249
+                    "startOffset": 6187,
+                    "endColumn": 57,
+                    "endOffset": 6240
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 104,
-                        "startColumn": 4,
-                        "startOffset": 5982,
-                        "endColumn": 52,
-                        "endOffset": 6030
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 6254,
-                    "endColumn": 51,
-                    "endOffset": 6301
+                    "startOffset": 6245,
+                    "endColumn": 52,
+                    "endOffset": 6293
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 105,
-                        "startColumn": 4,
-                        "startOffset": 6035,
-                        "endColumn": 51,
-                        "endOffset": 6082
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 6306,
-                    "endColumn": 54,
-                    "endOffset": 6356
+                    "startOffset": 6298,
+                    "endColumn": 51,
+                    "endOffset": 6345
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 106,
-                        "startColumn": 4,
-                        "startOffset": 6087,
-                        "endColumn": 54,
-                        "endOffset": 6137
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 6361,
-                    "endColumn": 52,
-                    "endOffset": 6409
+                    "startOffset": 6350,
+                    "endColumn": 54,
+                    "endOffset": 6400
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 107,
-                        "startColumn": 4,
-                        "startOffset": 6142,
-                        "endColumn": 52,
-                        "endOffset": 6190
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 6414,
-                    "endColumn": 53,
-                    "endOffset": 6463
+                    "startOffset": 6405,
+                    "endColumn": 52,
+                    "endOffset": 6453
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 108,
-                        "startColumn": 4,
-                        "startOffset": 6195,
-                        "endColumn": 53,
-                        "endOffset": 6244
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 6468,
-                    "endColumn": 51,
-                    "endOffset": 6515
+                    "startOffset": 6458,
+                    "endColumn": 53,
+                    "endOffset": 6507
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 109,
-                        "startColumn": 4,
-                        "startOffset": 6249,
-                        "endColumn": 51,
-                        "endOffset": 6296
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 6520,
-                    "endColumn": 54,
-                    "endOffset": 6570
+                    "startOffset": 6512,
+                    "endColumn": 51,
+                    "endOffset": 6559
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 110,
-                        "startColumn": 4,
-                        "startOffset": 6301,
-                        "endColumn": 54,
-                        "endOffset": 6351
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 6575,
-                    "endColumn": 52,
-                    "endOffset": 6623
+                    "startOffset": 6564,
+                    "endColumn": 54,
+                    "endOffset": 6614
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 111,
-                        "startColumn": 4,
-                        "startOffset": 6356,
-                        "endColumn": 52,
-                        "endOffset": 6404
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 6628,
-                    "endColumn": 53,
-                    "endOffset": 6677
+                    "startOffset": 6619,
+                    "endColumn": 52,
+                    "endOffset": 6667
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 112,
-                        "startColumn": 4,
-                        "startOffset": 6409,
-                        "endColumn": 53,
-                        "endOffset": 6458
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 6682,
-                    "endColumn": 51,
-                    "endOffset": 6729
+                    "startOffset": 6672,
+                    "endColumn": 53,
+                    "endOffset": 6721
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 113,
-                        "startColumn": 4,
-                        "startOffset": 6463,
-                        "endColumn": 51,
-                        "endOffset": 6510
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 6734,
-                    "endColumn": 64,
-                    "endOffset": 6794
+                    "startOffset": 6726,
+                    "endColumn": 51,
+                    "endOffset": 6773
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 117,
-                        "startColumn": 4,
-                        "startOffset": 6667,
-                        "endColumn": 64,
-                        "endOffset": 6727
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 6799,
-                    "endColumn": 63,
-                    "endOffset": 6858
+                    "startOffset": 6778,
+                    "endColumn": 64,
+                    "endOffset": 6838
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 121,
-                        "startColumn": 4,
-                        "startOffset": 6889,
-                        "endColumn": 63,
-                        "endOffset": 6948
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 6863,
-                    "endLine": 105,
-                    "endColumn": 14,
-                    "endOffset": 7022
+                    "startOffset": 6843,
+                    "endColumn": 63,
+                    "endOffset": 6902
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 125,
-                        "startColumn": 4,
-                        "startOffset": 7104,
-                        "endLine": 128,
-                        "endColumn": 14,
-                        "endOffset": 7263
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 106,
+                    "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 7027,
-                    "endLine": 109,
+                    "startOffset": 6907,
+                    "endLine": 106,
                     "endColumn": 14,
-                    "endOffset": 7185
+                    "endOffset": 7066
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 129,
-                        "startColumn": 4,
-                        "startOffset": 7268,
-                        "endLine": 132,
-                        "endColumn": 14,
-                        "endOffset": 7426
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 110,
+                    "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 7190,
-                    "endColumn": 42,
-                    "endOffset": 7228
+                    "startOffset": 7071,
+                    "endLine": 110,
+                    "endColumn": 14,
+                    "endOffset": 7229
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 586,
-                        "endColumn": 42,
-                        "endOffset": 624
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 111,
                     "startColumn": 4,
-                    "startOffset": 7233,
-                    "endColumn": 52,
-                    "endOffset": 7281
+                    "startOffset": 7234,
+                    "endColumn": 42,
+                    "endOffset": 7272
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 70,
-                        "startColumn": 4,
-                        "startOffset": 2983,
-                        "endColumn": 52,
-                        "endOffset": 3031
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 112,
                     "startColumn": 4,
-                    "startOffset": 7286,
-                    "endColumn": 43,
+                    "startOffset": 7277,
+                    "endColumn": 52,
                     "endOffset": 7325
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 76,
-                        "endColumn": 43,
-                        "endOffset": 115
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1706,1625 +1086,1029 @@
                     "startLine": 113,
                     "startColumn": 4,
                     "startOffset": 7330,
-                    "endColumn": 68,
-                    "endOffset": 7394
+                    "endColumn": 43,
+                    "endOffset": 7369
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 134,
-                        "startColumn": 4,
-                        "startOffset": 7432,
-                        "endColumn": 68,
-                        "endOffset": 7496
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 114,
                     "startColumn": 4,
-                    "startOffset": 7399,
-                    "endColumn": 78,
-                    "endOffset": 7473
+                    "startOffset": 7374,
+                    "endColumn": 68,
+                    "endOffset": 7438
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 135,
-                        "startColumn": 4,
-                        "startOffset": 7501,
-                        "endColumn": 78,
-                        "endOffset": 7575
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 115,
                     "startColumn": 4,
-                    "startOffset": 7478,
-                    "endColumn": 65,
-                    "endOffset": 7539
+                    "startOffset": 7443,
+                    "endColumn": 78,
+                    "endOffset": 7517
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 41,
-                        "startColumn": 4,
-                        "startOffset": 1404,
-                        "endColumn": 65,
-                        "endOffset": 1465
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 116,
                     "startColumn": 4,
-                    "startOffset": 7544,
-                    "endColumn": 80,
-                    "endOffset": 7620
+                    "startOffset": 7522,
+                    "endColumn": 65,
+                    "endOffset": 7583
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 61,
-                        "startColumn": 4,
-                        "startOffset": 2282,
-                        "endColumn": 80,
-                        "endOffset": 2358
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 7625,
-                    "endColumn": 60,
-                    "endOffset": 7681
+                    "startOffset": 7588,
+                    "endColumn": 80,
+                    "endOffset": 7664
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 67,
-                        "startColumn": 4,
-                        "startOffset": 2757,
-                        "endColumn": 60,
-                        "endOffset": 2813
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 7686,
-                    "endColumn": 66,
-                    "endOffset": 7748
+                    "startOffset": 7669,
+                    "endColumn": 60,
+                    "endOffset": 7725
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 66,
-                        "startColumn": 4,
-                        "startOffset": 2690,
-                        "endColumn": 66,
-                        "endOffset": 2752
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 7753,
-                    "endColumn": 129,
-                    "endOffset": 7878
+                    "startOffset": 7730,
+                    "endColumn": 66,
+                    "endOffset": 7792
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 65,
-                        "startColumn": 4,
-                        "startOffset": 2560,
-                        "endColumn": 129,
-                        "endOffset": 2685
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 7883,
-                    "endColumn": 68,
-                    "endOffset": 7947
+                    "startOffset": 7797,
+                    "endColumn": 129,
+                    "endOffset": 7922
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 64,
-                        "startColumn": 4,
-                        "startOffset": 2491,
-                        "endColumn": 68,
-                        "endOffset": 2555
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 121,
                     "startColumn": 4,
-                    "startOffset": 7952,
-                    "endColumn": 64,
-                    "endOffset": 8012
+                    "startOffset": 7927,
+                    "endColumn": 68,
+                    "endOffset": 7991
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 63,
-                        "startColumn": 4,
-                        "startOffset": 2426,
-                        "endColumn": 64,
-                        "endOffset": 2486
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 122,
                     "startColumn": 4,
-                    "startOffset": 8017,
-                    "endColumn": 103,
-                    "endOffset": 8116
+                    "startOffset": 7996,
+                    "endColumn": 64,
+                    "endOffset": 8056
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 68,
-                        "startColumn": 4,
-                        "startOffset": 2818,
-                        "endColumn": 103,
-                        "endOffset": 2917
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 123,
                     "startColumn": 4,
-                    "startOffset": 8121,
-                    "endColumn": 62,
-                    "endOffset": 8179
+                    "startOffset": 8061,
+                    "endColumn": 103,
+                    "endOffset": 8160
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 62,
-                        "startColumn": 4,
-                        "startOffset": 2363,
-                        "endColumn": 62,
-                        "endOffset": 2421
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 124,
                     "startColumn": 4,
-                    "startOffset": 8184,
-                    "endColumn": 61,
-                    "endOffset": 8241
+                    "startOffset": 8165,
+                    "endColumn": 62,
+                    "endOffset": 8223
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 139,
-                        "startColumn": 4,
-                        "startOffset": 7729,
-                        "endColumn": 61,
-                        "endOffset": 7786
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 125,
                     "startColumn": 4,
-                    "startOffset": 8246,
-                    "endColumn": 62,
-                    "endOffset": 8304
+                    "startOffset": 8228,
+                    "endColumn": 61,
+                    "endOffset": 8285
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 140,
-                        "startColumn": 4,
-                        "startOffset": 7791,
-                        "endColumn": 62,
-                        "endOffset": 7849
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 126,
                     "startColumn": 4,
-                    "startOffset": 8309,
-                    "endColumn": 52,
-                    "endOffset": 8357
+                    "startOffset": 8290,
+                    "endColumn": 62,
+                    "endOffset": 8348
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 1039,
-                        "endColumn": 52,
-                        "endOffset": 1087
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 127,
                     "startColumn": 4,
-                    "startOffset": 8362,
-                    "endColumn": 53,
-                    "endOffset": 8411
+                    "startOffset": 8353,
+                    "endColumn": 52,
+                    "endOffset": 8401
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 144,
-                        "startColumn": 4,
-                        "startOffset": 8005,
-                        "endColumn": 53,
-                        "endOffset": 8054
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 128,
                     "startColumn": 4,
-                    "startOffset": 8416,
-                    "endColumn": 49,
-                    "endOffset": 8461
+                    "startOffset": 8406,
+                    "endColumn": 53,
+                    "endOffset": 8455
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 58,
-                        "startColumn": 1,
-                        "startOffset": 2199,
-                        "endColumn": 46,
-                        "endOffset": 2244
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 129,
                     "startColumn": 4,
-                    "startOffset": 8466,
-                    "endColumn": 58,
-                    "endOffset": 8520
+                    "startOffset": 8460,
+                    "endColumn": 49,
+                    "endOffset": 8505
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 225,
-                        "endColumn": 64,
-                        "endOffset": 285
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 130,
                     "startColumn": 4,
-                    "startOffset": 8525,
-                    "endColumn": 56,
-                    "endOffset": 8577
+                    "startOffset": 8510,
+                    "endColumn": 58,
+                    "endOffset": 8564
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 671,
-                        "endColumn": 56,
-                        "endOffset": 723
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 8582,
-                    "endColumn": 40,
-                    "endOffset": 8618
+                    "startOffset": 8569,
+                    "endColumn": 56,
+                    "endOffset": 8621
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 54,
-                        "startColumn": 4,
-                        "startOffset": 1867,
-                        "endColumn": 40,
-                        "endOffset": 1903
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 132,
                     "startColumn": 4,
-                    "startOffset": 8623,
-                    "endColumn": 34,
-                    "endOffset": 8653
+                    "startOffset": 8626,
+                    "endColumn": 40,
+                    "endOffset": 8662
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 182,
-                        "endColumn": 42,
-                        "endOffset": 220
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 133,
                     "startColumn": 4,
-                    "startOffset": 8658,
-                    "endColumn": 36,
-                    "endOffset": 8690
+                    "startOffset": 8667,
+                    "endColumn": 34,
+                    "endOffset": 8697
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 1092,
-                        "endColumn": 36,
-                        "endOffset": 1124
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 134,
                     "startColumn": 4,
-                    "startOffset": 8695,
-                    "endColumn": 53,
-                    "endOffset": 8744
+                    "startOffset": 8702,
+                    "endColumn": 36,
+                    "endOffset": 8734
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 55,
-                        "startColumn": 4,
-                        "startOffset": 1908,
-                        "endColumn": 53,
-                        "endOffset": 1957
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 8749,
-                    "endColumn": 41,
-                    "endOffset": 8786
+                    "startOffset": 8739,
+                    "endColumn": 53,
+                    "endOffset": 8788
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 629,
-                        "endColumn": 41,
-                        "endOffset": 666
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 8791,
-                    "endColumn": 47,
-                    "endOffset": 8834
+                    "startOffset": 8793,
+                    "endColumn": 41,
+                    "endOffset": 8830
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 1129,
-                        "endColumn": 47,
-                        "endOffset": 1172
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 8839,
-                    "endColumn": 56,
-                    "endOffset": 8891
+                    "startOffset": 8835,
+                    "endColumn": 47,
+                    "endOffset": 8878
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 56,
-                        "startColumn": 4,
-                        "startOffset": 1962,
-                        "endColumn": 56,
-                        "endOffset": 2014
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 8896,
-                    "endColumn": 61,
-                    "endOffset": 8953
+                    "startOffset": 8883,
+                    "endColumn": 56,
+                    "endOffset": 8935
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 120,
-                        "endColumn": 61,
-                        "endOffset": 177
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 8958,
-                    "endColumn": 124,
-                    "endOffset": 9078
+                    "startOffset": 8940,
+                    "endColumn": 61,
+                    "endOffset": 8997
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 42,
-                        "startColumn": 4,
-                        "startOffset": 1470,
-                        "endColumn": 124,
-                        "endOffset": 1590
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 9083,
-                    "endColumn": 50,
-                    "endOffset": 9129
+                    "startOffset": 9002,
+                    "endColumn": 124,
+                    "endOffset": 9122
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 928,
-                        "endColumn": 50,
-                        "endOffset": 974
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 9134,
-                    "endColumn": 54,
-                    "endOffset": 9184
+                    "startOffset": 9127,
+                    "endColumn": 50,
+                    "endOffset": 9173
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 873,
-                        "endColumn": 54,
-                        "endOffset": 923
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 9189,
-                    "endColumn": 50,
-                    "endOffset": 9235
+                    "startOffset": 9178,
+                    "endColumn": 54,
+                    "endOffset": 9228
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 822,
-                        "endColumn": 50,
-                        "endOffset": 868
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 9240,
-                    "endColumn": 59,
-                    "endOffset": 9295
+                    "startOffset": 9233,
+                    "endColumn": 50,
+                    "endOffset": 9279
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 979,
-                        "endColumn": 59,
-                        "endOffset": 1034
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 9300,
-                    "endColumn": 62,
-                    "endOffset": 9358
+                    "startOffset": 9284,
+                    "endColumn": 59,
+                    "endOffset": 9339
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 759,
-                        "endColumn": 62,
-                        "endOffset": 817
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 145,
                     "startColumn": 4,
-                    "startOffset": 9363,
-                    "endColumn": 66,
-                    "endOffset": 9425
+                    "startOffset": 9344,
+                    "endColumn": 62,
+                    "endOffset": 9402
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 75,
-                        "startColumn": 4,
-                        "startOffset": 3341,
-                        "endColumn": 66,
-                        "endOffset": 3403
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 146,
                     "startColumn": 4,
-                    "startOffset": 9430,
-                    "endColumn": 60,
-                    "endOffset": 9486
+                    "startOffset": 9407,
+                    "endColumn": 66,
+                    "endOffset": 9469
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 69,
-                        "startColumn": 4,
-                        "startOffset": 2922,
-                        "endColumn": 60,
-                        "endOffset": 2978
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 147,
                     "startColumn": 4,
-                    "startOffset": 9491,
-                    "endColumn": 64,
-                    "endOffset": 9551
+                    "startOffset": 9474,
+                    "endColumn": 60,
+                    "endOffset": 9530
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 51,
-                        "startColumn": 4,
-                        "startOffset": 1767,
-                        "endColumn": 64,
-                        "endOffset": 1827
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 148,
                     "startColumn": 4,
-                    "startOffset": 9556,
-                    "endColumn": 68,
-                    "endOffset": 9620
+                    "startOffset": 9535,
+                    "endColumn": 64,
+                    "endOffset": 9595
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 74,
-                        "startColumn": 4,
-                        "startOffset": 3272,
-                        "endColumn": 68,
-                        "endOffset": 3336
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 149,
                     "startColumn": 4,
-                    "startOffset": 9625,
-                    "endColumn": 77,
-                    "endOffset": 9698
+                    "startOffset": 9600,
+                    "endColumn": 68,
+                    "endOffset": 9664
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 73,
-                        "startColumn": 4,
-                        "startOffset": 3194,
-                        "endColumn": 77,
-                        "endOffset": 3267
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 150,
                     "startColumn": 4,
-                    "startOffset": 9703,
+                    "startOffset": 9669,
                     "endColumn": 77,
-                    "endOffset": 9776
+                    "endOffset": 9742
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 71,
-                        "startColumn": 4,
-                        "startOffset": 3036,
-                        "endColumn": 77,
-                        "endOffset": 3109
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 151,
                     "startColumn": 4,
-                    "startOffset": 9781,
-                    "endColumn": 79,
-                    "endOffset": 9856
+                    "startOffset": 9747,
+                    "endColumn": 77,
+                    "endOffset": 9820
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 72,
-                        "startColumn": 4,
-                        "startOffset": 3114,
-                        "endColumn": 79,
-                        "endOffset": 3189
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 152,
                     "startColumn": 4,
-                    "startOffset": 9861,
-                    "endColumn": 182,
-                    "endOffset": 10039
+                    "startOffset": 9825,
+                    "endColumn": 79,
+                    "endOffset": 9900
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 57,
-                        "startColumn": 4,
-                        "startOffset": 2019,
-                        "endColumn": 182,
-                        "endOffset": 2197
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 153,
                     "startColumn": 4,
-                    "startOffset": 10044,
-                    "endColumn": 61,
-                    "endOffset": 10101
+                    "startOffset": 9905,
+                    "endColumn": 182,
+                    "endOffset": 10083
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 76,
-                        "endColumn": 68,
-                        "endOffset": 140
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 154,
                     "startColumn": 4,
-                    "startOffset": 10106,
-                    "endLine": 161,
-                    "endColumn": 12,
-                    "endOffset": 10454
+                    "startOffset": 10088,
+                    "endColumn": 61,
+                    "endOffset": 10145
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 146,
-                        "endLine": 11,
-                        "endColumn": 12,
-                        "endOffset": 494
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/styles.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 162,
+                    "startLine": 155,
                     "startColumn": 4,
-                    "startOffset": 10459,
-                    "endColumn": 24,
-                    "endOffset": 10479
+                    "startOffset": 10150,
+                    "endLine": 162,
+                    "endColumn": 12,
+                    "endOffset": 10398
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 148,
-                        "startColumn": 4,
-                        "startOffset": 8209,
-                        "endColumn": 31,
-                        "endOffset": 8236
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/styles.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 163,
                     "startColumn": 4,
-                    "startOffset": 10484,
-                    "endLine": 168,
-                    "endColumn": 12,
-                    "endOffset": 10847
+                    "startOffset": 10403,
+                    "endColumn": 24,
+                    "endOffset": 10423
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 150,
-                        "startColumn": 4,
-                        "startOffset": 8242,
-                        "endLine": 155,
-                        "endColumn": 12,
-                        "endOffset": 8605
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 169,
+                    "startLine": 164,
                     "startColumn": 4,
-                    "startOffset": 10852,
-                    "endLine": 176,
+                    "startOffset": 10428,
+                    "endLine": 169,
                     "endColumn": 12,
-                    "endOffset": 11435
+                    "endOffset": 10791
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 157,
-                        "startColumn": 4,
-                        "startOffset": 8611,
-                        "endLine": 164,
-                        "endColumn": 12,
-                        "endOffset": 9194
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 177,
+                    "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 11440,
-                    "endLine": 184,
+                    "startOffset": 10796,
+                    "endLine": 177,
                     "endColumn": 12,
-                    "endOffset": 11974
+                    "endOffset": 11379
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 166,
-                        "startColumn": 4,
-                        "startOffset": 9200,
-                        "endLine": 173,
-                        "endColumn": 12,
-                        "endOffset": 9734
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 185,
+                    "startLine": 178,
                     "startColumn": 4,
-                    "startOffset": 11979,
-                    "endLine": 195,
+                    "startOffset": 11384,
+                    "endLine": 185,
                     "endColumn": 12,
-                    "endOffset": 12630
+                    "endOffset": 11918
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 175,
-                        "startColumn": 4,
-                        "startOffset": 9740,
-                        "endLine": 185,
-                        "endColumn": 12,
-                        "endOffset": 10391
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 196,
+                    "startLine": 186,
                     "startColumn": 4,
-                    "startOffset": 12635,
-                    "endLine": 198,
+                    "startOffset": 11923,
+                    "endLine": 196,
                     "endColumn": 12,
-                    "endOffset": 12774
+                    "endOffset": 12574
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 187,
-                        "startColumn": 4,
-                        "startOffset": 10397,
-                        "endLine": 189,
-                        "endColumn": 12,
-                        "endOffset": 10536
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 199,
+                    "startLine": 197,
                     "startColumn": 4,
-                    "startOffset": 12779,
-                    "endColumn": 49,
-                    "endOffset": 12824
+                    "startOffset": 12579,
+                    "endLine": 199,
+                    "endColumn": 12,
+                    "endOffset": 12718
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 191,
-                        "startColumn": 4,
-                        "startOffset": 10542,
-                        "endColumn": 56,
-                        "endOffset": 10594
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 200,
                     "startColumn": 4,
-                    "startOffset": 12829,
-                    "endLine": 203,
-                    "endColumn": 12,
-                    "endOffset": 13083
+                    "startOffset": 12723,
+                    "endColumn": 49,
+                    "endOffset": 12768
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 193,
-                        "startColumn": 4,
-                        "startOffset": 10600,
-                        "endLine": 196,
-                        "endColumn": 12,
-                        "endOffset": 10854
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 204,
+                    "startLine": 201,
                     "startColumn": 4,
-                    "startOffset": 13088,
-                    "endColumn": 44,
-                    "endOffset": 13128
+                    "startOffset": 12773,
+                    "endLine": 204,
+                    "endColumn": 12,
+                    "endOffset": 13027
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 198,
-                        "startColumn": 4,
-                        "startOffset": 10860,
-                        "endColumn": 51,
-                        "endOffset": 10907
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 205,
                     "startColumn": 4,
-                    "startOffset": 13133,
-                    "endColumn": 45,
-                    "endOffset": 13174
+                    "startOffset": 13032,
+                    "endColumn": 44,
+                    "endOffset": 13072
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 200,
-                        "startColumn": 4,
-                        "startOffset": 10913,
-                        "endColumn": 52,
-                        "endOffset": 10961
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 206,
                     "startColumn": 4,
-                    "startOffset": 13179,
-                    "endLine": 211,
-                    "endColumn": 12,
-                    "endOffset": 13619
+                    "startOffset": 13077,
+                    "endColumn": 45,
+                    "endOffset": 13118
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 202,
-                        "startColumn": 4,
-                        "startOffset": 10967,
-                        "endLine": 207,
-                        "endColumn": 12,
-                        "endOffset": 11407
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 212,
+                    "startLine": 207,
                     "startColumn": 4,
-                    "startOffset": 13624,
-                    "endLine": 220,
+                    "startOffset": 13123,
+                    "endLine": 212,
                     "endColumn": 12,
-                    "endOffset": 14307
+                    "endOffset": 13563
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 209,
-                        "startColumn": 4,
-                        "startOffset": 11413,
-                        "endLine": 217,
-                        "endColumn": 12,
-                        "endOffset": 12096
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 221,
+                    "startLine": 213,
                     "startColumn": 4,
-                    "startOffset": 14312,
-                    "endLine": 224,
+                    "startOffset": 13568,
+                    "endLine": 221,
                     "endColumn": 12,
-                    "endOffset": 14517
+                    "endOffset": 14251
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 219,
-                        "startColumn": 4,
-                        "startOffset": 12102,
-                        "endLine": 222,
-                        "endColumn": 12,
-                        "endOffset": 12307
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 225,
+                    "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 14522,
-                    "endLine": 231,
+                    "startOffset": 14256,
+                    "endLine": 225,
                     "endColumn": 12,
-                    "endOffset": 15021
+                    "endOffset": 14461
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 224,
-                        "startColumn": 4,
-                        "startOffset": 12313,
-                        "endLine": 230,
-                        "endColumn": 12,
-                        "endOffset": 12812
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 232,
+                    "startLine": 226,
                     "startColumn": 4,
-                    "startOffset": 15026,
-                    "endLine": 234,
+                    "startOffset": 14466,
+                    "endLine": 232,
                     "endColumn": 12,
-                    "endOffset": 15155
+                    "endOffset": 14965
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 232,
-                        "startColumn": 4,
-                        "startOffset": 12818,
-                        "endLine": 234,
-                        "endColumn": 12,
-                        "endOffset": 12947
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 235,
+                    "startLine": 233,
                     "startColumn": 4,
-                    "startOffset": 15160,
-                    "endLine": 242,
+                    "startOffset": 14970,
+                    "endLine": 235,
                     "endColumn": 12,
-                    "endOffset": 15754
+                    "endOffset": 15099
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 236,
-                        "startColumn": 4,
-                        "startOffset": 12953,
-                        "endLine": 243,
-                        "endColumn": 12,
-                        "endOffset": 13547
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 243,
+                    "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 15759,
-                    "endLine": 245,
+                    "startOffset": 15104,
+                    "endLine": 243,
                     "endColumn": 12,
-                    "endOffset": 15910
+                    "endOffset": 15698
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 245,
-                        "startColumn": 4,
-                        "startOffset": 13553,
-                        "endLine": 247,
-                        "endColumn": 12,
-                        "endOffset": 13704
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 246,
+                    "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 15915,
-                    "endLine": 251,
+                    "startOffset": 15703,
+                    "endLine": 246,
                     "endColumn": 12,
-                    "endOffset": 16239
+                    "endOffset": 15854
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 249,
-                        "startColumn": 4,
-                        "startOffset": 13710,
-                        "endLine": 254,
-                        "endColumn": 12,
-                        "endOffset": 14034
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 252,
+                    "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 16244,
-                    "endLine": 257,
+                    "startOffset": 15859,
+                    "endLine": 252,
                     "endColumn": 12,
-                    "endOffset": 16660
+                    "endOffset": 16183
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 256,
-                        "startColumn": 4,
-                        "startOffset": 14040,
-                        "endLine": 261,
-                        "endColumn": 12,
-                        "endOffset": 14456
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 258,
+                    "startLine": 253,
                     "startColumn": 4,
-                    "startOffset": 16665,
-                    "endColumn": 48,
-                    "endOffset": 16709
+                    "startOffset": 16188,
+                    "endLine": 258,
+                    "endColumn": 12,
+                    "endOffset": 16604
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 263,
-                        "startColumn": 4,
-                        "startOffset": 14462,
-                        "endColumn": 49,
-                        "endOffset": 14507
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 16714,
-                    "endLine": 265,
-                    "endColumn": 12,
-                    "endOffset": 17156
+                    "startOffset": 16609,
+                    "endColumn": 48,
+                    "endOffset": 16653
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 265,
-                        "startColumn": 4,
-                        "startOffset": 14513,
-                        "endLine": 271,
-                        "endColumn": 12,
-                        "endOffset": 14955
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 266,
+                    "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 17161,
-                    "endLine": 277,
+                    "startOffset": 16658,
+                    "endLine": 266,
                     "endColumn": 12,
-                    "endOffset": 17910
+                    "endOffset": 17100
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 273,
-                        "startColumn": 4,
-                        "startOffset": 14961,
-                        "endLine": 284,
-                        "endColumn": 12,
-                        "endOffset": 15710
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 278,
+                    "startLine": 267,
                     "startColumn": 4,
-                    "startOffset": 17915,
-                    "endLine": 284,
+                    "startOffset": 17105,
+                    "endLine": 278,
                     "endColumn": 12,
-                    "endOffset": 18285
+                    "endOffset": 17854
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 286,
-                        "startColumn": 4,
-                        "startOffset": 15716,
-                        "endLine": 292,
-                        "endColumn": 12,
-                        "endOffset": 16086
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 285,
+                    "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 18290,
-                    "endLine": 288,
+                    "startOffset": 17859,
+                    "endLine": 285,
                     "endColumn": 12,
-                    "endOffset": 18470
+                    "endOffset": 18229
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 294,
-                        "startColumn": 4,
-                        "startOffset": 16092,
-                        "endLine": 297,
-                        "endColumn": 12,
-                        "endOffset": 16272
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 289,
+                    "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 18475,
-                    "endLine": 297,
+                    "startOffset": 18234,
+                    "endLine": 289,
                     "endColumn": 12,
-                    "endOffset": 19093
+                    "endOffset": 18414
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 299,
-                        "startColumn": 4,
-                        "startOffset": 16278,
-                        "endLine": 307,
-                        "endColumn": 12,
-                        "endOffset": 16896
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 298,
+                    "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 19098,
-                    "endLine": 303,
+                    "startOffset": 18419,
+                    "endLine": 298,
                     "endColumn": 12,
-                    "endOffset": 19451
+                    "endOffset": 19037
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 309,
-                        "startColumn": 4,
-                        "startOffset": 16902,
-                        "endLine": 314,
-                        "endColumn": 12,
-                        "endOffset": 17255
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 304,
+                    "startLine": 299,
                     "startColumn": 4,
-                    "startOffset": 19456,
-                    "endLine": 309,
+                    "startOffset": 19042,
+                    "endLine": 304,
                     "endColumn": 12,
-                    "endOffset": 19809
+                    "endOffset": 19395
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 316,
-                        "startColumn": 4,
-                        "startOffset": 17261,
-                        "endLine": 321,
-                        "endColumn": 12,
-                        "endOffset": 17614
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 310,
+                    "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 19814,
-                    "endColumn": 34,
-                    "endOffset": 19844
+                    "startOffset": 19400,
+                    "endLine": 310,
+                    "endColumn": 12,
+                    "endOffset": 19753
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 323,
-                        "startColumn": 4,
-                        "startOffset": 17620,
-                        "endColumn": 41,
-                        "endOffset": 17657
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 311,
                     "startColumn": 4,
-                    "startOffset": 19849,
-                    "endColumn": 39,
-                    "endOffset": 19884
+                    "startOffset": 19758,
+                    "endColumn": 34,
+                    "endOffset": 19788
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 325,
-                        "startColumn": 4,
-                        "startOffset": 17663,
-                        "endColumn": 46,
-                        "endOffset": 17705
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 19889,
-                    "endLine": 325,
-                    "endColumn": 12,
-                    "endOffset": 20644
+                    "startOffset": 19793,
+                    "endColumn": 39,
+                    "endOffset": 19828
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 329,
-                        "startColumn": 4,
-                        "startOffset": 17865,
-                        "endLine": 342,
-                        "endColumn": 12,
-                        "endOffset": 18620
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 326,
+                    "startLine": 313,
                     "startColumn": 4,
-                    "startOffset": 20649,
-                    "endLine": 339,
+                    "startOffset": 19833,
+                    "endLine": 326,
                     "endColumn": 12,
-                    "endOffset": 21436
+                    "endOffset": 20588
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 344,
-                        "startColumn": 4,
-                        "startOffset": 18626,
-                        "endLine": 357,
-                        "endColumn": 12,
-                        "endOffset": 19413
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 340,
+                    "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 21441,
-                    "endLine": 351,
+                    "startOffset": 20593,
+                    "endLine": 340,
                     "endColumn": 12,
-                    "endOffset": 22126
+                    "endOffset": 21380
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 359,
-                        "startColumn": 4,
-                        "startOffset": 19419,
-                        "endLine": 370,
-                        "endColumn": 12,
-                        "endOffset": 20104
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 352,
+                    "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 22131,
-                    "endLine": 369,
+                    "startOffset": 21385,
+                    "endLine": 352,
                     "endColumn": 12,
-                    "endOffset": 23177
+                    "endOffset": 22070
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 372,
-                        "startColumn": 4,
-                        "startOffset": 20110,
-                        "endLine": 389,
-                        "endColumn": 12,
-                        "endOffset": 21156
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 370,
+                    "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 23182,
-                    "endLine": 379,
+                    "startOffset": 22075,
+                    "endLine": 370,
                     "endColumn": 12,
-                    "endOffset": 23719
+                    "endOffset": 23121
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 391,
-                        "startColumn": 4,
-                        "startOffset": 21162,
-                        "endLine": 400,
-                        "endColumn": 12,
-                        "endOffset": 21699
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 380,
+                    "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 23724,
-                    "endLine": 389,
+                    "startOffset": 23126,
+                    "endLine": 380,
                     "endColumn": 12,
-                    "endOffset": 24239
+                    "endOffset": 23663
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 402,
-                        "startColumn": 4,
-                        "startOffset": 21705,
-                        "endLine": 411,
-                        "endColumn": 12,
-                        "endOffset": 22220
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 390,
+                    "startLine": 381,
                     "startColumn": 4,
-                    "startOffset": 24244,
-                    "endLine": 401,
+                    "startOffset": 23668,
+                    "endLine": 390,
                     "endColumn": 12,
-                    "endOffset": 24884
+                    "endOffset": 24183
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 413,
-                        "startColumn": 4,
-                        "startOffset": 22226,
-                        "endLine": 424,
-                        "endColumn": 12,
-                        "endOffset": 22866
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 402,
+                    "startLine": 391,
                     "startColumn": 4,
-                    "startOffset": 24889,
-                    "endLine": 416,
+                    "startOffset": 24188,
+                    "endLine": 402,
                     "endColumn": 12,
-                    "endOffset": 25715
+                    "endOffset": 24828
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 426,
-                        "startColumn": 4,
-                        "startOffset": 22872,
-                        "endLine": 440,
-                        "endColumn": 12,
-                        "endOffset": 23698
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 417,
+                    "startLine": 403,
                     "startColumn": 4,
-                    "startOffset": 25720,
-                    "endLine": 431,
+                    "startOffset": 24833,
+                    "endLine": 417,
                     "endColumn": 12,
-                    "endOffset": 26552
+                    "endOffset": 25659
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml",
-                    "position": {
-                        "startLine": 442,
-                        "startColumn": 4,
-                        "startOffset": 23704,
-                        "endLine": 456,
-                        "endColumn": 12,
-                        "endOffset": 24536
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 432,
+                    "startLine": 418,
                     "startColumn": 4,
-                    "startOffset": 26557,
-                    "endLine": 438,
+                    "startOffset": 25664,
+                    "endLine": 432,
                     "endColumn": 12,
-                    "endOffset": 26890
+                    "endOffset": 26496
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 707,
-                        "endLine": 25,
-                        "endColumn": 12,
-                        "endOffset": 1040
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 439,
+                    "startLine": 433,
                     "startColumn": 4,
-                    "startOffset": 26895,
-                    "endLine": 443,
+                    "startOffset": 26501,
+                    "endLine": 439,
                     "endColumn": 12,
-                    "endOffset": 27096
+                    "endOffset": 26834
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 500,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 701
-                    }
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 440,
+                    "startColumn": 4,
+                    "startOffset": 26839,
+                    "endLine": 444,
+                    "endColumn": 12,
+                    "endOffset": 27040
+                },
+                "from": {
+                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values/styles.xml"
                 }
             }
         ]

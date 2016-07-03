@@ -11,7 +11,7 @@
         <ImageView
             android:id="@+id/btShare"
             android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_height="70dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:contentDescription="@string/nodescription"
@@ -303,7 +303,7 @@
         <TextView
             android:id="@+id/hashtag"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
             android:layout_centerVertical="true"

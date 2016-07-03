@@ -14,6 +14,7 @@
     <color name="white">#FFFFFF</color>
     <color name="darkgray">#5A5A5A</color>
     <color name="gray">#bdc3c7</color>
+    <color name="lightgray">#dadcde</color>
 
     <!-- MainActivity -->
     <string name="ab_about">About</string>

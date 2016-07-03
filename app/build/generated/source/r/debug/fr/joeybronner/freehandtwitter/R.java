@@ -171,6 +171,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int darkgray=0x7f060002;
         public static final int gray=0x7f060003;
         public static final int lightblue=0x7f060004;
+        public static final int lightgray=0x7f060017;
         public static final int white=0x7f060005;
     }
     public static final class dimen {
