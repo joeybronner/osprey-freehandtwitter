@@ -4,6 +4,10 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/drawable/card_foreground_selector.xml"
     },
     {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/rolling.gif",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/rolling.gif"
+    },
+    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/card_menu_button_expand.xml",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/drawable/card_menu_button_expand.xml"
     },
@@ -32,6 +36,10 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/drawable/card_multichoice_selector.xml"
     },
     {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/loading_n.gif",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/loading_n.gif"
+    },
+    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/layer_card_background.xml",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/layer_card_background.xml"
     },
@@ -44,12 +52,24 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetplay_dark.png"
     },
     {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/back_material.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/back_material.png"
+    },
+    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/layer_card_background_selected.xml",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/layer_card_background_selected.xml"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/german.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/german.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/hashtag128.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/hashtag128.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/more128.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/more128.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_backgroundfill.xml",
@@ -150,6 +170,10 @@
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/popular.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/popular.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/forward_material.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/forward_material.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetplay.png",

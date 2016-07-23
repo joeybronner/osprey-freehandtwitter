@@ -269,7 +269,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="1"
                 android:contentDescription="@string/nodescription"
-                android:src="@drawable/previous_material" />
+                android:src="@drawable/back_material" />
 
             <ImageView
                 android:id="@+id/btTweetPlayPause"
@@ -285,7 +285,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="1"
                 android:contentDescription="@string/nodescription"
-                android:src="@drawable/next_material" />
+                android:src="@drawable/forward_material" />
         </LinearLayout>
 
         <ProgressBar
