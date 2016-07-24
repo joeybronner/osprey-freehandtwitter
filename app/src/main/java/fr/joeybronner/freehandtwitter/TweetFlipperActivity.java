@@ -144,11 +144,6 @@ public class TweetFlipperActivity extends Activity {
 					@Override
 					public void onClick(View v) { 
 						if(isPaused) {
-							/*if (isDark) {
-								bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetpause),800, 800, true);
-							} else {
-								bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetpause_dark),800, 800, true);
-							}*/
 							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.pause_material),800, 800, true);
 							btPlayPause.setImageBitmap(bm);
 							isPaused = false;
@@ -157,11 +152,6 @@ public class TweetFlipperActivity extends Activity {
 						}
 						else {
 							updatePB = false;
-							/*if (isDark) {
-								bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
-							} else {
-								bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay_dark),800, 800, true);
-							}*/
 							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.play_material),800, 800, true);
 							btPlayPause.setImageBitmap(bm);
 							isPaused = true;
