@@ -164,7 +164,8 @@ public class TweetFlipperActivity extends Activity {
 				btTweetNext.setOnClickListener(new OnClickListener() { 
 					@Override
 					public void onClick(View v) {
-						progressBarThread.interrupt();
+						//progressBarThread.interrupt();
+						progressBar.setProgress(0);
 						handler.removeCallbacks(r);
 						viewFlipper.stopFlipping();
 						handler.postDelayed(r, 0);
@@ -179,18 +180,14 @@ public class TweetFlipperActivity extends Activity {
 					@Override
 					public void onClick(View v) {
 						i = i-2;
-						progressBarThread.interrupt();
+						//progressBarThread.interrupt();
+						progressBar.setProgress(0);
 						handler.removeCallbacks(r);
 						viewFlipper.stopFlipping();
 						viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_left);
 						viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_right);
 						handler.postDelayed(r, 0);
 						viewFlipper.startFlipping();
-						/*if (isDark) {
-							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay),800, 800, true);
-						} else {
-							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.tweetplay_dark),800, 800, true);
-						}*/
 						bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.previous_material),800, 800, true);
 						btPlayPause.setImageBitmap(bm);
 						isPaused = false;
