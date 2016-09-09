@@ -1,7 +1,6 @@
 package fr.joeybronner.freehandtwitter;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -11,7 +10,6 @@ import java.util.Calendar;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
@@ -23,7 +21,6 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
-import android.provider.MediaStore.Images;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -43,23 +40,23 @@ public class TweetFlipperActivity extends Activity {
 	private ViewFlipper viewFlipper;
 	private ProgressBar progressBar;
 	boolean updatePB = true;
-	private static int SLIDER_TIMER; 
-	String search;
+	private static int SLIDER_TIMER;
 	int i = 0;
 	boolean isPaused = false;
 	boolean isDark;
 	ImageView btPlayPause, ivUser1, ivUser2, ivUser3, btTweetNext, btTweetBack, btShare;
 	TextView tvArobase1, tvName1, tvTweet1, tvArobase2, tvName2, tvTweet2, tvArobase3, tvName3, tvTweet3, tvHashtag;
-	View v;
-	float lastX;
 	Bitmap bm;
 	final BitmapFactory.Options options = new BitmapFactory.Options();
-	final Handler handler = new Handler();
+	Handler handler = new Handler();
 	int progressStatus = 0;
 	Thread progressBarThread;
 	boolean hideCard1, hideCard2, hideCard3;
-	Animation previousAnim, nextAnim;
+	Animation nextAnim;
 	int cardNr;
+    long millis;
+    int TMP_SLIDER_TIMER = 0;
+    double TMP_SLIDER_TIMER_CARD1, TMP_SLIDER_TIMER_CARD2, TMP_SLIDER_TIMER_CARD3;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -97,10 +94,10 @@ public class TweetFlipperActivity extends Activity {
 				nextAnim = AnimationUtils.loadAnimation(this, R.anim.next);
 
 				viewFlipper = (ViewFlipper) findViewById(R.id.viewflipper);
-				viewFlipper.setFlipInterval(SLIDER_TIMER);
+				//viewFlipper.setFlipInterval(SLIDER_TIMER);
 				viewFlipper.setInAnimation(this, R.anim.slide_in_from_right);
 				viewFlipper.setOutAnimation(this, R.anim.slide_out_to_left);
-				viewFlipper.startFlipping();
+				//viewFlipper.startFlipping();
 				tvHashtag = (TextView) findViewById(R.id.hashtag);
 				tvHashtag.setTypeface(Constants.tf);
 				tvHashtag.setText("#" + Constants.TWITTER_USER_SEARCH);
@@ -148,7 +145,9 @@ public class TweetFlipperActivity extends Activity {
 							btPlayPause.setImageBitmap(bm);
 							isPaused = false;
 							handler.postDelayed(r, 0);
-							viewFlipper.startFlipping();
+                            viewFlipper.showNext();
+                            updatePB = true;
+							//viewFlipper.startFlipping();
 						}
 						else {
 							updatePB = false;
@@ -164,15 +163,11 @@ public class TweetFlipperActivity extends Activity {
 				btTweetNext.setOnClickListener(new OnClickListener() { 
 					@Override
 					public void onClick(View v) {
-						//progressBarThread.interrupt();
-						progressBar.setProgress(0);
-						handler.removeCallbacks(r);
-						viewFlipper.stopFlipping();
-						handler.postDelayed(r, 0);
-						viewFlipper.startFlipping();
-						bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.next_material),800, 800, true);
-						btPlayPause.setImageBitmap(bm);
-						isPaused = false;
+                        millis = System.currentTimeMillis();
+                        TMP_SLIDER_TIMER = 0;
+                        i = i + 3;
+                        viewFlipper.showNext();
+                        viewFlipper.stopFlipping();
 					}
 				});
 
@@ -181,7 +176,7 @@ public class TweetFlipperActivity extends Activity {
 					public void onClick(View v) {
 						i = i-2;
 						//progressBarThread.interrupt();
-						progressBar.setProgress(0);
+						/*progressBar.setProgress(0);
 						handler.removeCallbacks(r);
 						viewFlipper.stopFlipping();
 						viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_left);
@@ -190,7 +185,7 @@ public class TweetFlipperActivity extends Activity {
 						viewFlipper.startFlipping();
 						bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.previous_material),800, 800, true);
 						btPlayPause.setImageBitmap(bm);
-						isPaused = false;
+						isPaused = false;*/
 					}
 				});
 
@@ -261,111 +256,118 @@ public class TweetFlipperActivity extends Activity {
 	@Override
 	protected void onResume() {
 		handler.postDelayed(r, 0);
-		viewFlipper.startFlipping();
+        viewFlipper.showNext();
 		super.onResume();
 	}
 
 	final Runnable r = new Runnable() {
 		@Override
 		public void run() {
-			try {
-				updatePB = true;
-				hideCard1 = true;
-				hideCard2 = true;
-				hideCard3 = true;
-				final long millis = System.currentTimeMillis();
-				i = i+2 >= Constants.twit.size() ? i = 0 : i+2;
+				try {
+					updatePB = true;
+					hideCard1 = true;
+					hideCard2 = true;
+					hideCard3 = true;
+                    millis = System.currentTimeMillis();
+					i = i+2 >= Constants.twit.size() ? i = 0 : i+2;
 
-				// Card 1
-				tvTweet1.setText(Constants.twit.get(i).toString());
-				tvArobase1.setText(" " +
-						"@" + Constants.twit.get(i).getTwitterUser().getScreenName());
-				tvName1.setText(Constants.twit.get(i).getTwitterUser().getName());
-				setFontColor();
-				new ImageDownloader(ivUser1).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
-				ivUser1.setOnClickListener(new View.OnClickListener(){
-					public void onClick(View v) {
-						Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/" + Constants.twit.get(i).getTwitterUser().getName()));
-						startActivity(browserIntent);
-					}
-				});
+					// Card 1
+					tvTweet1.setText(Constants.twit.get(i).toString());
+					tvArobase1.setText(" " +
+							"@" + Constants.twit.get(i).getTwitterUser().getScreenName());
+					tvName1.setText(Constants.twit.get(i).getTwitterUser().getName());
+					setFontColor();
+					new ImageDownloader(ivUser1).execute(Constants.twit.get(i).getTwitterUser().getProfileImageUrl());
+					ivUser1.setOnClickListener(new View.OnClickListener(){
+						public void onClick(View v) {
+							Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/" + Constants.twit.get(i).getTwitterUser().getName()));
+							startActivity(browserIntent);
+						}
+					});
 
-				// Card 2
-				tvTweet2.setText(Constants.twit.get(i+1).toString());
-				tvArobase2.setText(" " +
-						"@" + Constants.twit.get(i+1).getTwitterUser().getScreenName());
-				tvName2.setText(Constants.twit.get(i+1).getTwitterUser().getName());
-				setFontColor();
-				new ImageDownloader(ivUser2).execute(Constants.twit.get(i+1).getTwitterUser().getProfileImageUrl());
-				ivUser2.setOnClickListener(new View.OnClickListener(){
-					public void onClick(View v) {
-						Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/" + Constants.twit.get(i+1).getTwitterUser().getName()));
-						startActivity(browserIntent);
-					}
-				});
+					// Card 2
+					tvTweet2.setText(Constants.twit.get(i+1).toString());
+					tvArobase2.setText(" " +
+							"@" + Constants.twit.get(i+1).getTwitterUser().getScreenName());
+					tvName2.setText(Constants.twit.get(i+1).getTwitterUser().getName());
+					setFontColor();
+					new ImageDownloader(ivUser2).execute(Constants.twit.get(i+1).getTwitterUser().getProfileImageUrl());
+					ivUser2.setOnClickListener(new View.OnClickListener(){
+						public void onClick(View v) {
+							Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/" + Constants.twit.get(i+1).getTwitterUser().getName()));
+							startActivity(browserIntent);
+						}
+					});
 
-				// Card 3
-				tvTweet3.setText(Constants.twit.get(i+2).toString());
-				tvArobase3.setText(" " +
-						"@" + Constants.twit.get(i+2).getTwitterUser().getScreenName());
-				tvName3.setText(Constants.twit.get(i+2).getTwitterUser().getName());
-				setFontColor();
-				new ImageDownloader(ivUser3).execute(Constants.twit.get(i+2).getTwitterUser().getProfileImageUrl());
-				ivUser3.setOnClickListener(new View.OnClickListener(){
-					public void onClick(View v) {
-						Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/" + Constants.twit.get(i+2).getTwitterUser().getName()));
-						startActivity(browserIntent);
-					}
-				});
+					// Card 3
+					tvTweet3.setText(Constants.twit.get(i+2).toString());
+					tvArobase3.setText(" " +
+							"@" + Constants.twit.get(i+2).getTwitterUser().getScreenName());
+					tvName3.setText(Constants.twit.get(i+2).getTwitterUser().getName());
+					setFontColor();
+					new ImageDownloader(ivUser3).execute(Constants.twit.get(i+2).getTwitterUser().getProfileImageUrl());
+					ivUser3.setOnClickListener(new View.OnClickListener(){
+						public void onClick(View v) {
+							Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/" + Constants.twit.get(i+2).getTwitterUser().getName()));
+							startActivity(browserIntent);
+						}
+					});
 
-				allCardsVisible();
-				viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
-				viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);
+					viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
+					viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);
 
-				progressBarThread = new Thread(new Runnable() {
-					public void run() {
-						int TMP_SLIDER_TIMER = 0;
-						double TMP_SLIDER_TIMER_CARD1 = SLIDER_TIMER * 0.80;
-						double TMP_SLIDER_TIMER_CARD2 = SLIDER_TIMER * 0.85;
-						double TMP_SLIDER_TIMER_CARD3 = SLIDER_TIMER * 0.90;
-						while(progressStatus < 100 && updatePB==true) {
-							try {
-								Thread.sleep(50);
-								TMP_SLIDER_TIMER += 50;
-								progressStatus = doWork(millis);
-								progressBar.setProgress(progressStatus);
-								progressBar.refreshDrawableState();
-								if (TMP_SLIDER_TIMER > TMP_SLIDER_TIMER_CARD3 && hideCard3) {
-									cardNr = 3;
-									anim();
-									hideCard3 = false;
+                    TMP_SLIDER_TIMER_CARD1 = SLIDER_TIMER * 0.80;
+                    TMP_SLIDER_TIMER_CARD2 = SLIDER_TIMER * 0.85;
+                    TMP_SLIDER_TIMER_CARD3 = SLIDER_TIMER * 0.90;
+
+                    allCardsVisible();
+                    viewFlipper.stopFlipping();
+
+					progressBarThread = new Thread(new Runnable() {
+						public void run() {
+                            TMP_SLIDER_TIMER = 0;
+							while(progressStatus < 100 && updatePB==true) {
+								try {
+									Thread.sleep(50);
+									TMP_SLIDER_TIMER += 50;
+									progressStatus = doWork(millis);
+									progressBar.setProgress(progressStatus);
+									progressBar.refreshDrawableState();
+									if (TMP_SLIDER_TIMER > TMP_SLIDER_TIMER_CARD3 && hideCard3) {
+                                        hideCard3 = false;
+										cardNr = 3;
+										anim();
+                                        Thread.sleep(500);
+                                        allCardsVisible();
+                                        millis = System.currentTimeMillis();
+                                        TMP_SLIDER_TIMER = 0;
+                                        i = i + 3;
+                                        hideCard1 = true;
+                                        hideCard2 = true;
+                                        hideCard3 = true;
+									}
+									if (TMP_SLIDER_TIMER > TMP_SLIDER_TIMER_CARD2 && hideCard2) {
+                                        hideCard2 = false;
+										cardNr = 2;
+										anim();
+									}
+									if (TMP_SLIDER_TIMER > TMP_SLIDER_TIMER_CARD1 && hideCard1) {
+                                        hideCard1 = false;
+										cardNr = 1;
+										anim();
+									}
+								} catch (InterruptedException e) {
+									e.printStackTrace();
 								}
-								if (TMP_SLIDER_TIMER > TMP_SLIDER_TIMER_CARD2 && hideCard2) {
-									cardNr = 2;
-									anim();
-									hideCard2 = false;
-								}
-								if (TMP_SLIDER_TIMER > TMP_SLIDER_TIMER_CARD1 && hideCard1) {
-									cardNr = 1;
-									anim();
-									hideCard1 = false;
-								}
-							} catch (InterruptedException e) {
-								e.printStackTrace();
 							}
 						}
-						progressBar.setProgress(0);
-					}
-				});
-				progressBarThread.start(); 
-				handler.postDelayed(this, SLIDER_TIMER);
-			} catch (Exception e) {
+					});
+					// Start progressbar
+                    progressBarThread.start();
 
-			} finally {
-				i = i + 3;
-				progressStatus = 0;
-			}
+				} catch (Exception e) {
 
+				}
 		}
 	};
 
@@ -400,22 +402,6 @@ public class TweetFlipperActivity extends Activity {
 		});
 	}
 
-	private void animate(View view, int cardNr){
-		LinearLayout dialog = null;
-		if (cardNr == 1)
-			dialog = (LinearLayout)findViewById(R.id.card1);
-		else if (cardNr == 2)
-			dialog = (LinearLayout)findViewById(R.id.card2);
-		else if (cardNr == 3)
-			dialog = (LinearLayout)findViewById(R.id.card3);
-
-		Animation animation = AnimationUtils.loadAnimation(this, R.anim.anim);
-		animation.setDuration(500);
-		dialog.setAnimation(animation);
-		dialog.animate();
-		animation.start();
-	}
-
 	private int doWork(long millis) throws InterruptedException {
 		long diff = System.currentTimeMillis() - millis;
 		return (int) ((diff*100)/SLIDER_TIMER);
@@ -433,39 +419,6 @@ public class TweetFlipperActivity extends Activity {
 		bitmap = Bitmap.createBitmap(v1.getDrawingCache());
 		v1.setDrawingCacheEnabled(false);
 		return bitmap;
-	}
-
-	public void sendImage(Bitmap bitmap, String name) {
-		String pathofBmp = Images.Media.insertImage(getContentResolver(), bitmap, name, null);
-		Uri bmpUri = Uri.parse(pathofBmp);
-		final Intent emailIntent1 = new Intent(android.content.Intent.ACTION_SEND);
-		emailIntent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-		emailIntent1.putExtra(Intent.EXTRA_STREAM, bmpUri);
-		emailIntent1.setType("image/png");
-	}
-
-	public void saveImage(Context context, Bitmap b,String name){
-		FileOutputStream out;
-		try {
-			out = context.openFileOutput(name, Context.MODE_PRIVATE);
-			b.compress(Bitmap.CompressFormat.JPEG, 90, out);
-			out.close();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public Bitmap getImageBitmap(Context context, String name){
-		try{
-			FileInputStream fis = context.openFileInput(name);
-			Bitmap b = BitmapFactory.decodeStream(fis);
-			fis.close();
-			return b;
-		}
-		catch(Exception e){
-			// Catch error
-		}
-		return null;
 	}
 
 	private void setFontColor() {
@@ -491,13 +444,62 @@ public class TweetFlipperActivity extends Activity {
 			btShare.setImageBitmap(bm);
 	}
 
-	public static int getBrightness(int argb)
-	{
+	public static int getBrightness(int argb) {
 		int lum= (77  * ((argb>>16)&255)
 				+ 150 * ((argb>>8)&255) 
 				+ 29  * ((argb)&255))>>8;
 				return lum;
 	}
+
+    /*public void sendImage(Bitmap bitmap, String name) {
+		String pathofBmp = Images.Media.insertImage(getContentResolver(), bitmap, name, null);
+		Uri bmpUri = Uri.parse(pathofBmp);
+		final Intent emailIntent1 = new Intent(android.content.Intent.ACTION_SEND);
+		emailIntent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		emailIntent1.putExtra(Intent.EXTRA_STREAM, bmpUri);
+		emailIntent1.setType("image/png");
+	}*/
+
+    /*public void saveImage(Context context, Bitmap b,String name){
+        FileOutputStream out;
+        try {
+            out = context.openFileOutput(name, Context.MODE_PRIVATE);
+            b.compress(Bitmap.CompressFormat.JPEG, 90, out);
+            out.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }*/
+
+    /*private void animate(View view, int cardNr){
+        LinearLayout dialog = null;
+        if (cardNr == 1)
+            dialog = (LinearLayout)findViewById(R.id.card1);
+        else if (cardNr == 2)
+            dialog = (LinearLayout)findViewById(R.id.card2);
+        else if (cardNr == 3)
+            dialog = (LinearLayout)findViewById(R.id.card3);
+
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.anim);
+        animation.setDuration(500);
+        dialog.setAnimation(animation);
+        dialog.animate();
+        animation.start();
+    }*/
+
+    /*public Bitmap getImageBitmap(Context context, String name){
+		try{
+			FileInputStream fis = context.openFileInput(name);
+			Bitmap b = BitmapFactory.decodeStream(fis);
+			fis.close();
+			return b;
+		}
+		catch(Exception e){
+			// Catch error
+		}
+		return null;
+	}*/
+
 }
 
 class ImageDownloader extends AsyncTask<String, Void, Bitmap> {

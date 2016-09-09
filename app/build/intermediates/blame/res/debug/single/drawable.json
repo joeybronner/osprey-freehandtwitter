@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/card_foreground_selector.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/drawable/card_foreground_selector.xml"
-    },
-    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/rolling.gif",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/rolling.gif"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/card_foreground_selector.xml",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/drawable/card_foreground_selector.xml"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/card_menu_button_expand.xml",
@@ -64,12 +64,12 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/german.png"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/hashtag128.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/hashtag128.png"
-    },
-    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/more128.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/more128.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/hashtag128.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/hashtag128.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/seekbar_backgroundfill.xml",
@@ -88,12 +88,12 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/recent.png"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/twitter.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/twitter.png"
-    },
-    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/loading.gif",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/loading.gif"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/twitter.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/twitter.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetnext_dark.png",
@@ -212,12 +212,12 @@
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetnext.png"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/previous_material.png",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/previous_material.png"
-    },
-    {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/tweetback.png",
         "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/tweetback.png"
+    },
+    {
+        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/previous_material.png",
+        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/drawable/previous_material.png"
     },
     {
         "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/drawable/play_material.png",
