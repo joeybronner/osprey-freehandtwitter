@@ -5,26 +5,26 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.0-beta2"
-    timestamp="159107243983734"
+    timestamp="160675775046782"
     token="-1571042690958580167"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="643" />
+        duration="453" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="1554" />
     <task
         name="instant-run-transform"
-        duration="401" />
+        duration="82" />
     <task
         name="verifier"
-        duration="39" />
+        duration="11" />
 
     <artifact
-        location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         timestamp="159107243983734"
@@ -32,6 +32,27 @@
         <artifact
             location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="160522944798324"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="160625985558359"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/builds/debug/160625985558359/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="160675775046782"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -148,7 +148,9 @@ public class TweetFlipperActivity extends Activity {
 				progressStatus = 0;
 				btPlayPause.setOnClickListener(new OnClickListener() { 
 					@Override
-					public void onClick(View v) { 
+					public void onClick(View v) {
+                        bm.recycle();
+                        bm = null;
 						if(isPaused) {
 							bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.pause_material),800, 800, true);
 							btPlayPause.setImageBitmap(bm);
@@ -196,7 +198,7 @@ public class TweetFlipperActivity extends Activity {
 							if (ContextCompat.checkSelfPermission(activity, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                                 ActivityCompat.requestPermissions(activity, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
 							} else {
-                                Bitmap screenshot = screenshot(v);
+                                Bitmap screenshot = takeScreenshot(v);
                                 File sc = saveBitmap(screenshot);
                                 shareIt(sc);
                             }
@@ -220,12 +222,6 @@ public class TweetFlipperActivity extends Activity {
         sharingIntent.setType("image/*");
         sharingIntent.putExtra(Intent.EXTRA_STREAM, uri);
         startActivity(Intent.createChooser(sharingIntent, "Share via"));
-    }
-
-    public Bitmap takeScreenshot() {
-        View rootView = findViewById(android.R.id.content).getRootView();
-        rootView.setDrawingCacheEnabled(true);
-        return rootView.getDrawingCache();
     }
 
     public File saveBitmap(Bitmap bitmap) {
@@ -294,8 +290,8 @@ public class TweetFlipperActivity extends Activity {
                             TMP_SLIDER_TIMER = 0;
 							while(progressStatus < 100 && updatePB==true) {
 								try {
-									Thread.sleep(50);
-									TMP_SLIDER_TIMER += 50;
+									Thread.sleep(100);
+									TMP_SLIDER_TIMER += 100;
 									progressStatus = doWork(millis);
 									progressBar.setProgress(progressStatus);
 									progressBar.refreshDrawableState();
@@ -442,7 +438,7 @@ public class TweetFlipperActivity extends Activity {
         return super.onKeyDown(keyCode, event);
     }
 
-	private Bitmap screenshot(View v) {
+	private Bitmap takeScreenshot(View v) {
 		Bitmap bitmap;
 		View v1 = v.getRootView();
 		v1.setDrawingCacheEnabled(true);
@@ -456,22 +452,18 @@ public class TweetFlipperActivity extends Activity {
 		options.inJustDecodeBounds = false;
 		options.inPreferredConfig = Config.RGB_565;
 		options.inDither = true;
-			isDark = false;
-			tvArobase1.setTextColor(getResources().getColor(R.color.darkgray));
-			tvTweet1.setTextColor(getResources().getColor(R.color.darkgray));
-			tvName1.setTextColor(getResources().getColor(R.color.darkgray));
-			if (isPaused) {
-				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.play_material),800, 800, true);
-			} else {
-				bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.pause_material),800, 800, true);
-			}
-			btPlayPause.setImageBitmap(bm);
-			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.next_material),800, 800, true);
-			btTweetNext.setImageBitmap(bm);
-			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.previous_material),800, 800, true);
-			btTweetBack.setImageBitmap(bm);
-			bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.share_dark),800, 800, true);
-			btShare.setImageBitmap(bm);
+        isDark = false;
+		tvArobase1.setTextColor(getResources().getColor(R.color.darkgray));
+		tvTweet1.setTextColor(getResources().getColor(R.color.darkgray));
+		tvName1.setTextColor(getResources().getColor(R.color.darkgray));
+        bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.pause_material),800, 800, true);
+		btPlayPause.setImageBitmap(bm);
+		//bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.next_material),800, 800, true);
+        //btTweetNext.setImageBitmap(bm);
+        //bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.previous_material),800, 800, true);
+        //btTweetBack.setImageBitmap(bm);
+        //bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.share_dark),800, 800, true);
+        //btShare.setImageBitmap(bm);
 	}
 
 	public static int getBrightness(int argb) {
