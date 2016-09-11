@@ -30,12 +30,6 @@ public class Constants {
 	final public static String TWITTER_NOT_RETRIEVE_RTS = "&include_rts=false";
 	public static String TWITTER_RESULT_TYPE = "&result_type=popular";
 	public static String TWITTER_USER_SEARCH = "";
-
-	private static final int REQUEST_EXTERNAL_STORAGE = 1;
-	private static String[] PERMISSIONS_STORAGE = {
-			Manifest.permission.READ_EXTERNAL_STORAGE,
-			Manifest.permission.WRITE_EXTERNAL_STORAGE
-	};
 	
 	public static List<TwitterStatus> twit;
 	

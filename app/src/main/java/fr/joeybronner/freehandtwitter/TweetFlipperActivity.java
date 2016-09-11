@@ -484,6 +484,7 @@ class ImageDownloader extends AsyncTask<String, Void, Bitmap> {
 	@Override
 	protected Bitmap doInBackground(String... urls) {
 		String url = urls[0];
+        Log.d("URL", url);
 		Bitmap mIcon = null;
 		try {
 			InputStream in = new java.net.URL(url).openStream();

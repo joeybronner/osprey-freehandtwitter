@@ -6,46 +6,39 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="URL" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c844f048-4d17-4afc-bf3a-79d233d86cdf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/ImageDownloader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/ImageDownloader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/util/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fr/joeybronner/freehandtwitter/util/Constants.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/ImageDownloader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/ImageDownloader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/TweetFlipperActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/util/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/fr/joeybronner/freehandtwitter/util/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/instant-run.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/instant-run.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/ImageDownloader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/ImageDownloader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/TweetFlipperActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/util/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fr/joeybronner/freehandtwitter/util/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/fr/joeybronner/freehandtwitter/util/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/fr/joeybronner/freehandtwitter/util/Constants.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/ImageDownloader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/ImageDownloader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/fr/joeybronner/freehandtwitter/TweetFlipperActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/TweetFlipperActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/TweetFlipperActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/util/Constants.java" afterPath="$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/util/Constants.java" />
     </list>
     <ignored path="FreeHandTwitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +74,8 @@
       <file leaf-file-name="TweetFlipperActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/TweetFlipperActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="396" column="23" selection-start-line="396" selection-start-column="19" selection-end-line="396" selection-end-column="23" />
+            <state relative-caret-position="311">
+              <caret line="493" column="9" selection-start-line="493" selection-start-column="9" selection-end-line="493" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#7434#8266#0" expanded="true" />
@@ -94,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/util/Constants.java">
+      <file leaf-file-name="TwitterAPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/api/TwitterAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            <state relative-caret-position="-72">
+              <caret line="62" column="88" selection-start-line="62" selection-start-column="88" selection-end-line="62" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -2467,7 +2460,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5286123" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36972705" sideWeight="0.47138768" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30397022" sideWeight="0.47138768" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.49427754" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2725,13 +2718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/api/TwitterStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/ResultActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2752,20 +2738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/api/TwitterAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/api/TwitterAsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -2904,14 +2876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -2923,10 +2887,45 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/api/TwitterAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/api/TwitterStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/api/TwitterAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="62" column="88" selection-start-line="62" selection-start-column="88" selection-end-line="62" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/fr/joeybronner/freehandtwitter/TweetFlipperActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="396" column="23" selection-start-line="396" selection-start-column="19" selection-end-line="396" selection-end-column="23" />
+        <state relative-caret-position="311">
+          <caret line="493" column="9" selection-start-line="493" selection-start-column="9" selection-end-line="493" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#7434#8266#0" expanded="true" />
