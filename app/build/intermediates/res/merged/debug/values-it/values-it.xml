@@ -20,7 +20,7 @@
     <color name="white">#FFFFFF</color>
     <string name="ab_about">Informazioni</string>
     <string name="action_settings">Impostazioni</string>
-    <string name="app_name">Free Hand Twitter</string>
+    <string name="app_name">Osprey</string>
     <string name="developedby">Sviluppato da Joey Bronner</string>
     <string name="emptysearch">Compila il modulo di ricerca.</string>
     <string name="error_execution">Errore durante l\u0027esecuzione della richiesta.</string>

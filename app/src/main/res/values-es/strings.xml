@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Global -->
-    <string name="app_name">Free Hand Twitter</string>
+    <string name="app_name">Osprey</string>
     <string name="slogan">Obtenga su línea de tiempo como un vídeo.</string>
     <string name="nodescription"></string>
     <string name="loading_tweets">Cargamento de los tweets&#8230;</string>

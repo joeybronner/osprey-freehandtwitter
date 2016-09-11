@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Global -->
-    <string name="app_name">Free Hand Twitter</string>
+    <string name="app_name">Osprey</string>
     <string name="slogan">Votre timeline sans les mains.</string>
     <string name="nodescription"></string>
     <string name="loading_tweets">Chargement des tweets&#8230;</string>
