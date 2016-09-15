@@ -307,6 +307,7 @@ public class TweetFlipperActivity extends Activity {
                                         hideCard2 = true;
                                         hideCard3 = true;
 										updateCardsContent();
+										System.gc();
 									}
 									if (TMP_SLIDER_TIMER > TMP_SLIDER_TIMER_CARD2 && hideCard2) {
                                         hideCard2 = false;

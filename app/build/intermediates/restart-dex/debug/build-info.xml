@@ -5,29 +5,29 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.0-beta2"
-    timestamp="161828700256867"
+    timestamp="255747909119883"
     token="-1571042690958580167"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="621" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="16" />
+        duration="176" />
     <task
         name="verifier"
-        duration="3" />
+        duration="84" />
 
     <artifact
         location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="161828700256867"
+        timestamp="255747909119883"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
