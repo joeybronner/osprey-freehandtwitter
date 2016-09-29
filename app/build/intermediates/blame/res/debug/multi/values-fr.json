@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
+        "outputFile": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\values-fr\\values-fr.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 254
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 1220,
+                        "startOffset": 1252,
                         "endLine": 38,
                         "endColumn": 19,
-                        "endOffset": 1419
+                        "endOffset": 1457
                     }
                 }
             },
@@ -33,14 +33,14 @@
                     "endOffset": 400
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
-                        "startOffset": 1643,
+                        "startOffset": 1687,
                         "endLine": 48,
                         "endColumn": 19,
-                        "endOffset": 1784
+                        "endOffset": 1832
                     }
                 }
             },
@@ -53,13 +53,13 @@
                     "endOffset": 439
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 322,
+                        "startOffset": 332,
                         "endColumn": 38,
-                        "endOffset": 356
+                        "endOffset": 366
                     }
                 }
             },
@@ -72,13 +72,13 @@
                     "endOffset": 482
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 361,
+                        "startOffset": 372,
                         "endColumn": 42,
-                        "endOffset": 399
+                        "endOffset": 410
                     }
                 }
             },
@@ -91,13 +91,13 @@
                     "endOffset": 525
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 488,
+                        "startOffset": 502,
                         "endColumn": 42,
-                        "endOffset": 526
+                        "endOffset": 540
                     }
                 }
             },
@@ -110,13 +110,13 @@
                     "endOffset": 564
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 531,
+                        "startOffset": 546,
                         "endColumn": 38,
-                        "endOffset": 565
+                        "endOffset": 580
                     }
                 }
             },
@@ -129,13 +129,13 @@
                     "endOffset": 608
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 404,
+                        "startOffset": 416,
                         "endColumn": 43,
-                        "endOffset": 443
+                        "endOffset": 455
                     }
                 }
             },
@@ -148,13 +148,13 @@
                     "endOffset": 648
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 448,
+                        "startOffset": 461,
                         "endColumn": 39,
-                        "endOffset": 483
+                        "endOffset": 496
                     }
                 }
             },
@@ -167,13 +167,13 @@
                     "endOffset": 694
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 597,
+                        "startOffset": 615,
                         "endColumn": 45,
-                        "endOffset": 638
+                        "endOffset": 656
                     }
                 }
             },
@@ -186,13 +186,13 @@
                     "endOffset": 749
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 70,
                         "startColumn": 4,
-                        "startOffset": 3122,
+                        "startOffset": 3192,
                         "endColumn": 54,
-                        "endOffset": 3172
+                        "endOffset": 3242
                     }
                 }
             },
@@ -205,13 +205,13 @@
                     "endOffset": 793
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 76,
+                        "startOffset": 80,
                         "endColumn": 43,
-                        "endOffset": 115
+                        "endOffset": 119
                     }
                 }
             },
@@ -224,13 +224,13 @@
                     "endOffset": 860
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
-                        "startOffset": 1451,
+                        "startOffset": 1492,
                         "endColumn": 66,
-                        "endOffset": 1513
+                        "endOffset": 1554
                     }
                 }
             },
@@ -243,13 +243,13 @@
                     "endOffset": 942
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 4,
-                        "startOffset": 2338,
+                        "startOffset": 2399,
                         "endColumn": 81,
-                        "endOffset": 2415
+                        "endOffset": 2476
                     }
                 }
             },
@@ -262,13 +262,13 @@
                     "endOffset": 1025
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 4,
-                        "startOffset": 2865,
+                        "startOffset": 2932,
                         "endColumn": 82,
-                        "endOffset": 2943
+                        "endOffset": 3010
                     }
                 }
             },
@@ -281,13 +281,13 @@
                     "endOffset": 1092
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 4,
-                        "startOffset": 2798,
+                        "startOffset": 2864,
                         "endColumn": 66,
-                        "endOffset": 2860
+                        "endOffset": 2926
                     }
                 }
             },
@@ -300,13 +300,13 @@
                     "endOffset": 1239
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 65,
                         "startColumn": 4,
-                        "startOffset": 2651,
+                        "startOffset": 2716,
                         "endColumn": 146,
-                        "endOffset": 2793
+                        "endOffset": 2858
                     }
                 }
             },
@@ -319,13 +319,13 @@
                     "endOffset": 1329
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
-                        "startOffset": 2561,
+                        "startOffset": 2625,
                         "endColumn": 89,
-                        "endOffset": 2646
+                        "endOffset": 2710
                     }
                 }
             },
@@ -338,13 +338,13 @@
                     "endOffset": 1400
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 4,
-                        "startOffset": 2490,
+                        "startOffset": 2553,
                         "endColumn": 70,
-                        "endOffset": 2556
+                        "endOffset": 2619
                     }
                 }
             },
@@ -357,13 +357,13 @@
                     "endOffset": 1513
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 4,
-                        "startOffset": 2948,
+                        "startOffset": 3016,
                         "endColumn": 112,
-                        "endOffset": 3056
+                        "endOffset": 3124
                     }
                 }
             },
@@ -376,13 +376,13 @@
                     "endOffset": 1583
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
-                        "startOffset": 2420,
+                        "startOffset": 2482,
                         "endColumn": 69,
-                        "endOffset": 2485
+                        "endOffset": 2547
                     }
                 }
             },
@@ -395,13 +395,13 @@
                     "endOffset": 1640
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 1075,
+                        "startOffset": 1103,
                         "endColumn": 56,
-                        "endOffset": 1127
+                        "endOffset": 1155
                     }
                 }
             },
@@ -414,13 +414,13 @@
                     "endOffset": 1694
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 1,
-                        "startOffset": 2251,
+                        "startOffset": 2309,
                         "endColumn": 50,
-                        "endOffset": 2300
+                        "endOffset": 2358
                     }
                 }
             },
@@ -433,13 +433,13 @@
                     "endOffset": 1760
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 229,
+                        "startOffset": 236,
                         "endColumn": 71,
-                        "endOffset": 296
+                        "endOffset": 303
                     }
                 }
             },
@@ -452,13 +452,13 @@
                     "endOffset": 1817
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 688,
+                        "startOffset": 708,
                         "endColumn": 56,
-                        "endOffset": 740
+                        "endOffset": 760
                     }
                 }
             },
@@ -471,13 +471,13 @@
                     "endOffset": 1858
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
-                        "startOffset": 1918,
+                        "startOffset": 1972,
                         "endColumn": 40,
-                        "endOffset": 1954
+                        "endOffset": 2008
                     }
                 }
             },
@@ -490,13 +490,13 @@
                     "endOffset": 1893
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 186,
+                        "startOffset": 192,
                         "endColumn": 42,
-                        "endOffset": 224
+                        "endOffset": 230
                     }
                 }
             },
@@ -509,13 +509,13 @@
                     "endOffset": 1928
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 1132,
+                        "startOffset": 1161,
                         "endColumn": 34,
-                        "endOffset": 1162
+                        "endOffset": 1191
                     }
                 }
             },
@@ -528,13 +528,13 @@
                     "endOffset": 1982
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 4,
-                        "startOffset": 1959,
+                        "startOffset": 2014,
                         "endColumn": 53,
-                        "endOffset": 2008
+                        "endOffset": 2063
                     }
                 }
             },
@@ -547,13 +547,13 @@
                     "endOffset": 2027
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 643,
+                        "startOffset": 662,
                         "endColumn": 44,
-                        "endOffset": 683
+                        "endOffset": 702
                     }
                 }
             },
@@ -566,13 +566,13 @@
                     "endOffset": 2079
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 1167,
+                        "startOffset": 1197,
                         "endColumn": 51,
-                        "endOffset": 1214
+                        "endOffset": 1244
                     }
                 }
             },
@@ -585,13 +585,13 @@
                     "endOffset": 2137
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
-                        "startOffset": 2013,
+                        "startOffset": 2069,
                         "endColumn": 57,
-                        "endOffset": 2066
+                        "endOffset": 2122
                     }
                 }
             },
@@ -604,13 +604,13 @@
                     "endOffset": 2203
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 120,
+                        "startOffset": 125,
                         "endColumn": 65,
-                        "endOffset": 181
+                        "endOffset": 186
                     }
                 }
             },
@@ -623,13 +623,13 @@
                     "endOffset": 2327
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
-                        "startOffset": 1518,
+                        "startOffset": 1560,
                         "endColumn": 123,
-                        "endOffset": 1637
+                        "endOffset": 1679
                     }
                 }
             },
@@ -642,13 +642,13 @@
                     "endOffset": 2382
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 956,
+                        "startOffset": 982,
                         "endColumn": 54,
-                        "endOffset": 1006
+                        "endOffset": 1032
                     }
                 }
             },
@@ -661,13 +661,13 @@
                     "endOffset": 2439
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 899,
+                        "startOffset": 924,
                         "endColumn": 56,
-                        "endOffset": 951
+                        "endOffset": 976
                     }
                 }
             },
@@ -680,13 +680,13 @@
                     "endOffset": 2492
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 846,
+                        "startOffset": 870,
                         "endColumn": 52,
-                        "endOffset": 894
+                        "endOffset": 918
                     }
                 }
             },
@@ -699,13 +699,13 @@
                     "endOffset": 2556
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 1011,
+                        "startOffset": 1038,
                         "endColumn": 63,
-                        "endOffset": 1070
+                        "endOffset": 1097
                     }
                 }
             },
@@ -718,13 +718,13 @@
                     "endOffset": 2626
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 776,
+                        "startOffset": 799,
                         "endColumn": 69,
-                        "endOffset": 841
+                        "endOffset": 864
                     }
                 }
             },
@@ -737,13 +737,13 @@
                     "endOffset": 2693
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 75,
                         "startColumn": 4,
-                        "startOffset": 3482,
+                        "startOffset": 3557,
                         "endColumn": 66,
-                        "endOffset": 3544
+                        "endOffset": 3619
                     }
                 }
             },
@@ -756,13 +756,13 @@
                     "endOffset": 2754
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 69,
                         "startColumn": 4,
-                        "startOffset": 3061,
+                        "startOffset": 3130,
                         "endColumn": 60,
-                        "endOffset": 3117
+                        "endOffset": 3186
                     }
                 }
             },
@@ -775,13 +775,13 @@
                     "endOffset": 2819
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
-                        "startOffset": 1818,
+                        "startOffset": 1869,
                         "endColumn": 64,
-                        "endOffset": 1878
+                        "endOffset": 1929
                     }
                 }
             },
@@ -794,13 +794,13 @@
                     "endOffset": 2888
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 74,
                         "startColumn": 4,
-                        "startOffset": 3413,
+                        "startOffset": 3487,
                         "endColumn": 68,
-                        "endOffset": 3477
+                        "endOffset": 3551
                     }
                 }
             },
@@ -813,13 +813,13 @@
                     "endOffset": 2966
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 4,
-                        "startOffset": 3335,
+                        "startOffset": 3408,
                         "endColumn": 77,
-                        "endOffset": 3408
+                        "endOffset": 3481
                     }
                 }
             },
@@ -832,13 +832,13 @@
                     "endOffset": 3044
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 4,
-                        "startOffset": 3177,
+                        "startOffset": 3248,
                         "endColumn": 77,
-                        "endOffset": 3250
+                        "endOffset": 3321
                     }
                 }
             },
@@ -851,13 +851,13 @@
                     "endOffset": 3124
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 4,
-                        "startOffset": 3255,
+                        "startOffset": 3327,
                         "endColumn": 79,
-                        "endOffset": 3330
+                        "endOffset": 3402
                     }
                 }
             },
@@ -870,13 +870,13 @@
                     "endOffset": 3307
                 },
                 "from": {
-                    "file": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/values-fr/strings.xml",
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values-fr\\strings.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 4,
-                        "startOffset": 2071,
+                        "startOffset": 2128,
                         "endColumn": 182,
-                        "endOffset": 2249
+                        "endOffset": 2306
                     }
                 }
             }

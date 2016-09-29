@@ -1,126 +1,126 @@
 [
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/activity_tweet_flipper.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/layout/activity_tweet_flipper.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\card_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/card_thumbnail_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/card_thumbnail_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_spinner.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\layout\\custom_spinner.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/base_list_expandable_children_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/base_list_expandable_children_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_card_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\list_card_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/base_shadow_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/base_shadow_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hello_card.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\layout\\hello_card.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/base_thumbnail_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/base_thumbnail_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_withlist_empty.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\base_withlist_empty.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/custom_spinner.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/layout/custom_spinner.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_shadow_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\base_shadow_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/list_card_undo_message.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/list_card_undo_message.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inner_base_main_cardwithlist.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\inner_base_main_cardwithlist.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/base_withlist_empty.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/base_withlist_empty.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_overlay_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\card_overlay_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/card_base_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/card_base_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_card_undo_materialmobile_message.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\list_card_undo_materialmobile_message.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/activity_loading.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/layout/activity_loading.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_undo_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\card_undo_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/custom_spinner_resulttype.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/layout/custom_spinner_resulttype.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_withlist_progress.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\base_withlist_progress.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/activity_more.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/layout/activity_more.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_thumbnail_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\base_thumbnail_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/card_thumbnail_overlay_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/card_thumbnail_overlay_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inner_base_main.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\inner_base_main.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/base_withlist_progress.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/base_withlist_progress.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_more.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\layout\\activity_more.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/base_section_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/base_section_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_spinner_resulttype.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\layout\\custom_spinner_resulttype.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/list_card_undo_material_message.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/list_card_undo_material_message.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_thumbnail_overlay_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\card_thumbnail_overlay_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/layout/activity_settings.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inner_base_expand.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\inner_base_expand.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/list_card_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/list_card_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\layout\\activity_settings.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/card_overlay_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/card_overlay_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_card_undo_message.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\list_card_undo_message.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/inner_base_expand.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/inner_base_expand.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_card_thumbnail_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\list_card_thumbnail_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/inner_base_main.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/inner_base_main.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_card_undo_material_message.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\list_card_undo_material_message.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_section_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\base_section_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/inner_base_header.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/inner_base_header.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_header_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\base_header_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/hello_card.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/layout/hello_card.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_result.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\layout\\activity_result.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/card_undo_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/card_undo_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tweet_flipper.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\layout\\activity_tweet_flipper.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/card_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/card_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loading.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\layout\\activity_loading.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/activity_result.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/src/main/res/layout/activity_result.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inner_base_header.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\inner_base_header.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/list_card_undo_materialmobile_message.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/list_card_undo_materialmobile_message.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/base_header_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/base_header_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_list_expandable_children_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\base_list_expandable_children_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/list_card_thumbnail_layout.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/list_card_thumbnail_layout.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_base_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\card_base_layout.xml"
     },
     {
-        "merged": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/res/merged/debug/layout/inner_base_main_cardwithlist.xml",
-        "source": "/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.1/res/layout/inner_base_main_cardwithlist.xml"
+        "merged": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_thumbnail_layout.xml",
+        "source": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\layout\\card_thumbnail_layout.xml"
     }
 ]

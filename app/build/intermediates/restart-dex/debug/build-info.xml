@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi,armeabi-v7a"
-    api-level="23"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="24"
     density="420dpi"
-    format="8"
-    plugin-version="2.2.0-beta2"
-    timestamp="255747909119883"
-    token="-1571042690958580167"
-    verifier="FULL_BUILD_REQUESTED" >
+    format="7"
+    timestamp="234738463275394"
+    token="1434225742447575558" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1888" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="176" />
+        duration="245" />
     <task
         name="verifier"
-        duration="84" />
+        duration="41" />
 
     <artifact
-        location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
+        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build
-        timestamp="255747909119883"
-        verifier="FULL_BUILD_REQUESTED" >
+    <build timestamp="234738463275394" >
         <artifact
-            location="/Users/joeybronner/Documents/Dev/Android/FreeHandTwitter/app/build/outputs/apk/app-debug.apk"
+            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 
