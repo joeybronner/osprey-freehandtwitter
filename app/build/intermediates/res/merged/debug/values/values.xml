@@ -12,7 +12,7 @@
         <item>Recent</item>
         <item>Mixed</item>
     </string-array>
-    <color name="blue">#59ABE3</color>
+    <color name="blue">#1da1f2</color>
     <color name="card_activated">#CFE9F3</color>
     <color name="card_activated_kitkat">#ADE1F4</color>
     <color name="card_background">#FFF</color>

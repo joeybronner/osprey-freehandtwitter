@@ -10,12 +10,13 @@
 
         <ImageView
             android:id="@+id/btShare"
-            android:layout_width="50dp"
+            android:layout_width="40dp"
             android:layout_height="70dp"
+            android:layout_marginRight="15dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:contentDescription="@string/nodescription"
-            android:src="@drawable/share_dark" />
+            android:src="@drawable/share_blue_marg" />
 
         <ViewFlipper
             android:id="@+id/viewflipper"
@@ -308,6 +309,7 @@
             android:paddingBottom="15dp"
             android:layout_centerVertical="true"
             android:text="#Hashtag"
+            android:textColor="@color/blue"
             android:textSize="30sp"
             android:gravity="center"
             android:layout_alignParentTop="true" />

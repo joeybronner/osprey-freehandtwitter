@@ -8,7 +8,7 @@
     <string name="loading_tweets">Loading tweets&#8230;</string>
 
     <!-- Colors -->
-    <color name="blue">#59ABE3</color>
+    <color name="blue">#1da1f2</color>
     <color name="darkblue">#4183D7</color>
     <color name="lightblue">#BCD3E3</color>
     <color name="white">#FFFFFF</color>

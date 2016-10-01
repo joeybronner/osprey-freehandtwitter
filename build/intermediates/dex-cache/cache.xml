@@ -1,3 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_f71f9b1ea7ceb94f3f10fb592054581e1b1133ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\libs\ion-2.0.6.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="3b5482a31054611c62f171e4c1e7f729bbb7818c">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\ion-2.0.6_ec4a6be43ae3d968870d600ea2028e9f1fab1fae.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.0-beta1\54d65d51b5ebec588a19b2384efb6395b5bf5b18\MPAndroidChart-v3.0.0-beta1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="54d65d51b5ebec588a19b2384efb6395b5bf5b18">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\MPAndroidChart-v3.0.0-beta1_ec9c6976dcd861e3fbef6276caad196660ed2a0f.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_9c361b45a1ffbb78cef6bf26ee44963405d8ed0d.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\library\1.9.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="a64671bd87b29748d87865871cc95147b89a2192">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\com.github.gabrielemariotti.cards-library-1.9.1_a35d2d8fc70ec8d44e3edb221b7f694b28e7b9e4.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_eb449ee7a13d64a773e9dc629998f8165a213fa1.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_56739bb0fcf01529f27eaad71c889009877d5e47.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_c5c2abe1d2fa391fc7c2025692d23db7a98b0512.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_e473309e7d7a39f13e6b955b9e6cfa547454814a.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\gson-2.4_9e55c605fe1bd88fa5b2aa75c3d8c6e10076c4cc.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\pl.droidsonroids.gif\android-gif-drawable\1.1.16\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="20bd99246ec075d0ca8ffd16d629dc18e35eafac">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\pl.droidsonroids.gif-android-gif-drawable-1.1.16_6ba8bcfb172ef420e8b8aae07afa7693337fc9f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.etsy.android.grid\library\1.0.5\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\com.etsy.android.grid-library-1.0.5_fec82f774a016433bd59f92336fc357301fa6ed9.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_92ce7b297e12e0282873083cd4710d1e01cfeab0.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_3763e2ec2b80fee81f878161a4773e4308eb2d1e.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\libs\androidasync-2.0.6.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="3c7c00692fbef12f4be7dd2eba79504a7af53767">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\androidasync-2.0.6_be01e3103f0e8707b5b7edf2c2abb7e7697ca1fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_199c3a09c18c42edb4040486bce0089eccdc3e48.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\.gradle\caches\modules-2\files-2.1\com.nhaarman.listviewanimations\lib-manipulation\3.1.0\63737e512fcd9e0ebe9bcd0bb375c2dded74116f\lib-manipulation-3.1.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="63737e512fcd9e0ebe9bcd0bb375c2dded74116f">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\lib-manipulation-3.1.0_491bf53fed4692f71117a2970380c49d44cd05b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\.gradle\caches\modules-2\files-2.1\com.nhaarman.listviewanimations\lib-core\3.1.0\f3f9629b068554d8513a2aaf34418171bf430851\lib-core-3.1.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f3f9629b068554d8513a2aaf34418171bf430851">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\lib-core-3.1.0_55c3072ce5bb885ef115052f88c3dc54a4c06227.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\library-extra\1.9.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e9fed2e65b3d6c2967a8fdd6ddcdd561f8763f38">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\com.github.gabrielemariotti.cards-library-extra-1.9.1_385b42e928cf8a35b7fd4c2d6b44a94f9a9db54a.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_d5e02a459735f543739cf087bef5e8f7ae40f388.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\library-2.4.0_2a0aa7dedfca7f2ae43aa73e3dcfe8fc46997607.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_87c0cf13cd6ce0da04977ce628b70976db28e360.jar" />
+    </item>
+    <item
+        jar="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_0466efee3c5e20859febebfc3761bd5dc21ee373.jar" />
+    </item>
+
+</items>
