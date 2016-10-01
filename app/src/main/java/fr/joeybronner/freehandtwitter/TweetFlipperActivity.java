@@ -281,14 +281,14 @@ public class TweetFlipperActivity extends Activity {
 					viewFlipper.setInAnimation(TweetFlipperActivity.this, R.anim.slide_in_from_right);
 					viewFlipper.setOutAnimation(TweetFlipperActivity.this, R.anim.slide_out_to_left);
 
-                    TMP_SLIDER_TIMER_CARD1 = SLIDER_TIMER * 0.80;
-                    TMP_SLIDER_TIMER_CARD2 = SLIDER_TIMER * 0.85;
-                    TMP_SLIDER_TIMER_CARD3 = SLIDER_TIMER * 0.90;
+                    TMP_SLIDER_TIMER_CARD1 = SLIDER_TIMER * 1.00;
+                    TMP_SLIDER_TIMER_CARD2 = SLIDER_TIMER * 1.05;
+                    TMP_SLIDER_TIMER_CARD3 = SLIDER_TIMER * 1.10;
 
 					progressBarThread = new Thread(new Runnable() {
 						public void run() {
                             TMP_SLIDER_TIMER = 0;
-							while(progressStatus < 100 && updatePB==true) {
+							while(/*progressStatus < 100 &&*/ updatePB==true) {
 								try {
 									Thread.sleep(100);
 									TMP_SLIDER_TIMER += 100;
@@ -459,12 +459,6 @@ public class TweetFlipperActivity extends Activity {
 		tvName1.setTextColor(getResources().getColor(R.color.darkgray));
         bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.pause_material),800, 800, true);
 		btPlayPause.setImageBitmap(bm);
-		//bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.next_material),800, 800, true);
-        //btTweetNext.setImageBitmap(bm);
-        //bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.previous_material),800, 800, true);
-        //btTweetBack.setImageBitmap(bm);
-        //bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.share_dark),800, 800, true);
-        //btShare.setImageBitmap(bm);
 	}
 
 	public static int getBrightness(int argb) {

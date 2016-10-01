@@ -113,19 +113,7 @@ import pl.droidsonroids.gif.GifImageView;
 						} catch (Exception e) {
 							Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_timeout), Toast.LENGTH_SHORT).show();
 							e.printStackTrace();
-						};/*(InterruptedException e) {
-							//MainActivity.dialog.dismiss();
-							Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_interrupted), Toast.LENGTH_SHORT).show();
-							e.printStackTrace();
-						} catch (ExecutionException e) {
-							//MainActivity.dialog.dismiss();
-							Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_execution), Toast.LENGTH_SHORT).show();
-							e.printStackTrace();
-						} catch (TimeoutException e) {
-							//MainActivity.dialog.dismiss();
-							Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_timeout), Toast.LENGTH_SHORT).show();
-							e.printStackTrace();
-						};*/
+						}
 					} else {
 						Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_noconnection), Toast.LENGTH_SHORT).show();
 					}
@@ -239,17 +227,6 @@ import pl.droidsonroids.gif.GifImageView;
 		}
 	}
 
-	private void showMoreActivity() {
-		// Create the new dialog
-		final Dialog dialog = new Dialog(btMore.getContext());
-		dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); 
-		dialog.setCancelable(true);
-
-		// Content of the dialog
-		dialog.setContentView(R.layout.activity_more);
-		dialog.show();
-	}
-
 	private void selectionOfMixedByDefault() {
 		try {
 			spinnerResultType.setSelection(2);
@@ -280,6 +257,18 @@ import pl.droidsonroids.gif.GifImageView;
 		} 
 	}
 
+	/*private void showMoreActivity() {
+		// Create the new dialog
+		final Dialog dialog = new Dialog(btMore.getContext());
+		dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+		dialog.setCancelable(true);
+
+		// Content of the dialog
+		dialog.setContentView(R.layout.activity_more);
+		dialog.show();
+	}*/
+
+	/*
 	public class MyResultTypes extends ArrayAdapter<String> { 
 
 		public MyResultTypes(Context ctx, int txtViewResourceId, String[] objects) { 
@@ -303,5 +292,5 @@ import pl.droidsonroids.gif.GifImageView;
 			left_icon.setImageResource(resultsTypeImages[position]);
 			return mySpinner;
 		} 
-	}
+	}*/
 }

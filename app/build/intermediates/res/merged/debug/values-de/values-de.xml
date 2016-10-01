@@ -12,12 +12,6 @@
         <item>Kürzlich</item>
         <item>Gemischt</item>
     </string-array>
-    <color name="blue">#59ABE3</color>
-    <color name="darkblue">#4183D7</color>
-    <color name="darkgray">#5A5A5A</color>
-    <color name="gray">#bdc3c7</color>
-    <color name="lightblue">#BCD3E3</color>
-    <color name="white">#FFFFFF</color>
     <plurals name="card_selected_items">
         <item quantity="one">1 Element gewählt</item>
         <item quantity="other">%d Elemente gewählt</item>

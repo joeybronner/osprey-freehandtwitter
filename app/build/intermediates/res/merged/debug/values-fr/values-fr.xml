@@ -12,12 +12,6 @@
         <item>Récent</item>
         <item>Mélange</item>
     </string-array>
-    <color name="blue">#59ABE3</color>
-    <color name="darkblue">#4183D7</color>
-    <color name="darkgray">#5A5A5A</color>
-    <color name="gray">#bdc3c7</color>
-    <color name="lightblue">#BCD3E3</color>
-    <color name="white">#FFFFFF</color>
     <string name="ab_about">A propos</string>
     <string name="action_settings">Paramètres</string>
     <string name="app_name">Osprey</string>

@@ -7,14 +7,6 @@
     <string name="nodescription"></string>
     <string name="loading_tweets">Caricamento dei tweet&#8230;</string>
 
-    <!-- Colors -->
-    <color name="blue">#59ABE3</color>
-    <color name="darkblue">#4183D7</color>
-    <color name="lightblue">#BCD3E3</color>
-    <color name="white">#FFFFFF</color>
-    <color name="darkgray">#5A5A5A</color>
-    <color name="gray">#bdc3c7</color>
-
     <!-- MainActivity -->
     <string name="ab_about">Informazioni</string>
     <string name="search">Cerca</string>

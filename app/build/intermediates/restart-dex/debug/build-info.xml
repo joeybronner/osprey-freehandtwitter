@@ -4,245 +4,30 @@
     api-level="24"
     density="420dpi"
     format="7"
-    timestamp="319545516146795"
+    timestamp="374689605747489"
     token="1434225742447575558" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="2277" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="44" />
     <task
         name="verifier"
-        duration="0" />
+        duration="24" />
 
     <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\lib-core-3.1.0_55c3072ce5bb885ef115052f88c3dc54a4c06227\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.etsy.android.grid-library-1.0.5_fec82f774a016433bd59f92336fc357301fa6ed9\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\pl.droidsonroids.gif-android-gif-drawable-1.1.16_6ba8bcfb172ef420e8b8aae07afa7693337fc9f7\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\lib-manipulation-3.1.0_491bf53fed4692f71117a2970380c49d44cd05b8\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_9c361b45a1ffbb78cef6bf26ee44963405d8ed0d\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_0466efee3c5e20859febebfc3761bd5dc21ee373\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_f71f9b1ea7ceb94f3f10fb592054581e1b1133ef\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3763e2ec2b80fee81f878161a4773e4308eb2d1e\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\2\androidasync-2.0.6_be01e3103f0e8707b5b7edf2c2abb7e7697ca1fa\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_92ce7b297e12e0282873083cd4710d1e01cfeab0\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_56739bb0fcf01529f27eaad71c889009877d5e47\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_eb449ee7a13d64a773e9dc629998f8165a213fa1\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_e473309e7d7a39f13e6b955b9e6cfa547454814a\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_c5c2abe1d2fa391fc7c2025692d23db7a98b0512\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.gabrielemariotti.cards-library-extra-1.9.1_385b42e928cf8a35b7fd4c2d6b44a94f9a9db54a\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_113f0cbe89c83bcb1fd1f83bd6aa13e344b4f01b\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_9e55c605fe1bd88fa5b2aa75c3d8c6e10076c4cc\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.0-beta1_ec9c6976dcd861e3fbef6276caad196660ed2a0f\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_87c0cf13cd6ce0da04977ce628b70976db28e360\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_d5e02a459735f543739cf087bef5e8f7ae40f388\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\2\ion-2.0.6_ec4a6be43ae3d968870d600ea2028e9f1fab1fae\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e40f506a86bffbc43f922e3a3282574310371352\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_2a0aa7dedfca7f2ae43aa73e3dcfe8fc46997607\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.gabrielemariotti.cards-library-1.9.1_a35d2d8fc70ec8d44e3edb221b7f694b28e7b9e4\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_199c3a09c18c42edb4040486bce0089eccdc3e48\classes.dex"
-        type="DEX" />
+        location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="317604714562260" >
+    <build timestamp="374689605747489" >
         <artifact
             location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="319545516146795" >
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\lib-core-3.1.0_55c3072ce5bb885ef115052f88c3dc54a4c06227\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.etsy.android.grid-library-1.0.5_fec82f774a016433bd59f92336fc357301fa6ed9\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\pl.droidsonroids.gif-android-gif-drawable-1.1.16_6ba8bcfb172ef420e8b8aae07afa7693337fc9f7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\lib-manipulation-3.1.0_491bf53fed4692f71117a2970380c49d44cd05b8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_9c361b45a1ffbb78cef6bf26ee44963405d8ed0d\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_0466efee3c5e20859febebfc3761bd5dc21ee373\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_f71f9b1ea7ceb94f3f10fb592054581e1b1133ef\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3763e2ec2b80fee81f878161a4773e4308eb2d1e\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\2\androidasync-2.0.6_be01e3103f0e8707b5b7edf2c2abb7e7697ca1fa\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_92ce7b297e12e0282873083cd4710d1e01cfeab0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_56739bb0fcf01529f27eaad71c889009877d5e47\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_eb449ee7a13d64a773e9dc629998f8165a213fa1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_e473309e7d7a39f13e6b955b9e6cfa547454814a\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_c5c2abe1d2fa391fc7c2025692d23db7a98b0512\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.gabrielemariotti.cards-library-extra-1.9.1_385b42e928cf8a35b7fd4c2d6b44a94f9a9db54a\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_113f0cbe89c83bcb1fd1f83bd6aa13e344b4f01b\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_9e55c605fe1bd88fa5b2aa75c3d8c6e10076c4cc\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.0-beta1_ec9c6976dcd861e3fbef6276caad196660ed2a0f\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_87c0cf13cd6ce0da04977ce628b70976db28e360\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_d5e02a459735f543739cf087bef5e8f7ae40f388\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\2\ion-2.0.6_ec4a6be43ae3d968870d600ea2028e9f1fab1fae\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e40f506a86bffbc43f922e3a3282574310371352\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_2a0aa7dedfca7f2ae43aa73e3dcfe8fc46997607\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.gabrielemariotti.cards-library-1.9.1_a35d2d8fc70ec8d44e3edb221b7f694b28e7b9e4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\i312558\Documents\workspace-android\FreeHandTwitter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_199c3a09c18c42edb4040486bce0089eccdc3e48\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

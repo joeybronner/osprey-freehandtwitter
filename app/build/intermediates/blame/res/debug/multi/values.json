@@ -12,7 +12,15 @@
                     "endOffset": 249
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1255,
+                        "endLine": 39,
+                        "endColumn": 19,
+                        "endOffset": 1455
+                    }
                 }
             },
             {
@@ -25,7 +33,15 @@
                     "endOffset": 391
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1685,
+                        "endLine": 49,
+                        "endColumn": 19,
+                        "endOffset": 1826
+                    }
                 }
             },
             {
@@ -56,7 +72,14 @@
                     "endOffset": 479
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 48,
+                        "endOffset": 250
+                    }
                 }
             },
             {
@@ -68,7 +91,14 @@
                     "endOffset": 535
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 255,
+                        "endColumn": 55,
+                        "endOffset": 306
+                    }
                 }
             },
             {
@@ -80,7 +110,14 @@
                     "endOffset": 582
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 311,
+                        "endColumn": 46,
+                        "endOffset": 353
+                    }
                 }
             },
             {
@@ -92,7 +129,14 @@
                     "endOffset": 638
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 358,
+                        "endColumn": 55,
+                        "endOffset": 409
+                    }
                 }
             },
             {
@@ -104,7 +148,14 @@
                     "endOffset": 692
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 414,
+                        "endColumn": 53,
+                        "endOffset": 463
+                    }
                 }
             },
             {
@@ -116,7 +167,14 @@
                     "endOffset": 773
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 468,
+                        "endColumn": 80,
+                        "endOffset": 544
+                    }
                 }
             },
             {
@@ -128,7 +186,14 @@
                     "endOffset": 844
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 549,
+                        "endColumn": 70,
+                        "endOffset": 615
+                    }
                 }
             },
             {
@@ -140,7 +205,14 @@
                     "endOffset": 902
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 620,
+                        "endColumn": 57,
+                        "endOffset": 673
+                    }
                 }
             },
             {
@@ -152,7 +224,14 @@
                     "endOffset": 964
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 678,
+                        "endColumn": 61,
+                        "endOffset": 735
+                    }
                 }
             },
             {
@@ -164,7 +243,14 @@
                     "endOffset": 1033
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 740,
+                        "endColumn": 68,
+                        "endOffset": 804
+                    }
                 }
             },
             {
@@ -176,7 +262,14 @@
                     "endOffset": 1082
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 809,
+                        "endColumn": 48,
+                        "endOffset": 853
+                    }
                 }
             },
             {
@@ -188,7 +281,14 @@
                     "endOffset": 1138
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 858,
+                        "endColumn": 55,
+                        "endOffset": 909
+                    }
                 }
             },
             {
@@ -200,7 +300,14 @@
                     "endOffset": 1220
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 914,
+                        "endColumn": 81,
+                        "endOffset": 991
+                    }
                 }
             },
             {
@@ -212,7 +319,14 @@
                     "endOffset": 1292
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 996,
+                        "endColumn": 71,
+                        "endOffset": 1063
+                    }
                 }
             },
             {
@@ -224,7 +338,14 @@
                     "endOffset": 1346
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1068,
+                        "endColumn": 53,
+                        "endOffset": 1117
+                    }
                 }
             },
             {
@@ -236,7 +357,14 @@
                     "endOffset": 1419
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1277,
+                        "endColumn": 72,
+                        "endOffset": 1345
+                    }
                 }
             },
             {
@@ -248,7 +376,14 @@
                     "endOffset": 1486
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1350,
+                        "endColumn": 66,
+                        "endOffset": 1412
+                    }
                 }
             },
             {
@@ -260,7 +395,14 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 361,
+                        "endColumn": 42,
+                        "endOffset": 399
+                    }
                 }
             },
             {
@@ -272,7 +414,14 @@
                     "endOffset": 1572
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 491,
+                        "endColumn": 42,
+                        "endOffset": 529
+                    }
                 }
             },
             {
@@ -284,7 +433,14 @@
                     "endOffset": 1611
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 535,
+                        "endColumn": 38,
+                        "endOffset": 569
+                    }
                 }
             },
             {
@@ -296,7 +452,14 @@
                     "endOffset": 1655
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 43,
+                        "endOffset": 444
+                    }
                 }
             },
             {
@@ -308,7 +471,14 @@
                     "endOffset": 1699
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 575,
+                        "endColumn": 43,
+                        "endOffset": 614
+                    }
                 }
             },
             {
@@ -320,7 +490,14 @@
                     "endOffset": 1739
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 450,
+                        "endColumn": 39,
+                        "endOffset": 485
+                    }
                 }
             },
             {
@@ -332,7 +509,14 @@
                     "endOffset": 3220
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
                 }
             },
             {
@@ -344,7 +528,14 @@
                     "endOffset": 3276
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
                 }
             },
             {
@@ -356,7 +547,14 @@
                     "endOffset": 3338
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 3018,
+                        "endColumn": 61,
+                        "endOffset": 3075
+                    }
                 }
             },
             {
@@ -368,7 +566,14 @@
                     "endOffset": 3405
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3080,
+                        "endColumn": 66,
+                        "endOffset": 3142
+                    }
                 }
             },
             {
@@ -380,7 +585,14 @@
                     "endOffset": 3476
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3147,
+                        "endColumn": 70,
+                        "endOffset": 3213
+                    }
                 }
             },
             {
@@ -392,7 +604,14 @@
                     "endOffset": 3548
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3218,
+                        "endColumn": 71,
+                        "endOffset": 3285
+                    }
                 }
             },
             {
@@ -404,7 +623,14 @@
                     "endOffset": 3618
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3290,
+                        "endColumn": 69,
+                        "endOffset": 3355
+                    }
                 }
             },
             {
@@ -416,7 +642,14 @@
                     "endOffset": 3688
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3360,
+                        "endColumn": 69,
+                        "endOffset": 3425
+                    }
                 }
             },
             {
@@ -428,7 +661,14 @@
                     "endOffset": 3742
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3430,
+                        "endColumn": 53,
+                        "endOffset": 3479
+                    }
                 }
             },
             {
@@ -440,7 +680,14 @@
                     "endOffset": 3810
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3484,
+                        "endColumn": 67,
+                        "endOffset": 3547
+                    }
                 }
             },
             {
@@ -452,7 +699,14 @@
                     "endOffset": 3876
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3552,
+                        "endColumn": 65,
+                        "endOffset": 3613
+                    }
                 }
             },
             {
@@ -464,7 +718,14 @@
                     "endOffset": 3943
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 3618,
+                        "endColumn": 66,
+                        "endOffset": 3680
+                    }
                 }
             },
             {
@@ -476,7 +737,14 @@
                     "endOffset": 4008
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3685,
+                        "endColumn": 64,
+                        "endOffset": 3745
+                    }
                 }
             },
             {
@@ -488,7 +756,14 @@
                     "endOffset": 4065
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3750,
+                        "endColumn": 56,
+                        "endOffset": 3802
+                    }
                 }
             },
             {
@@ -500,7 +775,14 @@
                     "endOffset": 4133
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3807,
+                        "endColumn": 67,
+                        "endOffset": 3870
+                    }
                 }
             },
             {
@@ -512,7 +794,14 @@
                     "endOffset": 4202
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3875,
+                        "endColumn": 68,
+                        "endOffset": 3939
+                    }
                 }
             },
             {
@@ -524,7 +813,14 @@
                     "endOffset": 4268
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3944,
+                        "endColumn": 65,
+                        "endOffset": 4005
+                    }
                 }
             },
             {
@@ -536,7 +832,14 @@
                     "endOffset": 4330
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 4010,
+                        "endColumn": 61,
+                        "endOffset": 4067
+                    }
                 }
             },
             {
@@ -548,7 +851,14 @@
                     "endOffset": 4401
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 4072,
+                        "endColumn": 70,
+                        "endOffset": 4138
+                    }
                 }
             },
             {
@@ -560,7 +870,14 @@
                     "endOffset": 4465
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 4143,
+                        "endColumn": 63,
+                        "endOffset": 4202
+                    }
                 }
             },
             {
@@ -572,7 +889,14 @@
                     "endOffset": 4528
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 4207,
+                        "endColumn": 62,
+                        "endOffset": 4265
+                    }
                 }
             },
             {
@@ -584,7 +908,14 @@
                     "endOffset": 4591
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 4270,
+                        "endColumn": 62,
+                        "endOffset": 4328
+                    }
                 }
             },
             {
@@ -596,7 +927,14 @@
                     "endOffset": 4652
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 4333,
+                        "endColumn": 60,
+                        "endOffset": 4389
+                    }
                 }
             },
             {
@@ -608,7 +946,14 @@
                     "endOffset": 4719
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 4394,
+                        "endColumn": 66,
+                        "endOffset": 4456
+                    }
                 }
             },
             {
@@ -620,7 +965,14 @@
                     "endOffset": 4784
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 4461,
+                        "endColumn": 64,
+                        "endOffset": 4521
+                    }
                 }
             },
             {
@@ -632,7 +984,14 @@
                     "endOffset": 4850
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 4526,
+                        "endColumn": 65,
+                        "endOffset": 4587
+                    }
                 }
             },
             {
@@ -644,7 +1003,14 @@
                     "endOffset": 4914
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 4592,
+                        "endColumn": 63,
+                        "endOffset": 4651
+                    }
                 }
             },
             {
@@ -656,7 +1022,14 @@
                     "endOffset": 4983
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 4656,
+                        "endColumn": 68,
+                        "endOffset": 4720
+                    }
                 }
             },
             {
@@ -668,7 +1041,14 @@
                     "endOffset": 5051
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 4725,
+                        "endColumn": 67,
+                        "endOffset": 4788
+                    }
                 }
             },
             {
@@ -680,7 +1060,14 @@
                     "endOffset": 5120
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 4793,
+                        "endColumn": 68,
+                        "endOffset": 4857
+                    }
                 }
             },
             {
@@ -692,7 +1079,14 @@
                     "endOffset": 5186
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 4862,
+                        "endColumn": 65,
+                        "endOffset": 4923
+                    }
                 }
             },
             {
@@ -704,7 +1098,14 @@
                     "endOffset": 5252
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 4928,
+                        "endColumn": 65,
+                        "endOffset": 4989
+                    }
                 }
             },
             {
@@ -716,7 +1117,14 @@
                     "endOffset": 5318
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4994,
+                        "endColumn": 65,
+                        "endOffset": 5055
+                    }
                 }
             },
             {
@@ -728,7 +1136,14 @@
                     "endOffset": 5382
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 5060,
+                        "endColumn": 63,
+                        "endOffset": 5119
+                    }
                 }
             },
             {
@@ -740,7 +1155,14 @@
                     "endOffset": 5447
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 5124,
+                        "endColumn": 64,
+                        "endOffset": 5184
+                    }
                 }
             },
             {
@@ -752,7 +1174,14 @@
                     "endOffset": 5510
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 5189,
+                        "endColumn": 62,
+                        "endOffset": 5247
+                    }
                 }
             },
             {
@@ -764,7 +1193,14 @@
                     "endOffset": 5575
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 5252,
+                        "endColumn": 64,
+                        "endOffset": 5312
+                    }
                 }
             },
             {
@@ -776,7 +1212,14 @@
                     "endOffset": 5639
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 5317,
+                        "endColumn": 63,
+                        "endOffset": 5376
+                    }
                 }
             },
             {
@@ -788,7 +1231,14 @@
                     "endOffset": 5706
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 5381,
+                        "endColumn": 66,
+                        "endOffset": 5443
+                    }
                 }
             },
             {
@@ -800,7 +1250,14 @@
                     "endOffset": 5774
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 5448,
+                        "endColumn": 67,
+                        "endOffset": 5511
+                    }
                 }
             },
             {
@@ -812,7 +1269,14 @@
                     "endOffset": 5824
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 5516,
+                        "endColumn": 49,
+                        "endOffset": 5561
+                    }
                 }
             },
             {
@@ -824,7 +1288,14 @@
                     "endOffset": 5885
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 5566,
+                        "endColumn": 60,
+                        "endOffset": 5622
+                    }
                 }
             },
             {
@@ -836,7 +1307,14 @@
                     "endOffset": 5934
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 5627,
+                        "endColumn": 48,
+                        "endOffset": 5671
+                    }
                 }
             },
             {
@@ -848,7 +1326,14 @@
                     "endOffset": 5995
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 5676,
+                        "endColumn": 60,
+                        "endOffset": 5732
+                    }
                 }
             },
             {
@@ -860,7 +1345,14 @@
                     "endOffset": 6088
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 5737,
+                        "endColumn": 92,
+                        "endOffset": 5825
+                    }
                 }
             },
             {
@@ -872,7 +1364,14 @@
                     "endOffset": 6182
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 5830,
+                        "endColumn": 93,
+                        "endOffset": 5919
+                    }
                 }
             },
             {
@@ -884,7 +1383,14 @@
                     "endOffset": 6240
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 5924,
+                        "endColumn": 57,
+                        "endOffset": 5977
+                    }
                 }
             },
             {
@@ -896,7 +1402,14 @@
                     "endOffset": 6293
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 5982,
+                        "endColumn": 52,
+                        "endOffset": 6030
+                    }
                 }
             },
             {
@@ -908,7 +1421,14 @@
                     "endOffset": 6345
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 6035,
+                        "endColumn": 51,
+                        "endOffset": 6082
+                    }
                 }
             },
             {
@@ -920,7 +1440,14 @@
                     "endOffset": 6400
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 6087,
+                        "endColumn": 54,
+                        "endOffset": 6137
+                    }
                 }
             },
             {
@@ -932,7 +1459,14 @@
                     "endOffset": 6453
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 6142,
+                        "endColumn": 52,
+                        "endOffset": 6190
+                    }
                 }
             },
             {
@@ -944,7 +1478,14 @@
                     "endOffset": 6507
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 6195,
+                        "endColumn": 53,
+                        "endOffset": 6244
+                    }
                 }
             },
             {
@@ -956,7 +1497,14 @@
                     "endOffset": 6559
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 6249,
+                        "endColumn": 51,
+                        "endOffset": 6296
+                    }
                 }
             },
             {
@@ -968,7 +1516,14 @@
                     "endOffset": 6614
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 6301,
+                        "endColumn": 54,
+                        "endOffset": 6351
+                    }
                 }
             },
             {
@@ -980,7 +1535,14 @@
                     "endOffset": 6667
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 6356,
+                        "endColumn": 52,
+                        "endOffset": 6404
+                    }
                 }
             },
             {
@@ -992,7 +1554,14 @@
                     "endOffset": 6721
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 6409,
+                        "endColumn": 53,
+                        "endOffset": 6458
+                    }
                 }
             },
             {
@@ -1004,7 +1573,14 @@
                     "endOffset": 6773
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 6463,
+                        "endColumn": 51,
+                        "endOffset": 6510
+                    }
                 }
             },
             {
@@ -1016,7 +1592,14 @@
                     "endOffset": 6838
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 6667,
+                        "endColumn": 64,
+                        "endOffset": 6727
+                    }
                 }
             },
             {
@@ -1028,7 +1611,14 @@
                     "endOffset": 6902
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 6889,
+                        "endColumn": 63,
+                        "endOffset": 6948
+                    }
                 }
             },
             {
@@ -1041,7 +1631,15 @@
                     "endOffset": 7066
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 7104,
+                        "endLine": 128,
+                        "endColumn": 14,
+                        "endOffset": 7263
+                    }
                 }
             },
             {
@@ -1054,7 +1652,15 @@
                     "endOffset": 7229
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 7268,
+                        "endLine": 132,
+                        "endColumn": 14,
+                        "endOffset": 7426
+                    }
                 }
             },
             {
@@ -1066,7 +1672,14 @@
                     "endOffset": 7272
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 649,
+                        "endColumn": 42,
+                        "endOffset": 687
+                    }
                 }
             },
             {
@@ -1078,7 +1691,14 @@
                     "endOffset": 7325
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3098,
+                        "endColumn": 52,
+                        "endOffset": 3146
+                    }
                 }
             },
             {
@@ -1090,7 +1710,14 @@
                     "endOffset": 7369
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 80,
+                        "endColumn": 43,
+                        "endOffset": 119
+                    }
                 }
             },
             {
@@ -1102,7 +1729,14 @@
                     "endOffset": 7438
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 7432,
+                        "endColumn": 68,
+                        "endOffset": 7496
+                    }
                 }
             },
             {
@@ -1114,7 +1748,14 @@
                     "endOffset": 7517
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 7501,
+                        "endColumn": 78,
+                        "endOffset": 7575
+                    }
                 }
             },
             {
@@ -1126,7 +1767,14 @@
                     "endOffset": 7583
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1490,
+                        "endColumn": 65,
+                        "endOffset": 1551
+                    }
                 }
             },
             {
@@ -1138,7 +1786,14 @@
                     "endOffset": 7664
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2388,
+                        "endColumn": 80,
+                        "endOffset": 2464
+                    }
                 }
             },
             {
@@ -1150,7 +1805,14 @@
                     "endOffset": 7725
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2869,
+                        "endColumn": 60,
+                        "endOffset": 2925
+                    }
                 }
             },
             {
@@ -1162,7 +1824,14 @@
                     "endOffset": 7792
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 2801,
+                        "endColumn": 66,
+                        "endOffset": 2863
+                    }
                 }
             },
             {
@@ -1174,7 +1843,14 @@
                     "endOffset": 7922
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 2670,
+                        "endColumn": 129,
+                        "endOffset": 2795
+                    }
                 }
             },
             {
@@ -1186,7 +1862,14 @@
                     "endOffset": 7991
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 2600,
+                        "endColumn": 68,
+                        "endOffset": 2664
+                    }
                 }
             },
             {
@@ -1198,7 +1881,14 @@
                     "endOffset": 8056
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2534,
+                        "endColumn": 64,
+                        "endOffset": 2594
+                    }
                 }
             },
             {
@@ -1210,7 +1900,14 @@
                     "endOffset": 8160
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 2931,
+                        "endColumn": 103,
+                        "endOffset": 3030
+                    }
                 }
             },
             {
@@ -1222,7 +1919,14 @@
                     "endOffset": 8223
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2470,
+                        "endColumn": 62,
+                        "endOffset": 2528
+                    }
                 }
             },
             {
@@ -1234,7 +1938,14 @@
                     "endOffset": 8285
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 7729,
+                        "endColumn": 61,
+                        "endOffset": 7786
+                    }
                 }
             },
             {
@@ -1246,7 +1957,14 @@
                     "endOffset": 8348
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 7791,
+                        "endColumn": 62,
+                        "endOffset": 7849
+                    }
                 }
             },
             {
@@ -1258,7 +1976,14 @@
                     "endOffset": 8401
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1112,
+                        "endColumn": 52,
+                        "endOffset": 1160
+                    }
                 }
             },
             {
@@ -1270,7 +1995,14 @@
                     "endOffset": 8455
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 8005,
+                        "endColumn": 53,
+                        "endOffset": 8054
+                    }
                 }
             },
             {
@@ -1282,7 +2014,14 @@
                     "endOffset": 8505
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 1,
+                        "startOffset": 2302,
+                        "endColumn": 46,
+                        "endOffset": 2347
+                    }
                 }
             },
             {
@@ -1294,7 +2033,14 @@
                     "endOffset": 8564
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 64,
+                        "endOffset": 292
+                    }
                 }
             },
             {
@@ -1306,7 +2052,14 @@
                     "endOffset": 8621
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 736,
+                        "endColumn": 56,
+                        "endOffset": 788
+                    }
                 }
             },
             {
@@ -1318,7 +2071,14 @@
                     "endOffset": 8662
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 1966,
+                        "endColumn": 40,
+                        "endOffset": 2002
+                    }
                 }
             },
             {
@@ -1330,7 +2090,14 @@
                     "endOffset": 8697
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 42,
+                        "endOffset": 226
+                    }
                 }
             },
             {
@@ -1342,7 +2109,14 @@
                     "endOffset": 8734
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1166,
+                        "endColumn": 36,
+                        "endOffset": 1198
+                    }
                 }
             },
             {
@@ -1354,7 +2128,14 @@
                     "endOffset": 8788
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2008,
+                        "endColumn": 53,
+                        "endOffset": 2057
+                    }
                 }
             },
             {
@@ -1366,7 +2147,14 @@
                     "endOffset": 8830
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 693,
+                        "endColumn": 41,
+                        "endOffset": 730
+                    }
                 }
             },
             {
@@ -1378,7 +2166,14 @@
                     "endOffset": 8878
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1204,
+                        "endColumn": 47,
+                        "endOffset": 1247
+                    }
                 }
             },
             {
@@ -1390,7 +2185,14 @@
                     "endOffset": 8935
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2063,
+                        "endColumn": 56,
+                        "endOffset": 2115
+                    }
                 }
             },
             {
@@ -1402,7 +2204,14 @@
                     "endOffset": 8997
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 125,
+                        "endColumn": 61,
+                        "endOffset": 182
+                    }
                 }
             },
             {
@@ -1414,7 +2223,14 @@
                     "endOffset": 9122
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1557,
+                        "endColumn": 124,
+                        "endOffset": 1677
+                    }
                 }
             },
             {
@@ -1426,7 +2242,14 @@
                     "endOffset": 9173
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 999,
+                        "endColumn": 50,
+                        "endOffset": 1045
+                    }
                 }
             },
             {
@@ -1438,7 +2261,14 @@
                     "endOffset": 9228
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 943,
+                        "endColumn": 54,
+                        "endOffset": 993
+                    }
                 }
             },
             {
@@ -1450,7 +2280,14 @@
                     "endOffset": 9279
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 891,
+                        "endColumn": 50,
+                        "endOffset": 937
+                    }
                 }
             },
             {
@@ -1462,7 +2299,14 @@
                     "endOffset": 9339
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1051,
+                        "endColumn": 59,
+                        "endOffset": 1106
+                    }
                 }
             },
             {
@@ -1474,7 +2318,14 @@
                     "endOffset": 9402
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 827,
+                        "endColumn": 62,
+                        "endOffset": 885
+                    }
                 }
             },
             {
@@ -1486,7 +2337,14 @@
                     "endOffset": 9469
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 3461,
+                        "endColumn": 66,
+                        "endOffset": 3523
+                    }
                 }
             },
             {
@@ -1498,7 +2356,14 @@
                     "endOffset": 9530
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3036,
+                        "endColumn": 60,
+                        "endOffset": 3092
+                    }
                 }
             },
             {
@@ -1510,7 +2375,14 @@
                     "endOffset": 9595
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 1863,
+                        "endColumn": 64,
+                        "endOffset": 1923
+                    }
                 }
             },
             {
@@ -1522,7 +2394,14 @@
                     "endOffset": 9664
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3391,
+                        "endColumn": 68,
+                        "endOffset": 3455
+                    }
                 }
             },
             {
@@ -1534,7 +2413,14 @@
                     "endOffset": 9742
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3312,
+                        "endColumn": 77,
+                        "endOffset": 3385
+                    }
                 }
             },
             {
@@ -1546,7 +2432,14 @@
                     "endOffset": 9820
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3152,
+                        "endColumn": 77,
+                        "endOffset": 3225
+                    }
                 }
             },
             {
@@ -1558,7 +2451,14 @@
                     "endOffset": 9900
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3231,
+                        "endColumn": 79,
+                        "endOffset": 3306
+                    }
                 }
             },
             {
@@ -1570,7 +2470,14 @@
                     "endOffset": 10083
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2121,
+                        "endColumn": 182,
+                        "endOffset": 2299
+                    }
                 }
             },
             {
@@ -1582,7 +2489,14 @@
                     "endOffset": 10145
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 78,
+                        "endColumn": 68,
+                        "endOffset": 142
+                    }
                 }
             },
             {
@@ -1595,7 +2509,15 @@
                     "endOffset": 10498
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 150,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 505
+                    }
                 }
             },
             {
@@ -1607,7 +2529,14 @@
                     "endOffset": 10523
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 8209,
+                        "endColumn": 31,
+                        "endOffset": 8236
+                    }
                 }
             },
             {
@@ -1620,7 +2549,15 @@
                     "endOffset": 10891
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 8242,
+                        "endLine": 155,
+                        "endColumn": 12,
+                        "endOffset": 8605
+                    }
                 }
             },
             {
@@ -1633,7 +2570,15 @@
                     "endOffset": 11479
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 8611,
+                        "endLine": 164,
+                        "endColumn": 12,
+                        "endOffset": 9194
+                    }
                 }
             },
             {
@@ -1646,7 +2591,15 @@
                     "endOffset": 12018
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 9200,
+                        "endLine": 173,
+                        "endColumn": 12,
+                        "endOffset": 9734
+                    }
                 }
             },
             {
@@ -1659,7 +2612,15 @@
                     "endOffset": 12674
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 9740,
+                        "endLine": 185,
+                        "endColumn": 12,
+                        "endOffset": 10391
+                    }
                 }
             },
             {
@@ -1672,7 +2633,15 @@
                     "endOffset": 12818
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 10397,
+                        "endLine": 189,
+                        "endColumn": 12,
+                        "endOffset": 10536
+                    }
                 }
             },
             {
@@ -1684,7 +2653,14 @@
                     "endOffset": 12868
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 191,
+                        "startColumn": 4,
+                        "startOffset": 10542,
+                        "endColumn": 56,
+                        "endOffset": 10594
+                    }
                 }
             },
             {
@@ -1697,7 +2673,15 @@
                     "endOffset": 13127
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 193,
+                        "startColumn": 4,
+                        "startOffset": 10600,
+                        "endLine": 196,
+                        "endColumn": 12,
+                        "endOffset": 10854
+                    }
                 }
             },
             {
@@ -1709,7 +2693,14 @@
                     "endOffset": 13172
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 198,
+                        "startColumn": 4,
+                        "startOffset": 10860,
+                        "endColumn": 51,
+                        "endOffset": 10907
+                    }
                 }
             },
             {
@@ -1721,7 +2712,14 @@
                     "endOffset": 13218
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 10913,
+                        "endColumn": 52,
+                        "endOffset": 10961
+                    }
                 }
             },
             {
@@ -1734,7 +2732,15 @@
                     "endOffset": 13663
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 4,
+                        "startOffset": 10967,
+                        "endLine": 207,
+                        "endColumn": 12,
+                        "endOffset": 11407
+                    }
                 }
             },
             {
@@ -1747,7 +2753,15 @@
                     "endOffset": 14351
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 209,
+                        "startColumn": 4,
+                        "startOffset": 11413,
+                        "endLine": 217,
+                        "endColumn": 12,
+                        "endOffset": 12096
+                    }
                 }
             },
             {
@@ -1760,7 +2774,15 @@
                     "endOffset": 14561
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 219,
+                        "startColumn": 4,
+                        "startOffset": 12102,
+                        "endLine": 222,
+                        "endColumn": 12,
+                        "endOffset": 12307
+                    }
                 }
             },
             {
@@ -1773,7 +2795,15 @@
                     "endOffset": 15065
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 224,
+                        "startColumn": 4,
+                        "startOffset": 12313,
+                        "endLine": 230,
+                        "endColumn": 12,
+                        "endOffset": 12812
+                    }
                 }
             },
             {
@@ -1786,7 +2816,15 @@
                     "endOffset": 15199
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 232,
+                        "startColumn": 4,
+                        "startOffset": 12818,
+                        "endLine": 234,
+                        "endColumn": 12,
+                        "endOffset": 12947
+                    }
                 }
             },
             {
@@ -1799,7 +2837,15 @@
                     "endOffset": 15798
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 236,
+                        "startColumn": 4,
+                        "startOffset": 12953,
+                        "endLine": 243,
+                        "endColumn": 12,
+                        "endOffset": 13547
+                    }
                 }
             },
             {
@@ -1812,7 +2858,15 @@
                     "endOffset": 15954
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 4,
+                        "startOffset": 13553,
+                        "endLine": 247,
+                        "endColumn": 12,
+                        "endOffset": 13704
+                    }
                 }
             },
             {
@@ -1825,7 +2879,15 @@
                     "endOffset": 16283
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 4,
+                        "startOffset": 13710,
+                        "endLine": 254,
+                        "endColumn": 12,
+                        "endOffset": 14034
+                    }
                 }
             },
             {
@@ -1838,7 +2900,15 @@
                     "endOffset": 16704
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 256,
+                        "startColumn": 4,
+                        "startOffset": 14040,
+                        "endLine": 261,
+                        "endColumn": 12,
+                        "endOffset": 14456
+                    }
                 }
             },
             {
@@ -1850,7 +2920,14 @@
                     "endOffset": 16753
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 4,
+                        "startOffset": 14462,
+                        "endColumn": 49,
+                        "endOffset": 14507
+                    }
                 }
             },
             {
@@ -1863,7 +2940,15 @@
                     "endOffset": 17200
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 14513,
+                        "endLine": 271,
+                        "endColumn": 12,
+                        "endOffset": 14955
+                    }
                 }
             },
             {
@@ -1876,7 +2961,15 @@
                     "endOffset": 17954
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 4,
+                        "startOffset": 14961,
+                        "endLine": 284,
+                        "endColumn": 12,
+                        "endOffset": 15710
+                    }
                 }
             },
             {
@@ -1889,7 +2982,15 @@
                     "endOffset": 18329
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 4,
+                        "startOffset": 15716,
+                        "endLine": 292,
+                        "endColumn": 12,
+                        "endOffset": 16086
+                    }
                 }
             },
             {
@@ -1902,7 +3003,15 @@
                     "endOffset": 18514
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 294,
+                        "startColumn": 4,
+                        "startOffset": 16092,
+                        "endLine": 297,
+                        "endColumn": 12,
+                        "endOffset": 16272
+                    }
                 }
             },
             {
@@ -1915,7 +3024,15 @@
                     "endOffset": 19137
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 4,
+                        "startOffset": 16278,
+                        "endLine": 307,
+                        "endColumn": 12,
+                        "endOffset": 16896
+                    }
                 }
             },
             {
@@ -1928,7 +3045,15 @@
                     "endOffset": 19495
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 309,
+                        "startColumn": 4,
+                        "startOffset": 16902,
+                        "endLine": 314,
+                        "endColumn": 12,
+                        "endOffset": 17255
+                    }
                 }
             },
             {
@@ -1941,7 +3066,15 @@
                     "endOffset": 19853
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 316,
+                        "startColumn": 4,
+                        "startOffset": 17261,
+                        "endLine": 321,
+                        "endColumn": 12,
+                        "endOffset": 17614
+                    }
                 }
             },
             {
@@ -1953,7 +3086,14 @@
                     "endOffset": 19888
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 323,
+                        "startColumn": 4,
+                        "startOffset": 17620,
+                        "endColumn": 41,
+                        "endOffset": 17657
+                    }
                 }
             },
             {
@@ -1965,7 +3105,14 @@
                     "endOffset": 19928
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 325,
+                        "startColumn": 4,
+                        "startOffset": 17663,
+                        "endColumn": 46,
+                        "endOffset": 17705
+                    }
                 }
             },
             {
@@ -1978,7 +3125,15 @@
                     "endOffset": 20688
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 329,
+                        "startColumn": 4,
+                        "startOffset": 17865,
+                        "endLine": 342,
+                        "endColumn": 12,
+                        "endOffset": 18620
+                    }
                 }
             },
             {
@@ -1991,7 +3146,15 @@
                     "endOffset": 21480
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 344,
+                        "startColumn": 4,
+                        "startOffset": 18626,
+                        "endLine": 357,
+                        "endColumn": 12,
+                        "endOffset": 19413
+                    }
                 }
             },
             {
@@ -2004,7 +3167,15 @@
                     "endOffset": 22170
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 359,
+                        "startColumn": 4,
+                        "startOffset": 19419,
+                        "endLine": 370,
+                        "endColumn": 12,
+                        "endOffset": 20104
+                    }
                 }
             },
             {
@@ -2017,7 +3188,15 @@
                     "endOffset": 23221
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 372,
+                        "startColumn": 4,
+                        "startOffset": 20110,
+                        "endLine": 389,
+                        "endColumn": 12,
+                        "endOffset": 21156
+                    }
                 }
             },
             {
@@ -2030,7 +3209,15 @@
                     "endOffset": 23763
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 391,
+                        "startColumn": 4,
+                        "startOffset": 21162,
+                        "endLine": 400,
+                        "endColumn": 12,
+                        "endOffset": 21699
+                    }
                 }
             },
             {
@@ -2043,7 +3230,15 @@
                     "endOffset": 24283
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 402,
+                        "startColumn": 4,
+                        "startOffset": 21705,
+                        "endLine": 411,
+                        "endColumn": 12,
+                        "endOffset": 22220
+                    }
                 }
             },
             {
@@ -2056,7 +3251,15 @@
                     "endOffset": 24928
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 413,
+                        "startColumn": 4,
+                        "startOffset": 22226,
+                        "endLine": 424,
+                        "endColumn": 12,
+                        "endOffset": 22866
+                    }
                 }
             },
             {
@@ -2069,7 +3272,15 @@
                     "endOffset": 25759
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 426,
+                        "startColumn": 4,
+                        "startOffset": 22872,
+                        "endLine": 440,
+                        "endColumn": 12,
+                        "endOffset": 23698
+                    }
                 }
             },
             {
@@ -2082,7 +3293,15 @@
                     "endOffset": 26596
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.cards\\library\\1.9.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 442,
+                        "startColumn": 4,
+                        "startOffset": 23704,
+                        "endLine": 456,
+                        "endColumn": 12,
+                        "endOffset": 24536
+                    }
                 }
             },
             {
@@ -2095,7 +3314,15 @@
                     "endOffset": 26934
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 726,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1065
+                    }
                 }
             },
             {
@@ -2108,7 +3335,15 @@
                     "endOffset": 27140
                 },
                 "from": {
-                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "C:\\Users\\i312558\\Documents\\workspace-android\\FreeHandTwitter\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 513,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 718
+                    }
                 }
             }
         ]

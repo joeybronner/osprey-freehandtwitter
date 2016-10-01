@@ -93,165 +93,165 @@
                         android:paddingLeft="15dp"
                         android:paddingBottom="15dp"
                         android:paddingRight="15dp">
-                    <TextView
-                        android:id="@+id/tvTweetContent1"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:autoLink="web"
-                        android:text="@string/tweet_exemple"
-                        android:textSize="16sp"
-                        android:layout_below="@+id/tvName"
-                        android:layout_toRightOf="@+id/ivUser"
-                        android:layout_toEndOf="@+id/ivUser"
-                        android:layout_alignBottom="@+id/ivUser" />
-                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tvTweetContent1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:autoLink="web"
+                            android:text="@string/tweet_exemple"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/tvName"
+                            android:layout_toRightOf="@+id/ivUser"
+                            android:layout_toEndOf="@+id/ivUser"
+                            android:layout_alignBottom="@+id/ivUser" />
+                    </LinearLayout>
                 </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/card2"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/selector_card_background">
                 <LinearLayout
-                    android:orientation="horizontal"
+                    android:id="@+id/card2"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="15dp"
-                    android:paddingRight="15dp">
-
-                    <fr.joeybronner.freehandtwitter.util.RoundedImageView
-                        android:id="@+id/ivUser2"
-                        android:layout_width="35dp"
-                        android:layout_height="35dp"
-                        android:clickable="true"
-                        android:contentDescription="@string/nodescription"
-                        android:src="@drawable/nouserpicture" />
-
-                    <TextView
-                        android:id="@+id/tvName2"
-                        android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_card_background">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/name"
-                        android:layout_marginLeft="10dp"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:layout_alignTop="@+id/ivUser"
-                        android:layout_toRightOf="@+id/ivUser"
-                        android:layout_toEndOf="@+id/ivUser" />
+                        android:paddingLeft="15dp"
+                        android:paddingTop="15dp"
+                        android:paddingRight="15dp">
 
-                    <TextView
-                        android:id="@+id/tvArobase2"
-                        android:layout_width="wrap_content"
+                        <fr.joeybronner.freehandtwitter.util.RoundedImageView
+                            android:id="@+id/ivUser2"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:clickable="true"
+                            android:contentDescription="@string/nodescription"
+                            android:src="@drawable/nouserpicture" />
+
+                        <TextView
+                            android:id="@+id/tvName2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/name"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_alignTop="@+id/ivUser"
+                            android:layout_toRightOf="@+id/ivUser"
+                            android:layout_toEndOf="@+id/ivUser" />
+
+                        <TextView
+                            android:id="@+id/tvArobase2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/screen_name"
+                            android:layout_marginLeft="5dp"
+                            android:textSize="14sp"
+                            android:layout_alignTop="@+id/tvName"
+                            android:layout_toRightOf="@+id/tvName"
+                            android:layout_toEndOf="@+id/tvName" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/screen_name"
-                        android:layout_marginLeft="5dp"
-                        android:textSize="14sp"
-                        android:layout_alignTop="@+id/tvName"
-                        android:layout_toRightOf="@+id/tvName"
-                        android:layout_toEndOf="@+id/tvName" />
-
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="15dp"
+                        android:paddingRight="15dp">
+                        <TextView
+                            android:id="@+id/tvTweetContent2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:autoLink="web"
+                            android:text="@string/tweet_exemple"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/tvName"
+                            android:layout_toRightOf="@+id/ivUser"
+                            android:layout_toEndOf="@+id/ivUser"
+                            android:layout_alignBottom="@+id/ivUser" />
+                    </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:orientation="horizontal"
+                    android:id="@+id/card3"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="15dp"
-                    android:paddingBottom="15dp"
-                    android:paddingRight="15dp">
-                    <TextView
-                        android:id="@+id/tvTweetContent2"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:autoLink="web"
-                        android:text="@string/tweet_exemple"
-                        android:textSize="16sp"
-                        android:layout_below="@+id/tvName"
-                        android:layout_toRightOf="@+id/ivUser"
-                        android:layout_toEndOf="@+id/ivUser"
-                        android:layout_alignBottom="@+id/ivUser" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/card3"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/selector_card_background">
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="15dp"
-                    android:paddingRight="15dp">
-
-                    <fr.joeybronner.freehandtwitter.util.RoundedImageView
-                        android:id="@+id/ivUser3"
-                        android:layout_width="35dp"
-                        android:layout_height="35dp"
-                        android:clickable="true"
-                        android:contentDescription="@string/nodescription"
-                        android:src="@drawable/nouserpicture" />
-
-                    <TextView
-                        android:id="@+id/tvName3"
-                        android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_card_background">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/name"
-                        android:layout_marginLeft="10dp"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:layout_alignTop="@+id/ivUser"
-                        android:layout_toRightOf="@+id/ivUser"
-                        android:layout_toEndOf="@+id/ivUser" />
+                        android:paddingLeft="15dp"
+                        android:paddingTop="15dp"
+                        android:paddingRight="15dp">
 
-                    <TextView
-                        android:id="@+id/tvArobase3"
-                        android:layout_width="wrap_content"
+                        <fr.joeybronner.freehandtwitter.util.RoundedImageView
+                            android:id="@+id/ivUser3"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:clickable="true"
+                            android:contentDescription="@string/nodescription"
+                            android:src="@drawable/nouserpicture" />
+
+                        <TextView
+                            android:id="@+id/tvName3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/name"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_alignTop="@+id/ivUser"
+                            android:layout_toRightOf="@+id/ivUser"
+                            android:layout_toEndOf="@+id/ivUser" />
+
+                        <TextView
+                            android:id="@+id/tvArobase3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:text="@string/screen_name"
+                            android:textSize="14sp"
+                            android:layout_alignTop="@+id/tvName"
+                            android:layout_toRightOf="@+id/tvName"
+                            android:layout_toEndOf="@+id/tvName" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:layout_marginLeft="5dp"
-                        android:text="@string/screen_name"
-                        android:textSize="14sp"
-                        android:layout_alignTop="@+id/tvName"
-                        android:layout_toRightOf="@+id/tvName"
-                        android:layout_toEndOf="@+id/tvName" />
-
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="15dp"
+                        android:paddingRight="15dp">
+                        <TextView
+                            android:id="@+id/tvTweetContent3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:autoLink="web"
+                            android:text="@string/tweet_exemple"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/tvName"
+                            android:layout_toRightOf="@+id/ivUser"
+                            android:layout_toEndOf="@+id/ivUser"
+                            android:layout_alignBottom="@+id/ivUser" />
+                    </LinearLayout>
                 </LinearLayout>
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="15dp"
-                    android:paddingBottom="15dp"
-                    android:paddingRight="15dp">
-                    <TextView
-                        android:id="@+id/tvTweetContent3"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:autoLink="web"
-                        android:text="@string/tweet_exemple"
-                        android:textSize="16sp"
-                        android:layout_below="@+id/tvName"
-                        android:layout_toRightOf="@+id/ivUser"
-                        android:layout_toEndOf="@+id/ivUser"
-                        android:layout_alignBottom="@+id/ivUser" />
-                </LinearLayout>
-            </LinearLayout>
 
             </LinearLayout>
         </ViewFlipper>
